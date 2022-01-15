@@ -1,11 +1,15 @@
 package com.ameliawiki.wiki.controller;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
+
+    @Value("${test.hello}") //读取自定义配置项的注解 @Value("${test.hello: default}") --> 冒号后可+default value
+    private String testHello;
 
     /**
      * GET, POST, PUT, DELETE
@@ -18,6 +22,6 @@ public class TestController {
     //"/hello"是接口地址，拼装的地址是:http://127.0.0.1:8080
     @RequestMapping("/hello") //通用注解
     public String hello() {
-        return "Hello~ It's Me~";
+        return "Hello~ It's Me~" + testHello;
     }
 }
