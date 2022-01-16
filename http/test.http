@@ -5,9 +5,15 @@ GET http://localhost:8080/hello
  client.test("test-hello", function () {
      client.log("test /hello api");
      client.log(response.body);
-     client.log(JSON.stringfy(response.body));
+     client.log(JSON.stringify(response.body));
      client.assert(response.status === 200, "返回码不是200");
  });
  %}
+###
+
+POST http://localhost:8080/hello/post
+Content-Type: application/x-www-form-urlencoded
+
+name=TEST
 
 ###

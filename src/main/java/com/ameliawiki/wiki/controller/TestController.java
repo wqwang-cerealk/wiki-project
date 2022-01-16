@@ -2,6 +2,7 @@ package com.ameliawiki.wiki.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -23,5 +24,10 @@ public class TestController {
     @RequestMapping("/hello") //通用注解
     public String hello() {
         return "Hello~ It's Me~" + testHello;
+    }
+
+    @PostMapping("/hello/post")
+    public String helloPost(String name){
+        return "Hello World! Post, " + name;
     }
 }
