@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Jan 15 23:55:03 PST 2022
+org.eclipse.sisu.plexus-0.3.3.jar>alimaven=
+org.eclipse.sisu.plexus-0.3.3.pom>alimaven=
