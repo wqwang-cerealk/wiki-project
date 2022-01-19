@@ -90,7 +90,7 @@ export default defineComponent({
     //initialization puts in onMounted
     onMounted(() => {
       console.log("onMounted");
-      axios.get("http://localhost:8080/ebook/list?name=Spring")
+      axios.get("http://localhost:8080/ebook/list")
           .then((response) => {
             //data: CommonResp
             const data = response.data;
@@ -119,3 +119,13 @@ export default defineComponent({
   }
 });
 </script>
+
+<style scoped>
+  .ant-avatar {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 8%;
+    margin: 5px 0;
+  }
+</style>

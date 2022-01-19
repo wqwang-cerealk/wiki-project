@@ -4,8 +4,10 @@ import com.ameliawiki.wiki.domain.Ebook;
 import com.ameliawiki.wiki.domain.EbookExample;
 import com.ameliawiki.wiki.mapper.EbookMapper;
 import com.ameliawiki.wiki.util.CopyUtil;
+import com.mysql.cj.util.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
+import org.springframework.util.ObjectUtils;
 import req.EbookReq;
 import resp.EbookResp;
 
@@ -21,7 +23,9 @@ public class EbookService {
     public List<EbookResp> list(EbookReq req) {
         EbookExample ebookExample = new EbookExample();
         EbookExample.Criteria criteria = ebookExample.createCriteria();
-        criteria.andNameLike("%" + req.getName() + "%");
+        if (!ObjectUtils.isEmpty(req.getName())) {
+            criteria.andNameLike("%" + req.getName() + "%");
+        }
         List<Ebook> ebookList =  ebookMapper.selectByExample(ebookExample);
 
 //        List<EbookResp> respList = new ArrayList<>();
