@@ -1,0 +1,4 @@
+2022-01-17 00:05:34.322 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-13 - Thread starvation or clock leap detected (housekeeper delta=1h35m12s193ms).
+2022-01-17 00:06:22.471 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-17 00:06:22.472 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-13 - Shutdown initiated...
+2022-01-17 00:06:22.483 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-13 - Shutdown completed.
