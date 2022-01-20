@@ -128,3 +128,11 @@
 2022-01-19 12:29:38.843 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
 2022-01-19 12:29:38.847 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-2 - Starting...
 2022-01-19 12:29:38.876 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-2 - Start completed.
+2022-01-19 14:36:06.121 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2h27s88ms).
+2022-01-19 17:19:09.100 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=2h43m2s650ms).
+2022-01-19 17:20:58.741 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m49s856ms).
+2022-01-19 17:38:51.982 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=16m52s909ms).
+2022-01-19 19:59:07.994 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=30m45s240ms).
+2022-01-19 20:29:12.954 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=24m34s860ms).
+2022-01-19 20:52:33.053 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=5m19s921ms).
+2022-01-19 21:40:46.437 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=3m43s77ms).
