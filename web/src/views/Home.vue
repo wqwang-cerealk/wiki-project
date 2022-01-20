@@ -89,8 +89,8 @@ export default defineComponent({
 
     //initialization puts in onMounted
     onMounted(() => {
-      console.log("onMounted");
-      axios.get("http://localhost:8080/ebook/list")
+      console.log("onMounted test");
+      axios.get(process.env.VUE_APP_SERVER + "/ebook/list")
           .then((response) => {
             //data: CommonResp
             const data = response.data;
