@@ -19,4 +19,21 @@ for (const i in icons) {
     app.component(i, icons[i]);
 }
 
+/**
+ * axios拦截器
+ */
+axios.interceptors.request.use(function (config) {
+    console.log('request：', config);
+    return config;
+}, error => {
+    return Promise.reject(error);
+});
+axios.interceptors.response.use(function (response) {
+    console.log('return res：', response);
+    return response;
+}, error => {
+    console.log('return res：', error);
+    return Promise.reject(error);
+});
+
 console.log('environment:',process.env.NODE_ENV);

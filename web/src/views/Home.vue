@@ -89,14 +89,12 @@ export default defineComponent({
 
     //initialization puts in onMounted
     onMounted(() => {
-      console.log("onMounted");
       axios.get("/ebook/list")
           .then((response) => {
             //data: CommonResp
             const data = response.data;
             ebooks.value = data.content;
             ebookA.books = data.content;
-            console.log(response);
           });
     })
 
