@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 import req.EbookReq;
 import resp.EbookResp;
+import resp.PageResp;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -26,13 +27,13 @@ public class EbookService {
     @Resource
     private EbookMapper ebookMapper;
 
-    public List<EbookResp> list(EbookReq req) {
+    public PageResp<EbookResp> list(EbookReq req) {
         EbookExample ebookExample = new EbookExample();
         EbookExample.Criteria criteria = ebookExample.createCriteria();
         if (!ObjectUtils.isEmpty(req.getName())) {
             criteria.andNameLike("%" + req.getName() + "%");
         }
-        PageHelper.startPage(1,3);
+        PageHelper.startPage(req.getPage(), req.getSize());
         List<Ebook> ebookList =  ebookMapper.selectByExample(ebookExample);
         PageInfo<Ebook> pageInfo = new PageInfo<>(ebookList);
         LOG.info("total rows：{}", pageInfo.getTotal());
@@ -48,7 +49,10 @@ public class EbookService {
 //        }
 
         List<EbookResp> list = CopyUtil.copyList(ebookList, EbookResp.class);
+        PageResp<EbookResp> pageResp = new PageResp<>();
+        pageResp.setTotal(pageInfo.getTotal());
+        pageResp.setList(list);
 
-        return list;
+        return pageResp;
     }
 }

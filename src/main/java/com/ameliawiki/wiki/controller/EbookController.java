@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import req.EbookReq;
 import resp.CommonResp;
 import resp.EbookResp;
+import resp.PageResp;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -20,8 +21,8 @@ public class EbookController {
 
     @GetMapping("/list")
     public CommonResp list(EbookReq req) {
-        CommonResp<List<EbookResp>> resp = new CommonResp<>();
-        List<EbookResp> list = ebookService.list(req);
+        CommonResp<PageResp<EbookResp>> resp = new CommonResp<>();
+        PageResp<EbookResp> list = ebookService.list(req);
         resp.setContent(list);
         return resp;
     }
