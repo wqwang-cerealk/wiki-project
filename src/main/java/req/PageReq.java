@@ -1,8 +1,13 @@
 package req;
 
+import javax.validation.constraints.Max;
+import javax.validation.constraints.NotNull;
+
 public class PageReq {
     private int page;
 
+    @NotNull(message = "each page cannot be null")
+    @Max(value = 1000, message = "each page cannot exceed 1000")
     private int size;
 
     public int getPage() {
