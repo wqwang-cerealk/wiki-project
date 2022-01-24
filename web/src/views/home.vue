@@ -89,19 +89,23 @@ export default defineComponent({
 
     //initialization puts in onMounted
     onMounted(() => {
-      axios.get("/ebook/list")
-          .then((response) => {
+      axios.get("/ebook/list", {
+        params: {
+          page: 1,
+          size: 1000
+        }
+      }).then((response) => {
             //data: CommonResp
             const data = response.data;
-            ebooks.value = data.content;
-            ebookA.books = data.content;
+            ebooks.value = data.content.list;
+            // ebookA.books = data.content;
           });
     })
 
     return {
       ebooks,
-      ebooksContent: toRef(ebookA, "books"),
-      listData,
+      // ebooksContent: toRef(ebookA, "books"),
+      // listData,
       pagination: {
         onChange: (page: any) => {
           console.log(page);
