@@ -8,3 +8,10 @@ Content-Type: application/json
 {}
 
 ###
+
+POST http://localhost:80/api/item
+Content-Type: application/x-www-form-urlencoded
+
+id=99&content=new-element
+
+###
