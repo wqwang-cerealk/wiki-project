@@ -1,0 +1,289 @@
+2022-01-25 14:42:25.478 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2022-01-25 14:42:25.493 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on Alexs-MacBook-Pro.local with PID 60173 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-01-25 14:42:25.494 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-25 14:42:25.546 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-25 14:42:25.546 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-25 14:42:26.770 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-01-25 14:42:26.781 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-25 14:42:26.782 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-25 14:42:26.782 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-25 14:42:26.844 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-25 14:42:26.845 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1298 ms
+2022-01-25 14:42:27.619 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-25 14:42:28.160 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-01-25 14:42:28.181 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-01-25 14:42:28.226 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-25 14:42:28.247 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 8.21 seconds (JVM running for 8.877)
+2022-01-25 14:42:28.259 INFO  com.ameliawiki.wiki.config.WikiApplication        :22   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-01-25 14:42:28.259 INFO  com.ameliawiki.wiki.config.WikiApplication        :23   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-01-25 14:43:00.225 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-25 14:43:00.227 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-01-25 14:43:00.235 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 8 ms
+2022-01-25 14:43:11.237 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-25 14:43:20.246 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2022-01-25 14:43:20.252 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on Alexs-MacBook-Pro.local with PID 60632 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-01-25 14:43:20.252 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-25 14:43:20.296 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-25 14:43:20.296 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-25 14:43:21.302 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-01-25 14:43:21.310 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-25 14:43:21.310 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-25 14:43:21.311 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-25 14:43:21.352 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-25 14:43:21.352 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1055 ms
+2022-01-25 14:43:21.775 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-25 14:43:22.014 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-01-25 14:43:22.023 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-01-25 14:43:22.034 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-25 14:43:22.042 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 7.159 seconds (JVM running for 7.531)
+2022-01-25 14:43:22.045 INFO  com.ameliawiki.wiki.config.WikiApplication        :22   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-01-25 14:43:22.046 INFO  com.ameliawiki.wiki.config.WikiApplication        :23   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-01-25 14:43:47.957 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-25 14:43:47.962 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-01-25 14:43:47.966 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 4 ms
+2022-01-25 14:44:09.952 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-01-25 14:44:09.954 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/ebook/list GET
+2022-01-25 14:44:09.955 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.EbookController.list
+2022-01-25 14:44:09.955 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-01-25 14:44:10.013 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [{"page":1,"size":1000}]
+2022-01-25 14:44:10.086 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-01-25 14:44:10.471 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-01-25 14:44:10.510 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-01-25 14:44:10.531 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==> Parameters: 
+2022-01-25 14:44:10.550 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==    Columns: count(0)
+2022-01-25 14:44:10.551 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==        Row: 5
+2022-01-25 14:44:10.554 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m <==      Total: 1
+2022-01-25 14:44:10.556 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-01-25 14:44:10.557 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==> Parameters: 1000(Integer)
+2022-01-25 14:44:10.562 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-01-25 14:44:10.562 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 1, SpringBoot Tutorial, 2, 2, Introduce how to create a SpringBoot project, /image/cover1.png, null, null, null
+2022-01-25 14:44:10.562 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 2, Vue Tutorial, null, null, Introduce how to build front end with Vue, /image/cover2.png, null, null, null
+2022-01-25 14:44:10.563 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 3, Python Tutorial, null, null, Introduction to programming with Python, null, null, null, null
+2022-01-25 14:44:10.563 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 4, MySQL Tutorial, null, null, Introduction to mySQL database, null, null, null, null
+2022-01-25 14:44:10.564 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 5, Oracle Tutorial, null, null, Introduction to Oracle, null, null, null, null
+2022-01-25 14:44:10.564 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m <==      Total: 5
+2022-01-25 14:44:10.566 INFO  com.ameliawiki.wiki.service.EbookService          :42   [32m                  [0;39m total rows：5
+2022-01-25 14:44:10.566 INFO  com.ameliawiki.wiki.service.EbookService          :43   [32m                  [0;39m total pages：1
+2022-01-25 14:44:10.581 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":2,"category2Id":2,"cover":"/image/cover1.png","description":"Introduce how to create a SpringBoot project","id":1,"name":"SpringBoot Tutorial"},{"cover":"/image/cover2.png","description":"Introduce how to build front end with Vue","id":2,"name":"Vue Tutorial"},{"description":"Introduction to programming with Python","id":3,"name":"Python Tutorial"},{"description":"Introduction to mySQL database","id":4,"name":"MySQL Tutorial"},{"description":"Introduction to Oracle","id":5,"name":"Oracle Tutorial"}],"total":5},"success":true}
+2022-01-25 14:44:10.581 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：631 ms -------------
+2022-01-25 14:44:11.844 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-01-25 14:44:11.845 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/ebook/list GET
+2022-01-25 14:44:11.845 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.EbookController.list
+2022-01-25 14:44:11.845 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-01-25 14:44:11.845 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2022-01-25 14:44:11.847 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-01-25 14:44:11.848 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==> Parameters: 
+2022-01-25 14:44:11.849 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==    Columns: count(0)
+2022-01-25 14:44:11.850 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==        Row: 5
+2022-01-25 14:44:11.850 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m <==      Total: 1
+2022-01-25 14:44:11.851 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-01-25 14:44:11.852 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-01-25 14:44:11.853 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-01-25 14:44:11.854 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 1, SpringBoot Tutorial, 2, 2, Introduce how to create a SpringBoot project, /image/cover1.png, null, null, null
+2022-01-25 14:44:11.855 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 2, Vue Tutorial, null, null, Introduce how to build front end with Vue, /image/cover2.png, null, null, null
+2022-01-25 14:44:11.856 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 3, Python Tutorial, null, null, Introduction to programming with Python, null, null, null, null
+2022-01-25 14:44:11.856 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 4, MySQL Tutorial, null, null, Introduction to mySQL database, null, null, null, null
+2022-01-25 14:44:11.857 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 5, Oracle Tutorial, null, null, Introduction to Oracle, null, null, null, null
+2022-01-25 14:44:11.858 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m <==      Total: 5
+2022-01-25 14:44:11.859 INFO  com.ameliawiki.wiki.service.EbookService          :42   [32m                  [0;39m total rows：5
+2022-01-25 14:44:11.859 INFO  com.ameliawiki.wiki.service.EbookService          :43   [32m                  [0;39m total pages：1
+2022-01-25 14:44:11.860 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":2,"category2Id":2,"cover":"/image/cover1.png","description":"Introduce how to create a SpringBoot project","id":1,"name":"SpringBoot Tutorial"},{"cover":"/image/cover2.png","description":"Introduce how to build front end with Vue","id":2,"name":"Vue Tutorial"},{"description":"Introduction to programming with Python","id":3,"name":"Python Tutorial"},{"description":"Introduction to mySQL database","id":4,"name":"MySQL Tutorial"},{"description":"Introduction to Oracle","id":5,"name":"Oracle Tutorial"}],"total":5},"success":true}
+2022-01-25 14:44:11.860 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：16 ms -------------
+2022-01-25 14:44:11.865 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-01-25 14:44:11.866 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/ebook/list GET
+2022-01-25 14:44:11.866 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.EbookController.list
+2022-01-25 14:44:11.866 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-01-25 14:44:11.867 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2022-01-25 14:44:11.869 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-01-25 14:44:11.869 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==> Parameters: 
+2022-01-25 14:44:11.870 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==    Columns: count(0)
+2022-01-25 14:44:11.871 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==        Row: 5
+2022-01-25 14:44:11.871 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m <==      Total: 1
+2022-01-25 14:44:11.871 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-01-25 14:44:11.871 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-01-25 14:44:11.873 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-01-25 14:44:11.873 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 1, SpringBoot Tutorial, 2, 2, Introduce how to create a SpringBoot project, /image/cover1.png, null, null, null
+2022-01-25 14:44:11.873 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 2, Vue Tutorial, null, null, Introduce how to build front end with Vue, /image/cover2.png, null, null, null
+2022-01-25 14:44:11.874 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 3, Python Tutorial, null, null, Introduction to programming with Python, null, null, null, null
+2022-01-25 14:44:11.874 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 4, MySQL Tutorial, null, null, Introduction to mySQL database, null, null, null, null
+2022-01-25 14:44:11.874 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 5, Oracle Tutorial, null, null, Introduction to Oracle, null, null, null, null
+2022-01-25 14:44:11.875 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m <==      Total: 5
+2022-01-25 14:44:11.875 INFO  com.ameliawiki.wiki.service.EbookService          :42   [32m                  [0;39m total rows：5
+2022-01-25 14:44:11.875 INFO  com.ameliawiki.wiki.service.EbookService          :43   [32m                  [0;39m total pages：1
+2022-01-25 14:44:11.876 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":2,"category2Id":2,"cover":"/image/cover1.png","description":"Introduce how to create a SpringBoot project","id":1,"name":"SpringBoot Tutorial"},{"cover":"/image/cover2.png","description":"Introduce how to build front end with Vue","id":2,"name":"Vue Tutorial"},{"description":"Introduction to programming with Python","id":3,"name":"Python Tutorial"},{"description":"Introduction to mySQL database","id":4,"name":"MySQL Tutorial"},{"description":"Introduction to Oracle","id":5,"name":"Oracle Tutorial"}],"total":5},"success":true}
+2022-01-25 14:44:11.876 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：11 ms -------------
+2022-01-25 14:44:25.484 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-01-25 14:44:25.484 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/ebook/list GET
+2022-01-25 14:44:25.484 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.EbookController.list
+2022-01-25 14:44:25.484 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-01-25 14:44:25.484 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [{"name":"spring","page":1,"size":10}]
+2022-01-25 14:44:25.491 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook WHERE (`name` LIKE ?)
+2022-01-25 14:44:25.492 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==> Parameters: %spring%(String)
+2022-01-25 14:44:25.508 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==    Columns: count(0)
+2022-01-25 14:44:25.508 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==        Row: 1
+2022-01-25 14:44:25.509 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m <==      Total: 1
+2022-01-25 14:44:25.509 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook WHERE ( `name` like ? ) LIMIT ?
+2022-01-25 14:44:25.509 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==> Parameters: %spring%(String), 10(Integer)
+2022-01-25 14:44:25.510 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-01-25 14:44:25.511 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 1, SpringBoot Tutorial, 2, 2, Introduce how to create a SpringBoot project, /image/cover1.png, null, null, null
+2022-01-25 14:44:25.512 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m <==      Total: 1
+2022-01-25 14:44:25.512 INFO  com.ameliawiki.wiki.service.EbookService          :42   [32m                  [0;39m total rows：1
+2022-01-25 14:44:25.512 INFO  com.ameliawiki.wiki.service.EbookService          :43   [32m                  [0;39m total pages：1
+2022-01-25 14:44:25.515 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":2,"category2Id":2,"cover":"/image/cover1.png","description":"Introduce how to create a SpringBoot project","id":1,"name":"SpringBoot Tutorial"}],"total":1},"success":true}
+2022-01-25 14:44:25.515 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：31 ms -------------
+2022-01-25 14:44:31.956 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-01-25 14:44:31.956 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/ebook/list GET
+2022-01-25 14:44:31.956 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.EbookController.list
+2022-01-25 14:44:31.957 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-01-25 14:44:31.957 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2022-01-25 14:44:31.958 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-01-25 14:44:31.959 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==> Parameters: 
+2022-01-25 14:44:31.962 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==    Columns: count(0)
+2022-01-25 14:44:31.963 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==        Row: 5
+2022-01-25 14:44:31.963 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m <==      Total: 1
+2022-01-25 14:44:31.963 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-01-25 14:44:31.963 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-01-25 14:44:31.964 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-01-25 14:44:31.965 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 1, SpringBoot Tutorial, 2, 2, Introduce how to create a SpringBoot project, /image/cover1.png, null, null, null
+2022-01-25 14:44:31.965 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 2, Vue Tutorial, null, null, Introduce how to build front end with Vue, /image/cover2.png, null, null, null
+2022-01-25 14:44:31.966 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 3, Python Tutorial, null, null, Introduction to programming with Python, null, null, null, null
+2022-01-25 14:44:31.966 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 4, MySQL Tutorial, null, null, Introduction to mySQL database, null, null, null, null
+2022-01-25 14:44:31.967 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 5, Oracle Tutorial, null, null, Introduction to Oracle, null, null, null, null
+2022-01-25 14:44:31.967 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m <==      Total: 5
+2022-01-25 14:44:31.968 INFO  com.ameliawiki.wiki.service.EbookService          :42   [32m                  [0;39m total rows：5
+2022-01-25 14:44:31.968 INFO  com.ameliawiki.wiki.service.EbookService          :43   [32m                  [0;39m total pages：1
+2022-01-25 14:44:31.968 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":2,"category2Id":2,"cover":"/image/cover1.png","description":"Introduce how to create a SpringBoot project","id":1,"name":"SpringBoot Tutorial"},{"cover":"/image/cover2.png","description":"Introduce how to build front end with Vue","id":2,"name":"Vue Tutorial"},{"description":"Introduction to programming with Python","id":3,"name":"Python Tutorial"},{"description":"Introduction to mySQL database","id":4,"name":"MySQL Tutorial"},{"description":"Introduction to Oracle","id":5,"name":"Oracle Tutorial"}],"total":5},"success":true}
+2022-01-25 14:44:31.969 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：13 ms -------------
+2022-01-25 14:44:31.973 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-01-25 14:44:31.973 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/ebook/list GET
+2022-01-25 14:44:31.974 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.EbookController.list
+2022-01-25 14:44:31.974 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-01-25 14:44:31.974 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2022-01-25 14:44:31.975 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-01-25 14:44:31.975 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==> Parameters: 
+2022-01-25 14:44:31.976 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==    Columns: count(0)
+2022-01-25 14:44:31.977 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==        Row: 5
+2022-01-25 14:44:31.977 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m <==      Total: 1
+2022-01-25 14:44:31.977 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-01-25 14:44:31.978 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-01-25 14:44:31.979 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-01-25 14:44:31.979 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 1, SpringBoot Tutorial, 2, 2, Introduce how to create a SpringBoot project, /image/cover1.png, null, null, null
+2022-01-25 14:44:31.980 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 2, Vue Tutorial, null, null, Introduce how to build front end with Vue, /image/cover2.png, null, null, null
+2022-01-25 14:44:31.980 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 3, Python Tutorial, null, null, Introduction to programming with Python, null, null, null, null
+2022-01-25 14:44:31.981 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 4, MySQL Tutorial, null, null, Introduction to mySQL database, null, null, null, null
+2022-01-25 14:44:31.981 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 5, Oracle Tutorial, null, null, Introduction to Oracle, null, null, null, null
+2022-01-25 14:44:31.982 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m <==      Total: 5
+2022-01-25 14:44:31.983 INFO  com.ameliawiki.wiki.service.EbookService          :42   [32m                  [0;39m total rows：5
+2022-01-25 14:44:31.983 INFO  com.ameliawiki.wiki.service.EbookService          :43   [32m                  [0;39m total pages：1
+2022-01-25 14:44:31.984 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":2,"category2Id":2,"cover":"/image/cover1.png","description":"Introduce how to create a SpringBoot project","id":1,"name":"SpringBoot Tutorial"},{"cover":"/image/cover2.png","description":"Introduce how to build front end with Vue","id":2,"name":"Vue Tutorial"},{"description":"Introduction to programming with Python","id":3,"name":"Python Tutorial"},{"description":"Introduction to mySQL database","id":4,"name":"MySQL Tutorial"},{"description":"Introduction to Oracle","id":5,"name":"Oracle Tutorial"}],"total":5},"success":true}
+2022-01-25 14:44:31.985 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：12 ms -------------
+2022-01-25 14:44:40.185 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-01-25 14:44:40.185 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/ebook/list GET
+2022-01-25 14:44:40.185 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.EbookController.list
+2022-01-25 14:44:40.186 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-01-25 14:44:40.186 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [{"name":"spring","page":1,"size":10}]
+2022-01-25 14:44:40.188 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook WHERE (`name` LIKE ?)
+2022-01-25 14:44:40.188 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==> Parameters: %spring%(String)
+2022-01-25 14:44:40.190 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==    Columns: count(0)
+2022-01-25 14:44:40.190 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==        Row: 1
+2022-01-25 14:44:40.191 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m <==      Total: 1
+2022-01-25 14:44:40.192 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook WHERE ( `name` like ? ) LIMIT ?
+2022-01-25 14:44:40.193 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==> Parameters: %spring%(String), 10(Integer)
+2022-01-25 14:44:40.199 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-01-25 14:44:40.199 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 1, SpringBoot Tutorial, 2, 2, Introduce how to create a SpringBoot project, /image/cover1.png, null, null, null
+2022-01-25 14:44:40.199 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m <==      Total: 1
+2022-01-25 14:44:40.200 INFO  com.ameliawiki.wiki.service.EbookService          :42   [32m                  [0;39m total rows：1
+2022-01-25 14:44:40.200 INFO  com.ameliawiki.wiki.service.EbookService          :43   [32m                  [0;39m total pages：1
+2022-01-25 14:44:40.201 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":2,"category2Id":2,"cover":"/image/cover1.png","description":"Introduce how to create a SpringBoot project","id":1,"name":"SpringBoot Tutorial"}],"total":1},"success":true}
+2022-01-25 14:44:40.201 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：16 ms -------------
+2022-01-25 14:44:44.131 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-01-25 14:44:44.132 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/ebook/list GET
+2022-01-25 14:44:44.132 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.EbookController.list
+2022-01-25 14:44:44.132 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-01-25 14:44:44.132 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [{"name":"","page":1,"size":10}]
+2022-01-25 14:44:44.134 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook
+2022-01-25 14:44:44.135 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==> Parameters: 
+2022-01-25 14:44:44.137 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==    Columns: count(0)
+2022-01-25 14:44:44.137 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==        Row: 5
+2022-01-25 14:44:44.138 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m <==      Total: 1
+2022-01-25 14:44:44.139 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook LIMIT ?
+2022-01-25 14:44:44.139 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==> Parameters: 10(Integer)
+2022-01-25 14:44:44.141 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-01-25 14:44:44.141 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 1, SpringBoot Tutorial, 2, 2, Introduce how to create a SpringBoot project, /image/cover1.png, null, null, null
+2022-01-25 14:44:44.141 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 2, Vue Tutorial, null, null, Introduce how to build front end with Vue, /image/cover2.png, null, null, null
+2022-01-25 14:44:44.142 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 3, Python Tutorial, null, null, Introduction to programming with Python, null, null, null, null
+2022-01-25 14:44:44.143 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 4, MySQL Tutorial, null, null, Introduction to mySQL database, null, null, null, null
+2022-01-25 14:44:44.143 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 5, Oracle Tutorial, null, null, Introduction to Oracle, null, null, null, null
+2022-01-25 14:44:44.145 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m <==      Total: 5
+2022-01-25 14:44:44.147 INFO  com.ameliawiki.wiki.service.EbookService          :42   [32m                  [0;39m total rows：5
+2022-01-25 14:44:44.147 INFO  com.ameliawiki.wiki.service.EbookService          :43   [32m                  [0;39m total pages：1
+2022-01-25 14:44:44.147 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":2,"category2Id":2,"cover":"/image/cover1.png","description":"Introduce how to create a SpringBoot project","id":1,"name":"SpringBoot Tutorial"},{"cover":"/image/cover2.png","description":"Introduce how to build front end with Vue","id":2,"name":"Vue Tutorial"},{"description":"Introduction to programming with Python","id":3,"name":"Python Tutorial"},{"description":"Introduction to mySQL database","id":4,"name":"MySQL Tutorial"},{"description":"Introduction to Oracle","id":5,"name":"Oracle Tutorial"}],"total":5},"success":true}
+2022-01-25 14:44:44.147 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：16 ms -------------
+2022-01-25 14:44:48.943 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-01-25 14:44:48.943 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/ebook/list GET
+2022-01-25 14:44:48.944 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.EbookController.list
+2022-01-25 14:44:48.944 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-01-25 14:44:48.944 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [{"name":"tutorial","page":1,"size":10}]
+2022-01-25 14:44:48.946 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook WHERE (`name` LIKE ?)
+2022-01-25 14:44:48.946 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==> Parameters: %tutorial%(String)
+2022-01-25 14:44:48.950 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==    Columns: count(0)
+2022-01-25 14:44:48.950 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==        Row: 5
+2022-01-25 14:44:48.950 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m <==      Total: 1
+2022-01-25 14:44:48.951 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook WHERE ( `name` like ? ) LIMIT ?
+2022-01-25 14:44:48.952 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==> Parameters: %tutorial%(String), 10(Integer)
+2022-01-25 14:44:48.954 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-01-25 14:44:48.954 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 1, SpringBoot Tutorial, 2, 2, Introduce how to create a SpringBoot project, /image/cover1.png, null, null, null
+2022-01-25 14:44:48.955 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 2, Vue Tutorial, null, null, Introduce how to build front end with Vue, /image/cover2.png, null, null, null
+2022-01-25 14:44:48.956 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 3, Python Tutorial, null, null, Introduction to programming with Python, null, null, null, null
+2022-01-25 14:44:48.956 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 4, MySQL Tutorial, null, null, Introduction to mySQL database, null, null, null, null
+2022-01-25 14:44:48.956 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 5, Oracle Tutorial, null, null, Introduction to Oracle, null, null, null, null
+2022-01-25 14:44:48.956 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m <==      Total: 5
+2022-01-25 14:44:48.956 INFO  com.ameliawiki.wiki.service.EbookService          :42   [32m                  [0;39m total rows：5
+2022-01-25 14:44:48.957 INFO  com.ameliawiki.wiki.service.EbookService          :43   [32m                  [0;39m total pages：1
+2022-01-25 14:44:48.957 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":2,"category2Id":2,"cover":"/image/cover1.png","description":"Introduce how to create a SpringBoot project","id":1,"name":"SpringBoot Tutorial"},{"cover":"/image/cover2.png","description":"Introduce how to build front end with Vue","id":2,"name":"Vue Tutorial"},{"description":"Introduction to programming with Python","id":3,"name":"Python Tutorial"},{"description":"Introduction to mySQL database","id":4,"name":"MySQL Tutorial"},{"description":"Introduction to Oracle","id":5,"name":"Oracle Tutorial"}],"total":5},"success":true}
+2022-01-25 14:44:48.957 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：14 ms -------------
+2022-01-25 14:44:50.318 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-01-25 14:44:50.319 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/ebook/list GET
+2022-01-25 14:44:50.319 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.EbookController.list
+2022-01-25 14:44:50.319 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-01-25 14:44:50.319 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [{"name":"tutorial","page":1,"size":10}]
+2022-01-25 14:44:50.321 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook WHERE (`name` LIKE ?)
+2022-01-25 14:44:50.322 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==> Parameters: %tutorial%(String)
+2022-01-25 14:44:50.323 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==    Columns: count(0)
+2022-01-25 14:44:50.324 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==        Row: 5
+2022-01-25 14:44:50.325 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m <==      Total: 1
+2022-01-25 14:44:50.325 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook WHERE ( `name` like ? ) LIMIT ?
+2022-01-25 14:44:50.326 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==> Parameters: %tutorial%(String), 10(Integer)
+2022-01-25 14:44:50.328 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-01-25 14:44:50.329 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 1, SpringBoot Tutorial, 2, 2, Introduce how to create a SpringBoot project, /image/cover1.png, null, null, null
+2022-01-25 14:44:50.329 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 2, Vue Tutorial, null, null, Introduce how to build front end with Vue, /image/cover2.png, null, null, null
+2022-01-25 14:44:50.329 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 3, Python Tutorial, null, null, Introduction to programming with Python, null, null, null, null
+2022-01-25 14:44:50.329 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 4, MySQL Tutorial, null, null, Introduction to mySQL database, null, null, null, null
+2022-01-25 14:44:50.330 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 5, Oracle Tutorial, null, null, Introduction to Oracle, null, null, null, null
+2022-01-25 14:44:50.330 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m <==      Total: 5
+2022-01-25 14:44:50.330 INFO  com.ameliawiki.wiki.service.EbookService          :42   [32m                  [0;39m total rows：5
+2022-01-25 14:44:50.331 INFO  com.ameliawiki.wiki.service.EbookService          :43   [32m                  [0;39m total pages：1
+2022-01-25 14:44:50.332 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":2,"category2Id":2,"cover":"/image/cover1.png","description":"Introduce how to create a SpringBoot project","id":1,"name":"SpringBoot Tutorial"},{"cover":"/image/cover2.png","description":"Introduce how to build front end with Vue","id":2,"name":"Vue Tutorial"},{"description":"Introduction to programming with Python","id":3,"name":"Python Tutorial"},{"description":"Introduction to mySQL database","id":4,"name":"MySQL Tutorial"},{"description":"Introduction to Oracle","id":5,"name":"Oracle Tutorial"}],"total":5},"success":true}
+2022-01-25 14:44:50.333 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：15 ms -------------
+2022-01-25 14:44:57.899 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-01-25 14:44:57.899 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/ebook/list GET
+2022-01-25 14:44:57.900 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.EbookController.list
+2022-01-25 14:44:57.900 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-01-25 14:44:57.900 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [{"name":"vue","page":1,"size":10}]
+2022-01-25 14:44:57.902 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook WHERE (`name` LIKE ?)
+2022-01-25 14:44:57.903 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==> Parameters: %vue%(String)
+2022-01-25 14:44:57.904 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==    Columns: count(0)
+2022-01-25 14:44:57.905 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==        Row: 1
+2022-01-25 14:44:57.905 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m <==      Total: 1
+2022-01-25 14:44:57.906 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook WHERE ( `name` like ? ) LIMIT ?
+2022-01-25 14:44:57.907 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==> Parameters: %vue%(String), 10(Integer)
+2022-01-25 14:44:57.909 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-01-25 14:44:57.910 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 2, Vue Tutorial, null, null, Introduce how to build front end with Vue, /image/cover2.png, null, null, null
+2022-01-25 14:44:57.911 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m <==      Total: 1
+2022-01-25 14:44:57.911 INFO  com.ameliawiki.wiki.service.EbookService          :42   [32m                  [0;39m total rows：1
+2022-01-25 14:44:57.911 INFO  com.ameliawiki.wiki.service.EbookService          :43   [32m                  [0;39m total pages：1
+2022-01-25 14:44:57.912 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":{"list":[{"cover":"/image/cover2.png","description":"Introduce how to build front end with Vue","id":2,"name":"Vue Tutorial"}],"total":1},"success":true}
+2022-01-25 14:44:57.912 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：13 ms -------------
+2022-01-25 14:45:25.902 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-25 14:45:25.904 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2022-01-25 14:45:25.922 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
