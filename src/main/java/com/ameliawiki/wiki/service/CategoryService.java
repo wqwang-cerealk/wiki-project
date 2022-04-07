@@ -32,6 +32,7 @@ public class CategoryService {
 
     public PageResp<CategoryQueryResp> list(CategoryQueryReq req) {
         CategoryExample categoryExample = new CategoryExample();
+        categoryExample.setOrderByClause("sort asc");
         CategoryExample.Criteria criteria = categoryExample.createCriteria();
         PageHelper.startPage(req.getPage(), req.getSize());
         List<Category> categoryList =  categoryMapper.selectByExample(categoryExample);
@@ -39,21 +40,22 @@ public class CategoryService {
         LOG.info("total rows：{}", pageInfo.getTotal());
         LOG.info("total pages：{}", pageInfo.getPages());
 
-//        List<CategoryResp> respList = new ArrayList<>();
-//        for (Category category : categoryList) {
-////            CategoryResp categoryResp = new CategoryResp();
-////            BeanUtils.copyProperties(category, categoryResp);
-//            CategoryResp categoryResp = CopyUtil.copy(category, CategoryResp.class);
-//
-//            respList.add(categoryResp);
-//        }
-
         List<CategoryQueryResp> list = CopyUtil.copyList(categoryList, CategoryQueryResp.class);
         PageResp<CategoryQueryResp> pageResp = new PageResp<>();
         pageResp.setTotal(pageInfo.getTotal());
         pageResp.setList(list);
 
         return pageResp;
+    }
+
+    public List<CategoryQueryResp> all() {
+        CategoryExample categoryExample = new CategoryExample();
+        categoryExample.setOrderByClause("sort asc");
+        List<Category> categoryList =  categoryMapper.selectByExample(categoryExample);
+
+        List<CategoryQueryResp> list = CopyUtil.copyList(categoryList, CategoryQueryResp.class);
+
+        return list;
     }
 
     //save

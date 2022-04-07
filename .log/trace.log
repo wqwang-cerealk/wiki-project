@@ -994,3 +994,368 @@ Caused by: java.lang.ClassNotFoundException: req.CategoryQueryReq
 2022-04-07 16:03:57.886 INFO  com.ameliawiki.wiki.service.CategoryService       :40   [32m                  [0;39m total pages：2
 2022-04-07 16:03:57.887 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":{"list":[{"id":100,"name":"Front end development","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"Basics","parent":200,"sort":201},{"id":202,"name":"Frameworks","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"Basic application","parent":300,"sort":301},{"id":302,"name":"Advanced application","parent":300,"sort":302},{"id":400,"name":"Database","parent":0,"sort":400}],"total":15},"success":true}
 2022-04-07 16:03:57.887 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：7 ms -------------
+2022-04-07 16:11:17.485 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-07 16:11:17.490 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2022-04-07 16:11:17.509 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2022-04-07 16:11:22.737 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on Alexs-MacBook-Pro.local with PID 40723 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-07 16:11:22.737 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-07 16:11:22.960 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-07 16:11:22.961 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:11:22.961 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-07 16:11:22.961 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-07 16:11:22.970 INFO  o.a.c.c.ContainerBase.[Tomcat-3].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-07 16:11:22.970 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 230 ms
+2022-04-07 16:11:22.999 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryController' defined in file [/Users/alex/IdeaProjects/wiki/target/classes/com/ameliawiki/wiki/controller/CategoryController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ameliawiki.wiki.controller.CategoryController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6970a1c5]
+2022-04-07 16:11:22.999 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-04-07 16:11:23.003 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-07 16:11:23.005 ERROR org.springframework.boot.SpringApplication        :856  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryController' defined in file [/Users/alex/IdeaProjects/wiki/target/classes/com/ameliawiki/wiki/controller/CategoryController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ameliawiki.wiki.controller.CategoryController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6970a1c5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:586)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at com.ameliawiki.wiki.config.WikiApplication.main(WikiApplication.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.ameliawiki.wiki.controller.CategoryController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@6970a1c5]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:737)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:669)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	... 19 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/ameliawiki/wiki/service/CategoryService
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3297)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2371)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:732)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.ameliawiki.wiki.service.CategoryService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 29 common frames omitted
+2022-04-07 16:13:21.732 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on Alexs-MacBook-Pro.local with PID 40723 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-07 16:13:21.733 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-07 16:13:21.950 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-07 16:13:21.950 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:13:21.950 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-07 16:13:21.950 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-07 16:13:21.957 INFO  o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-07 16:13:21.957 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 222 ms
+2022-04-07 16:13:22.132 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-07 16:13:22.243 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-07 16:13:22.251 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:13:22.260 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-07 16:13:22.263 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.556 seconds (JVM running for 6011.514)
+2022-04-07 16:13:22.264 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-07 16:13:22.265 INFO  com.ameliawiki.wiki.config.WikiApplication        :22   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-07 16:13:22.265 INFO  com.ameliawiki.wiki.config.WikiApplication        :23   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-07 16:13:41.325 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-07 16:13:46.418 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on Alexs-MacBook-Pro.local with PID 40723 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-07 16:13:46.418 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-07 16:13:46.658 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-07 16:13:46.658 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:13:46.659 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-07 16:13:46.659 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-07 16:13:46.666 INFO  o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-07 16:13:46.666 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 246 ms
+2022-04-07 16:13:46.841 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-07 16:13:46.954 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-07 16:13:46.958 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:13:46.959 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-07 16:13:46.962 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.584 seconds (JVM running for 6036.212)
+2022-04-07 16:13:46.963 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-07 16:13:46.963 INFO  com.ameliawiki.wiki.config.WikiApplication        :22   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-07 16:13:46.964 INFO  com.ameliawiki.wiki.config.WikiApplication        :23   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-07 16:15:52.833 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-07 16:15:57.919 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on Alexs-MacBook-Pro.local with PID 40723 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-07 16:15:57.919 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-07 16:15:58.101 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-07 16:15:58.101 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:15:58.101 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-07 16:15:58.102 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-07 16:15:58.107 INFO  o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-07 16:15:58.108 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 187 ms
+2022-04-07 16:15:58.267 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-07 16:15:58.368 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-07 16:15:58.372 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:15:58.374 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-07 16:15:58.377 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.482 seconds (JVM running for 6167.622)
+2022-04-07 16:15:58.378 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-07 16:15:58.378 INFO  com.ameliawiki.wiki.config.WikiApplication        :22   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-07 16:15:58.378 INFO  com.ameliawiki.wiki.config.WikiApplication        :23   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-07 16:16:34.203 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-07 16:16:39.272 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on Alexs-MacBook-Pro.local with PID 40723 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-07 16:16:39.272 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-07 16:16:39.519 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-07 16:16:39.520 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:16:39.520 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-07 16:16:39.520 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-07 16:16:39.528 INFO  o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-07 16:16:39.529 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 255 ms
+2022-04-07 16:16:39.740 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-07 16:16:39.893 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-07 16:16:39.898 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:16:39.900 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-07 16:16:39.903 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.655 seconds (JVM running for 6209.148)
+2022-04-07 16:16:39.904 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-07 16:16:39.904 INFO  com.ameliawiki.wiki.config.WikiApplication        :22   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-07 16:16:39.904 INFO  com.ameliawiki.wiki.config.WikiApplication        :23   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-07 16:16:52.494 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-07 16:16:57.562 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on Alexs-MacBook-Pro.local with PID 40723 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-07 16:16:57.563 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-07 16:16:57.783 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-07 16:16:57.784 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:16:57.784 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-07 16:16:57.784 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-07 16:16:57.791 INFO  o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-07 16:16:57.791 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 226 ms
+2022-04-07 16:16:57.954 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-07 16:16:58.082 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-07 16:16:58.087 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:16:58.088 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-07 16:16:58.092 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.558 seconds (JVM running for 6227.337)
+2022-04-07 16:16:58.093 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-07 16:16:58.094 INFO  com.ameliawiki.wiki.config.WikiApplication        :22   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-07 16:16:58.094 INFO  com.ameliawiki.wiki.config.WikiApplication        :23   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-07 16:17:39.005 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-07 16:17:44.193 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on Alexs-MacBook-Pro.local with PID 40723 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-07 16:17:44.193 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-07 16:17:44.389 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-07 16:17:44.390 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:17:44.390 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-07 16:17:44.390 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-07 16:17:44.397 INFO  o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-07 16:17:44.397 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 200 ms
+2022-04-07 16:17:44.554 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-07 16:17:44.661 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-07 16:17:44.666 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:17:44.667 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-07 16:17:44.670 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.506 seconds (JVM running for 6273.913)
+2022-04-07 16:17:44.671 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-07 16:17:44.672 INFO  com.ameliawiki.wiki.config.WikiApplication        :22   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-07 16:17:44.672 INFO  com.ameliawiki.wiki.config.WikiApplication        :23   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-07 16:24:09.963 INFO  o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-07 16:24:09.965 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-04-07 16:24:09.977 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 12 ms
+2022-04-07 16:24:10.039 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-04-07 16:24:10.040 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/category/all GET
+2022-04-07 16:24:10.041 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.CategoryController.all
+2022-04-07 16:24:10.041 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-04-07 16:24:10.044 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2022-04-07 16:24:10.071 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-3 - Starting...
+2022-04-07 16:24:10.133 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-3 - Start completed.
+2022-04-07 16:24:10.134 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-04-07 16:24:10.135 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2022-04-07 16:24:10.142 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-04-07 16:24:10.142 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 100, 0, Front end development, 100
+2022-04-07 16:24:10.144 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-04-07 16:24:10.144 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-04-07 16:24:10.145 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-04-07 16:24:10.145 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 201, 200, Basics, 201
+2022-04-07 16:24:10.145 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 202, 200, Frameworks, 202
+2022-04-07 16:24:10.146 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-04-07 16:24:10.146 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 301, 300, Basic application, 301
+2022-04-07 16:24:10.146 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 302, 300, Advanced application, 302
+2022-04-07 16:24:10.147 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 400, 0, Database, 400
+2022-04-07 16:24:10.147 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-04-07 16:24:10.147 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 500, 0, Others, 500
+2022-04-07 16:24:10.147 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 501, 500, Servers, 501
+2022-04-07 16:24:10.148 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 502, 500, Tools, 502
+2022-04-07 16:24:10.148 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 503, 500, Languages, 503
+2022-04-07 16:24:10.149 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 15
+2022-04-07 16:24:10.157 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"Front end development","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"Basics","parent":200,"sort":201},{"id":202,"name":"Frameworks","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"Basic application","parent":300,"sort":301},{"id":302,"name":"Advanced application","parent":300,"sort":302},{"id":400,"name":"Database","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"Others","parent":0,"sort":500},{"id":501,"name":"Servers","parent":500,"sort":501},{"id":502,"name":"Tools","parent":500,"sort":502},{"id":503,"name":"Languages","parent":500,"sort":503}],"success":true}
+2022-04-07 16:24:10.157 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：118 ms -------------
+2022-04-07 16:24:10.169 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-04-07 16:24:10.169 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/category/all GET
+2022-04-07 16:24:10.169 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.CategoryController.all
+2022-04-07 16:24:10.170 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-04-07 16:24:10.170 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [{"page":1,"size":10}]
+2022-04-07 16:24:10.170 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-04-07 16:24:10.171 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2022-04-07 16:24:10.173 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-04-07 16:24:10.173 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 100, 0, Front end development, 100
+2022-04-07 16:24:10.175 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-04-07 16:24:10.176 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-04-07 16:24:10.176 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-04-07 16:24:10.176 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 201, 200, Basics, 201
+2022-04-07 16:24:10.176 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 202, 200, Frameworks, 202
+2022-04-07 16:24:10.177 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-04-07 16:24:10.177 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 301, 300, Basic application, 301
+2022-04-07 16:24:10.177 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 302, 300, Advanced application, 302
+2022-04-07 16:24:10.177 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 400, 0, Database, 400
+2022-04-07 16:24:10.177 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-04-07 16:24:10.177 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 500, 0, Others, 500
+2022-04-07 16:24:10.178 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 501, 500, Servers, 501
+2022-04-07 16:24:10.178 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 502, 500, Tools, 502
+2022-04-07 16:24:10.178 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 503, 500, Languages, 503
+2022-04-07 16:24:10.178 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 15
+2022-04-07 16:24:10.181 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"Front end development","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"Basics","parent":200,"sort":201},{"id":202,"name":"Frameworks","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"Basic application","parent":300,"sort":301},{"id":302,"name":"Advanced application","parent":300,"sort":302},{"id":400,"name":"Database","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"Others","parent":0,"sort":500},{"id":501,"name":"Servers","parent":500,"sort":501},{"id":502,"name":"Tools","parent":500,"sort":502},{"id":503,"name":"Languages","parent":500,"sort":503}],"success":true}
+2022-04-07 16:24:10.181 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：12 ms -------------
+2022-04-07 16:24:47.297 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-04-07 16:24:47.297 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/category/all GET
+2022-04-07 16:24:47.298 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.CategoryController.all
+2022-04-07 16:24:47.298 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-04-07 16:24:47.298 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [{"page":0,"size":0}]
+2022-04-07 16:24:47.300 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-04-07 16:24:47.300 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2022-04-07 16:24:47.302 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-04-07 16:24:47.302 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 100, 0, Front end development, 100
+2022-04-07 16:24:47.303 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-04-07 16:24:47.303 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-04-07 16:24:47.303 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-04-07 16:24:47.304 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 201, 200, Basics, 201
+2022-04-07 16:24:47.304 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 202, 200, Frameworks, 202
+2022-04-07 16:24:47.305 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-04-07 16:24:47.305 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 301, 300, Basic application, 301
+2022-04-07 16:24:47.305 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 302, 300, Advanced application, 302
+2022-04-07 16:24:47.306 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 400, 0, Database, 400
+2022-04-07 16:24:47.306 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-04-07 16:24:47.307 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 500, 0, Others, 500
+2022-04-07 16:24:47.307 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 501, 500, Servers, 501
+2022-04-07 16:24:47.308 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 502, 500, Tools, 502
+2022-04-07 16:24:47.308 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 503, 500, Languages, 503
+2022-04-07 16:24:47.309 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 15
+2022-04-07 16:24:47.310 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"Front end development","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"Basics","parent":200,"sort":201},{"id":202,"name":"Frameworks","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"Basic application","parent":300,"sort":301},{"id":302,"name":"Advanced application","parent":300,"sort":302},{"id":400,"name":"Database","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"Others","parent":0,"sort":500},{"id":501,"name":"Servers","parent":500,"sort":501},{"id":502,"name":"Tools","parent":500,"sort":502},{"id":503,"name":"Languages","parent":500,"sort":503}],"success":true}
+2022-04-07 16:24:47.310 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：13 ms -------------
+2022-04-07 16:24:47.314 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-04-07 16:24:47.315 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/category/all GET
+2022-04-07 16:24:47.315 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.CategoryController.all
+2022-04-07 16:24:47.315 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-04-07 16:24:47.316 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [{"page":0,"size":0}]
+2022-04-07 16:24:47.316 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-04-07 16:24:47.317 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2022-04-07 16:24:47.343 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-04-07 16:24:47.344 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 100, 0, Front end development, 100
+2022-04-07 16:24:47.344 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-04-07 16:24:47.345 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-04-07 16:24:47.345 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-04-07 16:24:47.345 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 201, 200, Basics, 201
+2022-04-07 16:24:47.346 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 202, 200, Frameworks, 202
+2022-04-07 16:24:47.346 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-04-07 16:24:47.347 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 301, 300, Basic application, 301
+2022-04-07 16:24:47.347 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 302, 300, Advanced application, 302
+2022-04-07 16:24:47.348 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 400, 0, Database, 400
+2022-04-07 16:24:47.348 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-04-07 16:24:47.349 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 500, 0, Others, 500
+2022-04-07 16:24:47.349 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 501, 500, Servers, 501
+2022-04-07 16:24:47.349 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 502, 500, Tools, 502
+2022-04-07 16:24:47.350 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 503, 500, Languages, 503
+2022-04-07 16:24:47.350 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 15
+2022-04-07 16:24:47.352 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"Front end development","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"Basics","parent":200,"sort":201},{"id":202,"name":"Frameworks","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"Basic application","parent":300,"sort":301},{"id":302,"name":"Advanced application","parent":300,"sort":302},{"id":400,"name":"Database","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"Others","parent":0,"sort":500},{"id":501,"name":"Servers","parent":500,"sort":501},{"id":502,"name":"Tools","parent":500,"sort":502},{"id":503,"name":"Languages","parent":500,"sort":503}],"success":true}
+2022-04-07 16:24:47.352 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：38 ms -------------
+2022-04-07 16:25:12.194 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-07 16:25:12.197 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2022-04-07 16:25:12.228 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2022-04-07 16:25:17.401 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on Alexs-MacBook-Pro.local with PID 40723 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-07 16:25:17.401 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-07 16:25:17.645 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-07 16:25:17.645 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:25:17.646 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-07 16:25:17.646 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-07 16:25:17.653 INFO  o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-07 16:25:17.654 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 250 ms
+2022-04-07 16:25:17.833 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-07 16:25:17.936 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-07 16:25:17.941 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:25:17.942 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-07 16:25:17.945 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.582 seconds (JVM running for 6727.175)
+2022-04-07 16:25:17.946 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-07 16:25:17.946 INFO  com.ameliawiki.wiki.config.WikiApplication        :22   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-07 16:25:17.946 INFO  com.ameliawiki.wiki.config.WikiApplication        :23   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-07 16:26:47.823 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-07 16:26:52.900 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on Alexs-MacBook-Pro.local with PID 40723 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-07 16:26:52.900 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-07 16:26:53.087 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-07 16:26:53.087 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:26:53.088 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-07 16:26:53.088 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-07 16:26:53.094 INFO  o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-07 16:26:53.094 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 192 ms
+2022-04-07 16:26:53.256 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-07 16:26:53.381 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-07 16:26:53.386 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-07 16:26:53.388 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-07 16:26:53.391 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.513 seconds (JVM running for 6822.618)
+2022-04-07 16:26:53.391 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-07 16:26:53.392 INFO  com.ameliawiki.wiki.config.WikiApplication        :22   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-07 16:26:53.392 INFO  com.ameliawiki.wiki.config.WikiApplication        :23   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-07 16:35:01.489 INFO  o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-07 16:35:01.491 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-04-07 16:35:01.501 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 10 ms
+2022-04-07 16:35:01.529 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-04-07 16:35:01.532 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/category/all GET
+2022-04-07 16:35:01.533 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.CategoryController.all
+2022-04-07 16:35:01.536 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-04-07 16:35:01.539 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: []
+2022-04-07 16:35:01.588 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-4 - Starting...
+2022-04-07 16:35:01.663 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-4 - Start completed.
+2022-04-07 16:35:01.664 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-04-07 16:35:01.666 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2022-04-07 16:35:01.677 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-04-07 16:35:01.677 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 100, 0, Front end development, 100
+2022-04-07 16:35:01.678 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-04-07 16:35:01.678 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-04-07 16:35:01.678 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-04-07 16:35:01.679 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 201, 200, Basics, 201
+2022-04-07 16:35:01.679 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 202, 200, Frameworks, 202
+2022-04-07 16:35:01.679 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-04-07 16:35:01.679 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 301, 300, Basic application, 301
+2022-04-07 16:35:01.679 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 302, 300, Advanced application, 302
+2022-04-07 16:35:01.680 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 400, 0, Database, 400
+2022-04-07 16:35:01.680 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-04-07 16:35:01.680 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 500, 0, Others, 500
+2022-04-07 16:35:01.680 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 501, 500, Servers, 501
+2022-04-07 16:35:01.680 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 502, 500, Tools, 502
+2022-04-07 16:35:01.680 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 503, 500, Languages, 503
+2022-04-07 16:35:01.681 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 15
+2022-04-07 16:35:01.692 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"Front end development","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"Basics","parent":200,"sort":201},{"id":202,"name":"Frameworks","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"Basic application","parent":300,"sort":301},{"id":302,"name":"Advanced application","parent":300,"sort":302},{"id":400,"name":"Database","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"Others","parent":0,"sort":500},{"id":501,"name":"Servers","parent":500,"sort":501},{"id":502,"name":"Tools","parent":500,"sort":502},{"id":503,"name":"Languages","parent":500,"sort":503}],"success":true}
+2022-04-07 16:35:01.692 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：165 ms -------------
+2022-04-07 16:35:01.707 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-04-07 16:35:01.707 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/category/all GET
+2022-04-07 16:35:01.707 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.CategoryController.all
+2022-04-07 16:35:01.707 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-04-07 16:35:01.707 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: []
+2022-04-07 16:35:01.708 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-04-07 16:35:01.708 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2022-04-07 16:35:01.709 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-04-07 16:35:01.709 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 100, 0, Front end development, 100
+2022-04-07 16:35:01.711 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-04-07 16:35:01.712 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-04-07 16:35:01.712 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-04-07 16:35:01.712 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 201, 200, Basics, 201
+2022-04-07 16:35:01.712 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 202, 200, Frameworks, 202
+2022-04-07 16:35:01.712 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-04-07 16:35:01.712 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 301, 300, Basic application, 301
+2022-04-07 16:35:01.712 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 302, 300, Advanced application, 302
+2022-04-07 16:35:01.713 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 400, 0, Database, 400
+2022-04-07 16:35:01.713 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-04-07 16:35:01.713 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 500, 0, Others, 500
+2022-04-07 16:35:01.713 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 501, 500, Servers, 501
+2022-04-07 16:35:01.714 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 502, 500, Tools, 502
+2022-04-07 16:35:01.714 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 503, 500, Languages, 503
+2022-04-07 16:35:01.714 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 15
+2022-04-07 16:35:01.717 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"Front end development","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"Basics","parent":200,"sort":201},{"id":202,"name":"Frameworks","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"Basic application","parent":300,"sort":301},{"id":302,"name":"Advanced application","parent":300,"sort":302},{"id":400,"name":"Database","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"Others","parent":0,"sort":500},{"id":501,"name":"Servers","parent":500,"sort":501},{"id":502,"name":"Tools","parent":500,"sort":502},{"id":503,"name":"Languages","parent":500,"sort":503}],"success":true}
+2022-04-07 16:35:01.718 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：11 ms -------------
