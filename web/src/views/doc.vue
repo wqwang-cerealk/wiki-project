@@ -9,6 +9,7 @@
               @select="onSelect"
               :replaceFields="{title: 'name', key: 'id', value: 'id'}"
               :defaultExpandAll="true"
+              :defaultSelectedKeys="defaultSelectedKeys"
           >
           </a-tree>
         </a-col>
@@ -33,6 +34,8 @@ export default defineComponent({
     const route = useRoute();
     const docs = ref();
     const html = ref();
+    const defaultSelectedKeys = ref();
+    defaultSelectedKeys.value = [];
 
     /**
      *
@@ -49,23 +52,6 @@ export default defineComponent({
     level1.value = [];
 
     /**
-     * 数据查询
-     **/
-    const handleQuery = () => {
-      axios.get("/doc/all/" + route.query.ebookId).then((response) => {
-        const data = response.data;
-        if (data.success) {
-          docs.value = data.content;
-
-          level1.value = [];
-          level1.value = Tool.arrayToTree(docs.value, 0);
-        } else {
-          message.error(data.message);
-        }
-      });
-    };
-
-    /**
      * content search
      **/
     const handleQueryContent = (id: number) => {
@@ -78,6 +64,29 @@ export default defineComponent({
         }
       });
     };
+
+    /**
+     * data search
+     **/
+    const handleQuery = () => {
+      axios.get("/doc/all/" + route.query.ebookId).then((response) => {
+        const data = response.data;
+        if (data.success) {
+          docs.value = data.content;
+
+          level1.value = [];
+          level1.value = Tool.arrayToTree(docs.value, 0);
+
+          if (Tool.isNotEmpty(level1)){
+            defaultSelectedKeys.value = [level1.value[0].id];
+            handleQueryContent(level1.value[0].id);
+          }
+        } else {
+          message.error(data.message);
+        }
+      });
+    };
+
 
     const onSelect = (selectedKeys: any, info: any) => {
       console.log('selected', selectedKeys, info);
@@ -95,8 +104,66 @@ export default defineComponent({
     return {
       level1,
       html,
-      onSelect
+      onSelect,
+      defaultSelectedKeys
     }
   }
 });
 </script>
+
+<style>
+/* wangeditor默认样式, 参照: http://www.wangeditor.com/doc/pages/02-%E5%86%85%E5%AE%B9%E5%A4%84%E7%90%86/03-%E8%8E%B7%E5%8F%96html.html */
+/* table 样式 */
+.wangeditor table {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+.wangeditor table td,
+.wangeditor table th {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 3px 5px;
+}
+.wangeditor table th {
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+}
+
+/* blockquote 样式 */
+.wangeditor blockquote {
+  display: block;
+  border-left: 8px solid #d0e5f2;
+  padding: 5px 10px;
+  margin: 10px 0;
+  line-height: 1.4;
+  font-size: 100%;
+  background-color: #f1f1f1;
+}
+
+/* code 样式 */
+.wangeditor code {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  padding: 3px 5px;
+  margin: 0 3px;
+}
+.wangeditor pre code {
+  display: block;
+}
+
+/* ul ol 样式 */
+.wangeditor ul, ol {
+  margin: 10px 0 10px 20px;
+}
+
+/* 和antdv p冲突，覆盖掉 */
+.wangeditor blockquote p {
+  font-family:"YouYuan";
+  margin: 20px 10px !important;
+  font-size: 16px !important;
+  font-weight:600;
+}
+</style>
