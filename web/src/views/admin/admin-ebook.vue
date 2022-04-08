@@ -244,6 +244,11 @@ export default defineComponent({
           level1.value = [];
           level1.value = Tool.arrayToTree(categorys, 0);
           console.log("tree form：", level1.value);
+
+          handleQuery({
+            page: 1,
+            size: pagination.value.pageSize,
+          });
         } else {
           message.error(data.message);
         }
@@ -266,10 +271,6 @@ export default defineComponent({
 
     onMounted(() => {
       handleQueryCategory();
-      handleQuery({
-        page: 1,
-        size: pagination.value.pageSize,
-      });
     });
 
     // onMounted(() => {
