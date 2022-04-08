@@ -3702,3 +3702,29 @@ Caused by: java.lang.ClassNotFoundException: com.ameliawiki.wiki.service.Categor
 2022-04-07 19:27:23.712 INFO  com.ameliawiki.wiki.service.EbookService          :47   [32m                  [0;39m total pages：1
 2022-04-07 19:27:23.712 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":400,"category2Id":401,"description":"Introduction to mySQL database","id":4,"name":"MySQL Tutorial"}],"total":1},"success":true}
 2022-04-07 19:27:23.712 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：6 ms -------------
+2022-04-07 20:16:49.099 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=31m1s306ms).
+2022-04-07 20:31:40.201 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=13m51s17ms).
+2022-04-07 20:34:31.894 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1m21s671ms).
+2022-04-07 20:41:07.771 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=4m35s860ms).
+2022-04-07 21:16:35.351 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=33m57s578ms).
+2022-04-07 21:35:58.398 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=18m23s38ms).
+2022-04-07 21:37:44.144 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1m14s952ms).
+2022-04-07 21:54:34.863 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-07 21:54:34.869 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-5 - Shutdown initiated...
+2022-04-07 21:54:34.892 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-5 - Shutdown completed.
+2022-04-07 21:54:40.479 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on Alexs-MacBook-Pro.local with PID 40723 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-07 21:54:40.480 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-07 21:54:40.787 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-07 21:54:40.788 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-07 21:54:40.788 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-07 21:54:40.788 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-07 21:54:40.800 INFO  o.a.c.c.ContainerBase.[Tomcat-4].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-07 21:54:40.801 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 319 ms
+2022-04-07 21:54:41.095 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-07 21:54:41.209 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-07 21:54:41.216 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-07 21:54:41.218 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-07 21:54:41.220 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.787 seconds (JVM running for 20435.51)
+2022-04-07 21:54:41.221 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-07 21:54:41.221 INFO  com.ameliawiki.wiki.config.WikiApplication        :22   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-07 21:54:41.222 INFO  com.ameliawiki.wiki.config.WikiApplication        :23   [32m                  [0;39m address: 	http://127.0.0.1:8080

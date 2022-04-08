@@ -63,3 +63,23 @@ insert into `category` (id, parent, name, sort) values (500, 000, 'Others', 500)
 insert into `category` (id, parent, name, sort) values (501, 500, 'Servers', 501);
 insert into `category` (id, parent, name, sort) values (502, 500, 'Tools', 502);
 insert into `category` (id, parent, name, sort) values (503, 500, 'Languages', 503);
+
+-- document table
+drop table if exists `doc`;
+create table `doc` (
+                       `id` bigint not null comment 'id',
+                       `ebook_id` bigint not null default 0 comment 'ebook id',
+                       `parent` bigint not null default 0 comment 'parent id',
+                       `name` varchar(50) not null comment 'name',
+                       `sort` int comment 'sort',
+                       `view_count` int default 0 comment 'view count',
+                       `vote_count` int default 0 comment 'like count',
+                       primary key (`id`)
+) engine=innodb default charset=utf8mb4 comment='document';
+
+insert into `doc` (id, ebook_id, parent, name, sort, view_count, vote_count) values (1, 1, 0, 'document1', 1, 0, 0);
+insert into `doc` (id, ebook_id, parent, name, sort, view_count, vote_count) values (2, 1, 1, 'document1.1', 1, 0, 0);
+insert into `doc` (id, ebook_id, parent, name, sort, view_count, vote_count) values (3, 1, 0, 'document2', 2, 0, 0);
+insert into `doc` (id, ebook_id, parent, name, sort, view_count, vote_count) values (4, 1, 3, 'document2.1', 1, 0, 0);
+insert into `doc` (id, ebook_id, parent, name, sort, view_count, vote_count) values (5, 1, 3, 'document2.2', 2, 0, 0);
+insert into `doc` (id, ebook_id, parent, name, sort, view_count, vote_count) values (6, 1, 5, 'document2.2.1', 1, 0, 0);
