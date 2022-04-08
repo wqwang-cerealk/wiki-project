@@ -1,7 +1,9 @@
 package com.ameliawiki.wiki.service;
 
+import com.ameliawiki.wiki.domain.Content;
 import com.ameliawiki.wiki.domain.Doc;
 import com.ameliawiki.wiki.domain.DocExample;
+import com.ameliawiki.wiki.mapper.ContentMapper;
 import com.ameliawiki.wiki.mapper.DocMapper;
 import com.ameliawiki.wiki.util.CopyUtil;
 import com.ameliawiki.wiki.util.SnowFlake;
@@ -26,6 +28,9 @@ public class DocService {
 
     @Resource
     private DocMapper docMapper;
+
+    @Resource
+    private ContentMapper contentMapper;
 
     @Resource
     private SnowFlake snowFlake;
@@ -61,13 +66,21 @@ public class DocService {
     //save
     public void save(DocSaveReq req) {
         Doc doc = CopyUtil.copy(req, Doc.class);
+        Content content = CopyUtil.copy(req, Content.class);
         if (ObjectUtils.isEmpty(req.getId())) {
             //是空就更新
             doc.setId(snowFlake.nextId());
             docMapper.insert(doc);
+
+            content.setId(doc.getId());
+            contentMapper.insert(content);
         } else {
             //update
             docMapper.updateByPrimaryKey(doc);
+            int count = contentMapper.updateByPrimaryKeyWithBLOBs(content);
+            if (count == 0) {
+                contentMapper.insert(content);
+            }
         }
     }
 
