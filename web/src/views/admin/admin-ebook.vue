@@ -37,6 +37,11 @@
         </template>
         <template v-slot:action="{ text, record }">
           <a-space size="small">
+            <router-link to="/admin/doc">
+              <a-button type="primary">
+              doc management
+              </a-button>
+            </router-link>
             <a-button type="primary" @click="edit(record)">
               edit
             </a-button>
@@ -56,7 +61,7 @@
     </a-layout-content>
   </a-layout>
   <a-modal
-      title="电子书表单"
+      title="eBook table"
       v-model:visible="modalVisible"
       :confirm-loading="modalLoading"
       @ok="handleModalOk"
