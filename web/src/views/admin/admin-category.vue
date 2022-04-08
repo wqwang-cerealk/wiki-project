@@ -20,7 +20,7 @@
       <a-table
           :columns="columns"
           :row-key="record => record.id"
-          :data-source="categorys"
+          :data-source="level1"
           :loading="loading"
           :pagination="false"
       >
@@ -103,6 +103,22 @@ export default defineComponent({
     ];
 
     /**
+     * level 1 tree, children is level 2 categorization
+     * [{
+     *   id: "",
+     *   name: "",
+     *   children: [{
+     *     id: "",
+     *     name: "",
+     *   }]
+     * }]
+     *
+     **/
+    const level1 = ref();
+
+
+
+    /**
      * 数据查询
      **/
     const handleQuery = () => {
@@ -112,7 +128,11 @@ export default defineComponent({
         const data = response.data;
         if (data.success) {
             categorys.value = data.content;
+            console.log("原始数组", categorys.value);
 
+            level1.value = [];
+            level1.value = Tool.arrayToTree(categorys.value, 0);
+            console.log("树型结构", level1);
           } else {
             message.error(data.message);
           }
@@ -174,7 +194,8 @@ export default defineComponent({
 
     return {
       param,
-      categorys,
+      // categorys,
+      level1,
       columns,
       loading,
       handleQuery,

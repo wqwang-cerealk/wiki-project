@@ -26,4 +26,28 @@ export class Tool {
             return JSON.parse(JSON.stringify(obj));
         }
     }
+
+    /**
+     * recursion to make the array into tree formation
+     *
+     */
+    public static arrayToTree(array: any, parentId: number) {
+        if (Tool.isEmpty(array)) {
+            return [];
+        }
+
+        const result = [];
+        for (let i = 0; i < array.length; i++) {
+            const c = array[i];
+            if (Number(c.parent) === Number(parentId)) {
+                result.push(c);
+
+                const children = Tool.arrayToTree(array, c.id);
+                if (Tool.isNotEmpty(children)) {
+                    c.children = children;
+                }
+            }
+        }
+        return result;
+    }
 }
