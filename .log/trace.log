@@ -2936,3 +2936,97 @@
 2022-04-08 09:21:07.445 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m                  [0;39m <==      Total: 2
 2022-04-08 09:21:07.445 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":[{"ebookId":1,"id":1,"name":"document1","parent":0,"sort":1,"viewCount":0,"voteCount":0},{"ebookId":1,"id":2,"name":"document1.1","parent":1,"sort":1,"viewCount":0,"voteCount":0}],"success":true}
 2022-04-08 09:21:07.445 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：9 ms -------------
+2022-04-08 09:29:09.537 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-04-08 09:29:09.548 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/doc/all GET
+2022-04-08 09:29:09.548 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.DocController.all
+2022-04-08 09:29:09.549 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-04-08 09:29:09.549 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: []
+2022-04-08 09:29:09.632 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc order by sort asc
+2022-04-08 09:29:09.636 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2022-04-08 09:29:09.781 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2022-04-08 09:29:09.783 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, 1, 0, document1, 1, 0, 0
+2022-04-08 09:29:09.801 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, 1, 1, document1.1, 1, 0, 0
+2022-04-08 09:29:09.804 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m                  [0;39m <==      Total: 2
+2022-04-08 09:29:09.856 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":[{"ebookId":1,"id":1,"name":"document1","parent":0,"sort":1,"viewCount":0,"voteCount":0},{"ebookId":1,"id":2,"name":"document1.1","parent":1,"sort":1,"viewCount":0,"voteCount":0}],"success":true}
+2022-04-08 09:29:09.856 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：320 ms -------------
+2022-04-08 09:29:51.787 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-04-08 09:29:51.787 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/doc/all GET
+2022-04-08 09:29:51.788 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.DocController.all
+2022-04-08 09:29:51.788 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-04-08 09:29:51.788 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: []
+2022-04-08 09:29:51.825 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc order by sort asc
+2022-04-08 09:29:51.825 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2022-04-08 09:29:51.852 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2022-04-08 09:29:51.852 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, 1, 0, document1, 1, 0, 0
+2022-04-08 09:29:51.853 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, 1, 1, document1.1, 1, 0, 0
+2022-04-08 09:29:51.860 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m                  [0;39m <==      Total: 2
+2022-04-08 09:29:51.861 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":[{"ebookId":1,"id":1,"name":"document1","parent":0,"sort":1,"viewCount":0,"voteCount":0},{"ebookId":1,"id":2,"name":"document1.1","parent":1,"sort":1,"viewCount":0,"voteCount":0}],"success":true}
+2022-04-08 09:29:51.862 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：76 ms -------------
+2022-04-08 09:31:12.081 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-04-08 09:31:12.081 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/doc/all GET
+2022-04-08 09:31:12.081 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.DocController.all
+2022-04-08 09:31:12.082 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-04-08 09:31:12.082 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: []
+2022-04-08 09:31:12.114 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc order by sort asc
+2022-04-08 09:31:12.114 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2022-04-08 09:31:12.131 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2022-04-08 09:31:12.131 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, 1, 0, document1, 1, 0, 0
+2022-04-08 09:31:12.132 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, 1, 1, document1.1, 1, 0, 0
+2022-04-08 09:31:12.132 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m                  [0;39m <==      Total: 2
+2022-04-08 09:31:12.132 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":[{"ebookId":1,"id":1,"name":"document1","parent":0,"sort":1,"viewCount":0,"voteCount":0},{"ebookId":1,"id":2,"name":"document1.1","parent":1,"sort":1,"viewCount":0,"voteCount":0}],"success":true}
+2022-04-08 09:31:12.132 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：51 ms -------------
+2022-04-08 09:31:29.310 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-04-08 09:31:29.310 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/doc/save POST
+2022-04-08 09:31:29.310 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.DocController.save
+2022-04-08 09:31:29.311 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-04-08 09:31:29.311 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [{"content":"<p>testtt</p>","ebookId":1,"id":2,"name":"document1.1","parent":1,"sort":1,"viewCount":0,"voteCount":0}]
+2022-04-08 09:31:29.319 DEBUG c.a.wiki.mapper.DocMapper.updateByPrimaryKey      :137  [32m                  [0;39m ==>  Preparing: update doc set ebook_id = ?, parent = ?, `name` = ?, sort = ?, view_count = ?, vote_count = ? where id = ?
+2022-04-08 09:31:29.320 DEBUG c.a.wiki.mapper.DocMapper.updateByPrimaryKey      :137  [32m                  [0;39m ==> Parameters: 1(Long), 1(Long), document1.1(String), 1(Integer), 0(Integer), 0(Integer), 2(Long)
+2022-04-08 09:31:29.344 DEBUG c.a.wiki.mapper.DocMapper.updateByPrimaryKey      :137  [32m                  [0;39m <==    Updates: 1
+2022-04-08 09:31:29.345 DEBUG c.a.w.m.ContentMapper.updateByPrimaryKeyWithBLOBs :137  [32m                  [0;39m ==>  Preparing: update content set content = ? where id = ?
+2022-04-08 09:31:29.345 DEBUG c.a.w.m.ContentMapper.updateByPrimaryKeyWithBLOBs :137  [32m                  [0;39m ==> Parameters: <p>testtt</p>(String), 2(Long)
+2022-04-08 09:31:29.349 DEBUG c.a.w.m.ContentMapper.updateByPrimaryKeyWithBLOBs :137  [32m                  [0;39m <==    Updates: 0
+2022-04-08 09:31:29.349 DEBUG com.ameliawiki.wiki.mapper.ContentMapper.insert   :137  [32m                  [0;39m ==>  Preparing: insert into content (id, content) values (?, ?)
+2022-04-08 09:31:29.350 DEBUG com.ameliawiki.wiki.mapper.ContentMapper.insert   :137  [32m                  [0;39m ==> Parameters: 2(Long), <p>testtt</p>(String)
+2022-04-08 09:31:29.354 DEBUG com.ameliawiki.wiki.mapper.ContentMapper.insert   :137  [32m                  [0;39m <==    Updates: 1
+2022-04-08 09:31:29.354 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"success":true}
+2022-04-08 09:31:29.355 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：45 ms -------------
+2022-04-08 09:31:29.364 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-04-08 09:31:29.364 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/doc/all GET
+2022-04-08 09:31:29.364 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.DocController.all
+2022-04-08 09:31:29.364 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-04-08 09:31:29.364 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: []
+2022-04-08 09:31:29.365 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc order by sort asc
+2022-04-08 09:31:29.365 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2022-04-08 09:31:29.366 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2022-04-08 09:31:29.366 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, 1, 0, document1, 1, 0, 0
+2022-04-08 09:31:29.366 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, 1, 1, document1.1, 1, 0, 0
+2022-04-08 09:31:29.367 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m                  [0;39m <==      Total: 2
+2022-04-08 09:31:29.367 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":[{"ebookId":1,"id":1,"name":"document1","parent":0,"sort":1,"viewCount":0,"voteCount":0},{"ebookId":1,"id":2,"name":"document1.1","parent":1,"sort":1,"viewCount":0,"voteCount":0}],"success":true}
+2022-04-08 09:31:29.367 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：3 ms -------------
+2022-04-08 09:31:34.920 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-04-08 09:31:34.920 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/doc/save POST
+2022-04-08 09:31:34.920 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.DocController.save
+2022-04-08 09:31:34.921 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-04-08 09:31:34.921 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [{"content":"<p>testtt</p>","ebookId":1,"id":2,"name":"document1.1","parent":1,"sort":1,"viewCount":0,"voteCount":0}]
+2022-04-08 09:31:34.927 DEBUG c.a.wiki.mapper.DocMapper.updateByPrimaryKey      :137  [32m                  [0;39m ==>  Preparing: update doc set ebook_id = ?, parent = ?, `name` = ?, sort = ?, view_count = ?, vote_count = ? where id = ?
+2022-04-08 09:31:34.927 DEBUG c.a.wiki.mapper.DocMapper.updateByPrimaryKey      :137  [32m                  [0;39m ==> Parameters: 1(Long), 1(Long), document1.1(String), 1(Integer), 0(Integer), 0(Integer), 2(Long)
+2022-04-08 09:31:34.932 DEBUG c.a.wiki.mapper.DocMapper.updateByPrimaryKey      :137  [32m                  [0;39m <==    Updates: 1
+2022-04-08 09:31:34.932 DEBUG c.a.w.m.ContentMapper.updateByPrimaryKeyWithBLOBs :137  [32m                  [0;39m ==>  Preparing: update content set content = ? where id = ?
+2022-04-08 09:31:34.932 DEBUG c.a.w.m.ContentMapper.updateByPrimaryKeyWithBLOBs :137  [32m                  [0;39m ==> Parameters: <p>testtt</p>(String), 2(Long)
+2022-04-08 09:31:34.935 DEBUG c.a.w.m.ContentMapper.updateByPrimaryKeyWithBLOBs :137  [32m                  [0;39m <==    Updates: 1
+2022-04-08 09:31:34.935 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"success":true}
+2022-04-08 09:31:34.935 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：15 ms -------------
+2022-04-08 09:31:34.947 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-04-08 09:31:34.948 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/doc/all GET
+2022-04-08 09:31:34.948 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.DocController.all
+2022-04-08 09:31:34.948 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-04-08 09:31:34.948 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: []
+2022-04-08 09:31:34.949 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc order by sort asc
+2022-04-08 09:31:34.949 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m                  [0;39m ==> Parameters: 
+2022-04-08 09:31:34.949 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2022-04-08 09:31:34.950 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 1, 1, 0, document1, 1, 0, 0
+2022-04-08 09:31:34.950 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m                  [0;39m <==        Row: 2, 1, 1, document1.1, 1, 0, 0
+2022-04-08 09:31:34.950 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m                  [0;39m <==      Total: 2
+2022-04-08 09:31:34.951 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":[{"ebookId":1,"id":1,"name":"document1","parent":0,"sort":1,"viewCount":0,"voteCount":0},{"ebookId":1,"id":2,"name":"document1.1","parent":1,"sort":1,"viewCount":0,"voteCount":0}],"success":true}
+2022-04-08 09:31:34.952 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：5 ms -------------
