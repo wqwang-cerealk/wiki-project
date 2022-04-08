@@ -32,6 +32,9 @@
         <template #cover="{ text: cover }">
           <img v-if="cover" :src="cover" alt="avatar" />
         </template>
+        <template v-slot:category="{ text, record }">
+          <span>{{ getCategoryName(record.category1Id) }} / {{ getCategoryName(record.category2Id) }}</span>
+        </template>
         <template v-slot:action="{ text, record }">
           <a-space size="small">
             <a-button type="primary" @click="edit(record)">
@@ -109,13 +112,8 @@ export default defineComponent({
         dataIndex: 'name'
       },
       {
-        title: 'Category 1',
-        key: 'category1Id',
-        dataIndex: 'category1Id'
-      },
-      {
-        title: 'Category 2',
-        dataIndex: 'category2Id'
+        title: 'Category',
+        slots: {customRender: 'category'}
       },
       {
         title: 'Document Count',
@@ -141,6 +139,8 @@ export default defineComponent({
      **/
     const handleQuery = (params: any) => {
       loading.value = true;
+      //if we do not remove current data, cannot show data correctly
+      ebooks.value = [];
       axios.get("/ebook/list", {
         params: {
           page: params.page,
@@ -231,13 +231,14 @@ export default defineComponent({
     }
 
     const level1 = ref();
+    let categorys: any;
     const handleQueryCategory = () => {
       loading.value = true;
       axios.get("/category/all").then((response) => {
         loading.value = false;
         const data = response.data;
         if (data.success) {
-          const categorys = data.content;
+          categorys = data.content;
           console.log("original arrays：", categorys);
 
           level1.value = [];
@@ -248,6 +249,19 @@ export default defineComponent({
         }
       });
     };
+
+    const getCategoryName = (cid: number) => {
+      // console.log(cid)
+      let result = "";
+      categorys.forEach((item: any) => {
+        if (item.id === cid) {
+          // return item.name; // 注意，这里直接return不起作用
+          result = item.name;
+        }
+      });
+      return result;
+    };
+
 
 
     onMounted(() => {
@@ -273,6 +287,7 @@ export default defineComponent({
       loading,
       handleTableChange,
       handleQuery,
+      getCategoryName,
 
       edit,
       add,
