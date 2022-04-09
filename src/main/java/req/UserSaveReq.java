@@ -14,7 +14,7 @@ public class UserSaveReq {
 
     @NotNull(message = "【password】cannot be empty")
     // @Length(min = 6, max = 20, message = "【password】6~20 digits")
-    @Pattern(regexp = "^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,20}$", message = "【password】at least contain numbers and letters，length: 6-20")
+    @Pattern(regexp = "^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,32}$", message = "【password】at least contain numbers and letters，length: 6-32")
     private String password;
 
     public Long getId() {
