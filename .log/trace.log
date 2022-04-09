@@ -1594,3 +1594,109 @@ Caused by: java.lang.ClassNotFoundException: org.springframework.data.redis.core
 2022-04-09 12:08:17.171 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
 2022-04-09 12:08:17.171 INFO  com.ameliawiki.wiki.config.WikiApplication        :22   [32m                  [0;39m launch success!!!!!!!!YEA!!!
 2022-04-09 12:08:17.171 INFO  com.ameliawiki.wiki.config.WikiApplication        :23   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-09 12:11:01.669 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-09 12:11:06.838 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on Alexs-MacBook-Pro.local with PID 73926 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-09 12:11:06.838 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-09 12:11:07.000 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-09 12:11:07.001 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-09 12:11:07.002 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-04-09 12:11:07.116 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-09 12:11:07.116 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-09 12:11:07.117 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-09 12:11:07.117 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-09 12:11:07.127 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-09 12:11:07.128 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 287 ms
+2022-04-09 12:11:07.375 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-09 12:11:07.525 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-09 12:11:07.529 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-09 12:11:07.531 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-09 12:11:07.534 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.734 seconds (JVM running for 373.349)
+2022-04-09 12:11:07.535 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-09 12:11:07.535 INFO  com.ameliawiki.wiki.config.WikiApplication        :22   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-09 12:11:07.535 INFO  com.ameliawiki.wiki.config.WikiApplication        :23   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-09 12:11:27.217 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-09 12:11:32.288 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on Alexs-MacBook-Pro.local with PID 73926 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-09 12:11:32.289 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-09 12:11:32.418 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-09 12:11:32.418 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-09 12:11:32.419 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-04-09 12:11:32.489 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-09 12:11:32.489 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-09 12:11:32.490 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-09 12:11:32.490 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-09 12:11:32.499 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-09 12:11:32.499 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 208 ms
+2022-04-09 12:11:32.726 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-09 12:11:32.864 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-09 12:11:32.868 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-09 12:11:32.871 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-09 12:11:32.874 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.62 seconds (JVM running for 398.689)
+2022-04-09 12:11:32.875 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-09 12:11:32.875 INFO  com.ameliawiki.wiki.config.WikiApplication        :22   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-09 12:11:32.875 INFO  com.ameliawiki.wiki.config.WikiApplication        :23   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-09 12:12:04.682 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-09 12:12:09.762 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on Alexs-MacBook-Pro.local with PID 73926 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-09 12:12:09.763 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-09 12:12:09.880 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-09 12:12:09.880 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-09 12:12:09.881 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2022-04-09 12:12:09.956 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-09 12:12:09.956 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-09 12:12:09.956 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-09 12:12:09.956 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-09 12:12:09.965 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-09 12:12:09.965 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 200 ms
+2022-04-09 12:12:10.224 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-09 12:12:10.415 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-09 12:12:10.421 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-09 12:12:10.422 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-09 12:12:10.425 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.697 seconds (JVM running for 436.24)
+2022-04-09 12:12:10.426 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-09 12:12:10.426 INFO  com.ameliawiki.wiki.config.WikiApplication        :22   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-09 12:12:10.427 INFO  com.ameliawiki.wiki.config.WikiApplication        :23   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-09 12:13:38.930 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-09 12:13:44.009 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.1 on Alexs-MacBook-Pro.local with PID 73926 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-09 12:13:44.009 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-09 12:13:44.157 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-09 12:13:44.157 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-09 12:13:44.158 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-04-09 12:13:44.225 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-09 12:13:44.226 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-09 12:13:44.226 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-09 12:13:44.226 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-09 12:13:44.232 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-09 12:13:44.233 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 221 ms
+2022-04-09 12:13:44.449 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-09 12:13:44.593 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-09 12:13:44.598 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-09 12:13:44.599 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-09 12:13:44.602 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.628 seconds (JVM running for 530.416)
+2022-04-09 12:13:44.603 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-09 12:13:44.603 INFO  com.ameliawiki.wiki.config.WikiApplication        :22   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-09 12:13:44.603 INFO  com.ameliawiki.wiki.config.WikiApplication        :23   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-09 12:17:24.404 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-09 12:17:24.404 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-04-09 12:17:24.405 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-04-09 12:17:24.415 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-04-09 12:17:24.415 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/user/login POST
+2022-04-09 12:17:24.415 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.UserController.login
+2022-04-09 12:17:24.416 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-04-09 12:17:24.417 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [{"loginName":"test1"}]
+2022-04-09 12:17:24.424 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-2 - Starting...
+2022-04-09 12:17:24.444 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-2 - Start completed.
+2022-04-09 12:17:24.444 DEBUG c.a.wiki.mapper.UserMapper.selectByExample        :137  [32m                  [0;39m ==>  Preparing: select id, login_name, `name`, `password` from user WHERE ( login_name = ? )
+2022-04-09 12:17:24.445 DEBUG c.a.wiki.mapper.UserMapper.selectByExample        :137  [32m                  [0;39m ==> Parameters: test1(String)
+2022-04-09 12:17:24.450 TRACE c.a.wiki.mapper.UserMapper.selectByExample        :143  [32m                  [0;39m <==    Columns: id, login_name, name, password
+2022-04-09 12:17:24.450 TRACE c.a.wiki.mapper.UserMapper.selectByExample        :143  [32m                  [0;39m <==        Row: 1, test1, test1, 7354a1d413535a6c0dc5c209e198d799
+2022-04-09 12:17:24.451 DEBUG c.a.wiki.mapper.UserMapper.selectByExample        :137  [32m                  [0;39m <==      Total: 1
+2022-04-09 12:17:24.455 INFO  com.ameliawiki.wiki.controller.UserController     :75   [32m                  [0;39m generate single sign-on token：168076852928319488，and put it into redis
+2022-04-09 12:17:25.353 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: {"content":{"id":1,"loginName":"test1","name":"test1","token":"168076852928319488"},"success":true}
+2022-04-09 12:17:25.354 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：939 ms -------------
+2022-04-09 12:18:47.738 INFO  com.ameliawiki.wiki.aspect.LogAspect              :41   [32m                  [0;39m ------------- 开始 -------------
+2022-04-09 12:18:47.738 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m 请求地址: http://localhost:8080/redis/get/168076852928319488 GET
+2022-04-09 12:18:47.739 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.TestController.get
+2022-04-09 12:18:47.739 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-04-09 12:18:47.739 INFO  com.ameliawiki.wiki.aspect.LogAspect              :64   [32m                  [0;39m 请求参数: [168076852928319488]
+2022-04-09 12:18:47.914 INFO  com.ameliawiki.wiki.controller.TestController     :64   [32m                  [0;39m key: 168076852928319488, value: {"id":1,"loginName":"test1","name":"test1","token":"168076852928319488"}
+2022-04-09 12:18:47.915 INFO  com.ameliawiki.wiki.aspect.LogAspect              :77   [32m                  [0;39m 返回结果: "{\"id\":1,\"loginName\":\"test1\",\"name\":\"test1\",\"token\":\"168076852928319488\"}"
+2022-04-09 12:18:47.915 INFO  com.ameliawiki.wiki.aspect.LogAspect              :78   [32m                  [0;39m ------------- 结束 耗时：177 ms -------------
