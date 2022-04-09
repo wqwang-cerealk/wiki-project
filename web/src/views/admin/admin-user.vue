@@ -58,7 +58,7 @@
   >
     <a-form :model="user" :label-col="{ span: 6 }" :wrapper-col="{ span: 18 }">
       <a-form-item label="login name">
-        <a-input v-model:value="user.loginName" />
+        <a-input v-model:value="user.loginName" :disabled="!!user.id"/>
       </a-form-item>
       <a-form-item label="username">
         <a-input v-model:value="user.name" />
