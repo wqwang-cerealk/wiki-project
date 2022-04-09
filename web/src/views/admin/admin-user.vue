@@ -31,6 +31,9 @@
       >
         <template v-slot:action="{ text, record }">
           <a-space size="small">
+              <a-button type="primary" @click="resetPassword(record)">
+                            reset password
+              </a-button>
             <a-button type="primary" @click="edit(record)">
               Edit
             </a-button>
@@ -68,6 +71,19 @@
       </a-form-item>
     </a-form>
   </a-modal>
+
+  <a-modal
+      title="重置密码"
+      v-model:visible="resetModalVisible"
+      :confirm-loading="resetModalLoading"
+      @ok="handleResetModalOk"
+    >
+      <a-form :model="user" :label-col="{ span: 6 }" :wrapper-col="{ span: 18 }">
+        <a-form-item label="new password">
+          <a-input v-model:value="user.password"/>
+        </a-form-item>
+      </a-form>
+    </a-modal>
 </template>
 
 <script lang="ts">
@@ -206,6 +222,40 @@
         });
       };
 
+      // -------- 重置密码 ---------
+            const resetModalVisible = ref(false);
+            const resetModalLoading = ref(false);
+            const handleResetModalOk = () => {
+              resetModalLoading.value = true;
+
+              user.value.password = hexMd5(user.value.password + KEY);
+
+              axios.post("/user/reset-password", user.value).then((response) => {
+                resetModalLoading.value = false;
+                const data = response.data; // data = commonResp
+                if (data.success) {
+                  resetModalVisible.value = false;
+
+                  // 重新加载列表
+                  handleQuery({
+                    page: pagination.value.current,
+                    size: pagination.value.pageSize,
+                  });
+                } else {
+                  message.error(data.message);
+                }
+              });
+            };
+
+            /**
+             * 重置密码
+             */
+            const resetPassword = (record: any) => {
+              resetModalVisible.value = true;
+              user.value = Tool.copy(record);
+              user.value.password = null;
+            };
+
       onMounted(() => {
         handleQuery({
           page: 1,
@@ -230,7 +280,11 @@
         modalLoading,
         handleModalOk,
 
-        handleDelete
+        handleDelete,
+        resetModalVisible,
+        resetModalLoading,
+        handleResetModalOk,
+        resetPassword
       }
     }
   });
