@@ -2,12 +2,25 @@
   <a-layout-header class="header">
     <div class="logo" />
 
+    <a-popconfirm
+            title="confirm logout?"
+            ok-text="Yes"
+            cancel-text="No"
+            @confirm="logout()"
+          >
+            <a class="login-menu" v-show="user.id">
+              <span>logout</span>
+            </a>
+          </a-popconfirm>
+
     <a class="login-menu" v-show="user.id">
           <span>Welcome：{{user.name}}</span>
     </a>
     <a class="login-menu" v-show="!user.id" @click="showLoginModal">
               <span>login</span>
     </a>
+
+
 
     <a-menu
         theme="dark"
@@ -94,10 +107,26 @@ export default defineComponent({
                       loginModalVisible.value = false;
                       message.success("login successfully！");
                       store.commit("setUser", data.content);
-                    } else {
-                      message.error(data.message);
                     }
-                  });
+                    else {
+                                message.error(data.message);
+                              }
+                            });
+                          };
+
+              // logout
+        const logout = () => {
+            console.log("start logging out");
+            axios.get('/user/logout/' + user.value.token).then((response) => {
+              const data = response.data;
+              if (data.success) {
+                message.success("logout successfully！");
+                store.commit("setUser", {});
+               }
+                else {
+                  message.error(data.message);
+                }
+            });
         };
 
         return {
@@ -106,7 +135,8 @@ export default defineComponent({
           showLoginModal,
           loginUser,
           login,
-          user
+          user,
+          logout
         }
       }
 });
@@ -116,5 +146,6 @@ export default defineComponent({
   .login-menu {
     float: right;
     color: white;
+    padding-left: 10px;
   }
 </style>
