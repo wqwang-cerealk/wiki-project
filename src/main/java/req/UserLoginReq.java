@@ -1,14 +1,14 @@
 package req;
 
-import javax.validation.constraints.NotNull;
+import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
 
 public class UserLoginReq {
 
-    @NotNull(message = "【username】cannot be null")
+    @NotEmpty(message = "【username】cannot be null")
     private String loginName;
 
-    @NotNull(message = "【password】cannot be null")
+    @NotEmpty(message = "【password】cannot be null")
     @Pattern(regexp = "^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,32}$", message = "【password】doesn`t follow the correct rules")
     private String password;
 
