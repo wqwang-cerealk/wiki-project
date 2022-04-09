@@ -63,8 +63,8 @@
       <a-form-item label="username">
         <a-input v-model:value="user.name" />
       </a-form-item>
-      <a-form-item label="password">
-        <a-input v-model:value="user.password" />
+      <a-form-item label="password" v-show="!user.id">
+        <a-input v-model:value="user.password"/>
       </a-form-item>
     </a-form>
   </a-modal>
