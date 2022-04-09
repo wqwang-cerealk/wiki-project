@@ -3,10 +3,12 @@ package com.ameliawiki.wiki.controller;
 import com.ameliawiki.wiki.service.UserService;
 import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.*;
+import req.UserLoginReq;
 import req.UserQueryReq;
 import req.UserResetPasswordReq;
 import req.UserSaveReq;
 import resp.CommonResp;
+import resp.UserLoginResp;
 import resp.UserQueryResp;
 import resp.PageResp;
 
@@ -48,6 +50,15 @@ public class UserController {
         req.setPassword(DigestUtils.md5DigestAsHex(req.getPassword().getBytes()));
         CommonResp resp = new CommonResp<>();
         userService.resetPassword(req);
+        return resp;
+    }
+
+    @PostMapping("/login")
+    public CommonResp login(@Valid @RequestBody UserLoginReq req) {
+        req.setPassword(DigestUtils.md5DigestAsHex(req.getPassword().getBytes()));
+        CommonResp<UserLoginResp> resp = new CommonResp<>();
+        UserLoginResp userLoginResp = userService.login(req);
+        resp.setContent(userLoginResp);
         return resp;
     }
 }
