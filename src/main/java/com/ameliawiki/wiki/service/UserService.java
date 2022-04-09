@@ -2,6 +2,8 @@ package com.ameliawiki.wiki.service;
 
 import com.ameliawiki.wiki.domain.User;
 import com.ameliawiki.wiki.domain.UserExample;
+import com.ameliawiki.wiki.exception.BusinessException;
+import com.ameliawiki.wiki.exception.BusinessExceptionCode;
 import com.ameliawiki.wiki.mapper.UserMapper;
 import com.ameliawiki.wiki.util.CopyUtil;
 import com.ameliawiki.wiki.util.SnowFlake;
@@ -10,6 +12,7 @@ import com.github.pagehelper.PageInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
 import org.springframework.util.ObjectUtils;
 import req.UserQueryReq;
 import req.UserSaveReq;
@@ -70,15 +73,37 @@ public class UserService {
         User user = CopyUtil.copy(req, User.class);
         if (ObjectUtils.isEmpty(req.getId())) {
             // 新增
-            user.setId(snowFlake.nextId());
-            userMapper.insert(user);
+            User userDB = selectByLoginName(req.getLoginName());
+            if (ObjectUtils.isEmpty(userDB)) {
+                // 新增
+                user.setId(snowFlake.nextId());
+                userMapper.insert(user);
+            } else {
+                // 用户名已存在
+                throw new BusinessException(BusinessExceptionCode.USER_LOGIN_NAME_EXIST);
+            }
         } else {
             // 更新
             userMapper.updateByPrimaryKey(user);
         }
     }
 
+
+
     public void delete(Long id) {
         userMapper.deleteByPrimaryKey(id);
     }
+
+    public User selectByLoginName(String LoginName) {
+        UserExample userExample = new UserExample();
+        UserExample.Criteria criteria = userExample.createCriteria();
+        criteria.andLoginNameEqualTo(LoginName);
+        List<User> userList = userMapper.selectByExample(userExample);
+        if (CollectionUtils.isEmpty(userList)) {
+            return null;
+        } else {
+            return userList.get(0);
+        }
+    }
 }
+
