@@ -1,9 +1,14 @@
 <template>
   <a-layout-header class="header">
     <div class="logo" />
-    <a class="login-menu" @click="showLoginModal">
+
+    <a class="login-menu" v-show="user.id">
+          <span>Welcome：{{user.name}}</span>
+    </a>
+    <a class="login-menu" v-show="!user.id" @click="showLoginModal">
               <span>login</span>
-            </a>
+    </a>
+
     <a-menu
         theme="dark"
         mode="horizontal"
@@ -60,9 +65,16 @@ import axios from 'axios';
 export default defineComponent({
   name: 'the-header',
   setup () {
+
+        // save info after login
+        const user = ref();
+        user.value = {};
+
+        // for login
+
         const loginUser = ref({
-          loginName: "test",
-          password: "test"
+          loginName: "test1",
+          password: "test123"
         });
         const loginModalVisible = ref(false);
         const loginModalLoading = ref(false);
@@ -72,7 +84,7 @@ export default defineComponent({
 
         // 登录
         const login = () => {
-          console.log("开始登录");
+          console.log("start logging in");
                   loginModalLoading.value = true;
                   loginUser.value.password = hexMd5(loginUser.value.password + KEY);
                   axios.post('/user/login', loginUser.value).then((response) => {
@@ -80,7 +92,8 @@ export default defineComponent({
                     const data = response.data;
                     if (data.success) {
                       loginModalVisible.value = false;
-                      message.success("登录成功！");
+                      message.success("login successfully！");
+                      user.value = data.content;
                     } else {
                       message.error(data.message);
                     }
@@ -92,7 +105,8 @@ export default defineComponent({
           loginModalLoading,
           showLoginModal,
           loginUser,
-          login
+          login,
+          user
         }
       }
 });
