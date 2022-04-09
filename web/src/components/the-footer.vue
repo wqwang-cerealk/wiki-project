@@ -1,6 +1,6 @@
 <template>
   <a-layout-footer style="text-align: center">
-    ADPN EBook, welcome: {{user.name}}
+    ADPN EBook <span v-show="user.id">, welcome: {{user.name}} </span>
   </a-layout-footer>
 </template>
 
