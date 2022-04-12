@@ -3834,3 +3834,229 @@ java.lang.InterruptedException: sleep interrupted
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-12 13:48:10.358 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2022-04-12 13:48:10.365 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.2 on Alexs-MacBook-Pro.local with PID 11261 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-12 13:48:10.365 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-12 13:48:10.406 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-12 13:48:10.407 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-12 13:48:10.951 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-12 13:48:10.954 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-12 13:48:10.978 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2022-04-12 13:48:11.584 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-12 13:48:11.592 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-12 13:48:11.592 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-12 13:48:11.592 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-12 13:48:11.637 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-12 13:48:11.637 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1230 ms
+2022-04-12 13:48:12.704 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-12 13:48:13.063 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-04-12 13:48:13.113 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-12 13:48:13.125 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-12 13:48:13.138 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-12 13:48:13.151 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 8.212 seconds (JVM running for 8.615)
+2022-04-12 13:48:13.154 INFO  com.ameliawiki.wiki.config.WikiApplication        :24   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-12 13:48:13.155 INFO  com.ameliawiki.wiki.config.WikiApplication        :25   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-12 13:48:15.148 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:13
+2022-04-12 13:48:16.652 INFO  com.ameliawiki.wiki.job.TestJob                   :36   [32m                  [0;39m 每隔1秒钟执行一次： 48:15 150
+2022-04-12 13:48:18.656 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:16
+2022-04-12 13:48:20.657 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:18
+2022-04-12 13:48:22.662 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:20
+2022-04-12 13:48:24.168 INFO  com.ameliawiki.wiki.job.TestJob                   :36   [32m                  [0;39m 每隔1秒钟执行一次： 48:22 664
+2022-04-12 13:48:26.174 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:24
+2022-04-12 13:48:28.176 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:26
+2022-04-12 13:48:30.180 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:28
+2022-04-12 13:48:32.183 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:30
+2022-04-12 13:48:34.189 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:32
+2022-04-12 13:48:36.193 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:34
+2022-04-12 13:48:38.197 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:36
+2022-04-12 13:48:40.200 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:38
+2022-04-12 13:48:41.702 INFO  com.ameliawiki.wiki.job.TestJob                   :36   [32m                  [0;39m 每隔1秒钟执行一次： 48:40 201
+2022-04-12 13:48:43.706 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:41
+2022-04-12 13:48:45.712 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:43
+2022-04-12 13:48:47.717 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:45
+2022-04-12 13:48:49.723 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:47
+2022-04-12 13:48:51.727 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:49
+2022-04-12 13:48:53.733 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:51
+2022-04-12 13:48:55.739 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:53
+2022-04-12 13:48:57.743 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:55
+2022-04-12 13:48:59.748 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:57
+2022-04-12 13:49:01.753 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 48:59
+2022-04-12 13:49:01.796 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-04-12 13:49:02.317 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-04-12 13:49:02.330 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m                  [0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-12 13:49:02.353 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m                  [0;39m ==> Parameters: 
+2022-04-12 13:49:02.382 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m                  [0;39m <==    Updates: 1
+2022-04-12 13:49:04.388 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 49:02
+2022-04-12 13:49:06.391 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 49:04
+2022-04-12 13:49:08.396 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 49:06
+2022-04-12 13:49:10.401 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 49:08
+2022-04-12 13:49:12.383 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-04-12 13:49:12.384 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-12 13:49:12.385 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2022-04-12 13:49:12.385 ERROR o.s.s.support.TaskUtils$LoggingErrorHandler       :95   [32m                  [0;39m Unexpected error occurred in scheduled task
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at com.ameliawiki.wiki.job.TestJob.simple(TestJob.java:23)
+	at jdk.internal.reflect.GeneratedMethodAccessor57.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-12 13:49:12.394 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2022-04-12 13:58:46.899 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2022-04-12 13:58:46.906 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.2 on Alexs-MacBook-Pro.local with PID 11624 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-12 13:58:46.906 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-12 13:58:46.948 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-12 13:58:46.948 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-12 13:58:47.482 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-12 13:58:47.484 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-12 13:58:47.503 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2022-04-12 13:58:48.120 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-12 13:58:48.128 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-12 13:58:48.129 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-12 13:58:48.129 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-12 13:58:48.177 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-12 13:58:48.178 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1229 ms
+2022-04-12 13:58:48.957 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-12 13:58:49.250 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-04-12 13:58:49.291 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-12 13:58:49.302 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-12 13:58:49.313 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-12 13:58:49.324 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 7.89 seconds (JVM running for 8.359)
+2022-04-12 13:58:49.326 INFO  com.ameliawiki.wiki.config.WikiApplication        :24   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-12 13:58:49.326 INFO  com.ameliawiki.wiki.config.WikiApplication        :25   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-12 13:58:51.326 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 58:49
+2022-04-12 13:58:52.831 INFO  com.ameliawiki.wiki.job.TestJob                   :36   [32m                  [0;39m 每隔1秒钟执行一次： 58:51 328
+2022-04-12 13:58:54.834 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 58:52
+2022-04-12 13:58:56.839 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 58:54
+2022-04-12 13:58:58.840 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 58:56
+2022-04-12 13:59:00.341 INFO  com.ameliawiki.wiki.job.TestJob                   :36   [32m                  [0;39m 每隔1秒钟执行一次： 58:58 841
+2022-04-12 13:59:02.343 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:00
+2022-04-12 13:59:04.345 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:02
+2022-04-12 13:59:06.346 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:04
+2022-04-12 13:59:08.351 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:06
+2022-04-12 13:59:10.352 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:08
+2022-04-12 13:59:12.354 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:10
+2022-04-12 13:59:14.355 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:12
+2022-04-12 13:59:16.356 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:14
+2022-04-12 13:59:17.857 INFO  com.ameliawiki.wiki.job.TestJob                   :36   [32m                  [0;39m 每隔1秒钟执行一次： 59:16 356
+2022-04-12 13:59:19.867 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:17
+2022-04-12 13:59:21.872 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:19
+2022-04-12 13:59:23.877 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:21
+2022-04-12 13:59:25.898 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:23
+2022-04-12 13:59:25.902 INFO  com.ameliawiki.wiki.job.DocJob                    :27   [32m                  [0;39m start updating Ebook doc
+2022-04-12 13:59:26.010 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-04-12 13:59:26.342 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-04-12 13:59:26.352 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m                  [0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-12 13:59:26.375 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m                  [0;39m ==> Parameters: 
+2022-04-12 13:59:26.416 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m                  [0;39m <==    Updates: 1
+2022-04-12 13:59:26.419 INFO  com.ameliawiki.wiki.job.DocJob                    :30   [32m                  [0;39m update ends, take 516 millisecs
+2022-04-12 13:59:28.420 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:26
+2022-04-12 13:59:30.425 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:28
+2022-04-12 13:59:32.429 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:30
+2022-04-12 13:59:34.433 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:32
+2022-04-12 13:59:34.794 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-12 13:59:34.795 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-04-12 13:59:34.819 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 24 ms
+2022-04-12 13:59:34.917 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m ------------- 开始 -------------
+2022-04-12 13:59:34.918 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/category/all GET
+2022-04-12 13:59:34.918 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.CategoryController.all
+2022-04-12 13:59:34.918 INFO  com.ameliawiki.wiki.aspect.LogAspect              :45   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-04-12 13:59:34.976 INFO  com.ameliawiki.wiki.aspect.LogAspect              :67   [32m                  [0;39m 请求参数: []
+2022-04-12 13:59:35.019 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-04-12 13:59:35.044 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m ==> Parameters: 
+2022-04-12 13:59:35.076 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==    Columns: id, parent, name, sort
+2022-04-12 13:59:35.076 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 100, 0, Front end development, 100
+2022-04-12 13:59:35.078 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 101, 100, Vue, 101
+2022-04-12 13:59:35.078 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-04-12 13:59:35.078 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 200, 0, Java, 200
+2022-04-12 13:59:35.078 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 201, 200, Basics, 201
+2022-04-12 13:59:35.079 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 202, 200, Frameworks, 202
+2022-04-12 13:59:35.079 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 300, 0, Python, 300
+2022-04-12 13:59:35.079 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 301, 300, Basic application, 301
+2022-04-12 13:59:35.080 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 302, 300, Advanced application, 302
+2022-04-12 13:59:35.080 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 400, 0, Database, 400
+2022-04-12 13:59:35.080 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 401, 400, MySQL, 401
+2022-04-12 13:59:35.081 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 500, 0, Others, 500
+2022-04-12 13:59:35.081 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 501, 500, Servers, 501
+2022-04-12 13:59:35.081 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 502, 500, Tools, 502
+2022-04-12 13:59:35.082 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m                  [0;39m <==        Row: 503, 500, Languages, 503
+2022-04-12 13:59:35.083 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m                  [0;39m <==      Total: 15
+2022-04-12 13:59:35.110 INFO  com.ameliawiki.wiki.aspect.LogAspect              :80   [32m                  [0;39m 返回结果: {"content":[{"id":100,"name":"Front end development","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"Basics","parent":200,"sort":201},{"id":202,"name":"Frameworks","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"Basic application","parent":300,"sort":301},{"id":302,"name":"Advanced application","parent":300,"sort":302},{"id":400,"name":"Database","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"Others","parent":0,"sort":500},{"id":501,"name":"Servers","parent":500,"sort":501},{"id":502,"name":"Tools","parent":500,"sort":502},{"id":503,"name":"Languages","parent":500,"sort":503}],"success":true}
+2022-04-12 13:59:35.110 INFO  com.ameliawiki.wiki.aspect.LogAspect              :81   [32m                  [0;39m ------------- 结束 耗时：198 ms -------------
+2022-04-12 13:59:36.440 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:34
+2022-04-12 13:59:38.442 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:36
+2022-04-12 13:59:38.574 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m ------------- 开始 -------------
+2022-04-12 13:59:38.574 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/ebook/list GET
+2022-04-12 13:59:38.575 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.EbookController.list
+2022-04-12 13:59:38.575 INFO  com.ameliawiki.wiki.aspect.LogAspect              :45   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-04-12 13:59:38.578 INFO  com.ameliawiki.wiki.aspect.LogAspect              :67   [32m                  [0;39m 请求参数: [{"categoryId2":201,"page":1,"size":1000}]
+2022-04-12 13:59:38.663 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook WHERE (category2_id = ?)
+2022-04-12 13:59:38.669 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==> Parameters: 201(Long)
+2022-04-12 13:59:38.705 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==    Columns: count(0)
+2022-04-12 13:59:38.706 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==        Row: 0
+2022-04-12 13:59:38.707 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m <==      Total: 1
+2022-04-12 13:59:38.709 INFO  com.ameliawiki.wiki.service.EbookService          :46   [32m                  [0;39m total rows：0
+2022-04-12 13:59:38.710 INFO  com.ameliawiki.wiki.service.EbookService          :47   [32m                  [0;39m total pages：0
+2022-04-12 13:59:38.714 INFO  com.ameliawiki.wiki.aspect.LogAspect              :80   [32m                  [0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2022-04-12 13:59:38.715 INFO  com.ameliawiki.wiki.aspect.LogAspect              :81   [32m                  [0;39m ------------- 结束 耗时：141 ms -------------
+2022-04-12 13:59:39.080 INFO  com.ameliawiki.wiki.aspect.LogAspect              :42   [32m                  [0;39m ------------- 开始 -------------
+2022-04-12 13:59:39.080 INFO  com.ameliawiki.wiki.aspect.LogAspect              :43   [32m                  [0;39m 请求地址: http://127.0.0.1:8080/ebook/list GET
+2022-04-12 13:59:39.080 INFO  com.ameliawiki.wiki.aspect.LogAspect              :44   [32m                  [0;39m 类名方法: com.ameliawiki.wiki.controller.EbookController.list
+2022-04-12 13:59:39.080 INFO  com.ameliawiki.wiki.aspect.LogAspect              :45   [32m                  [0;39m 远程地址: 127.0.0.1
+2022-04-12 13:59:39.081 INFO  com.ameliawiki.wiki.aspect.LogAspect              :67   [32m                  [0;39m 请求参数: [{"categoryId2":202,"page":1,"size":1000}]
+2022-04-12 13:59:39.082 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==>  Preparing: SELECT count(0) FROM ebook WHERE (category2_id = ?)
+2022-04-12 13:59:39.083 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m ==> Parameters: 202(Long)
+2022-04-12 13:59:39.090 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==    Columns: count(0)
+2022-04-12 13:59:39.090 TRACE c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :143  [32m                  [0;39m <==        Row: 1
+2022-04-12 13:59:39.091 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample_COUNT :137  [32m                  [0;39m <==      Total: 1
+2022-04-12 13:59:39.092 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==>  Preparing: select id, `name`, category1_id, category2_id, description, cover, doc_count, view_count, vote_count from ebook WHERE ( category2_id = ? ) LIMIT ?
+2022-04-12 13:59:39.093 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m ==> Parameters: 202(Long), 1000(Integer)
+2022-04-12 13:59:39.094 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==    Columns: id, name, category1_id, category2_id, description, cover, doc_count, view_count, vote_count
+2022-04-12 13:59:39.094 TRACE c.a.wiki.mapper.EbookMapper.selectByExample       :143  [32m                  [0;39m <==        Row: 1, SpringBoot Tutorial, 200, 202, Introduce how to create a SpringBoot project, /image/cover1.png, 4, 24, 2
+2022-04-12 13:59:39.095 DEBUG c.a.wiki.mapper.EbookMapper.selectByExample       :137  [32m                  [0;39m <==      Total: 1
+2022-04-12 13:59:39.095 INFO  com.ameliawiki.wiki.service.EbookService          :46   [32m                  [0;39m total rows：1
+2022-04-12 13:59:39.096 INFO  com.ameliawiki.wiki.service.EbookService          :47   [32m                  [0;39m total pages：1
+2022-04-12 13:59:39.105 INFO  com.ameliawiki.wiki.aspect.LogAspect              :80   [32m                  [0;39m 返回结果: {"content":{"list":[{"category1Id":200,"category2Id":202,"cover":"/image/cover1.png","description":"Introduce how to create a SpringBoot project","docCount":4,"id":1,"name":"SpringBoot Tutorial","viewCount":24,"voteCount":2}],"total":1},"success":true}
+2022-04-12 13:59:39.105 INFO  com.ameliawiki.wiki.aspect.LogAspect              :81   [32m                  [0;39m ------------- 结束 耗时：25 ms -------------
+2022-04-12 13:59:40.447 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:38
+2022-04-12 13:59:42.452 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:40
+2022-04-12 13:59:44.453 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:42
+2022-04-12 13:59:46.454 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:44
+2022-04-12 13:59:48.459 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:46
+2022-04-12 13:59:50.462 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:48
+2022-04-12 13:59:52.467 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:50
+2022-04-12 13:59:53.969 INFO  com.ameliawiki.wiki.job.TestJob                   :36   [32m                  [0;39m 每隔1秒钟执行一次： 59:52 468
+2022-04-12 13:59:55.971 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:53
+2022-04-12 13:59:57.973 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:55
+2022-04-12 13:59:59.979 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:57
+2022-04-12 14:00:01.983 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 59:59
+2022-04-12 14:00:03.987 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 00:01
+2022-04-12 14:00:05.991 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 00:03
+2022-04-12 14:00:07.995 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 00:05
+2022-04-12 14:00:09.998 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 00:07
+2022-04-12 14:00:12.003 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 00:10
+2022-04-12 14:00:14.007 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 00:12
+2022-04-12 14:00:16.009 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 00:14
+2022-04-12 14:00:18.015 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 00:16
+2022-04-12 14:00:20.019 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 00:18
+2022-04-12 14:00:22.021 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 00:20
+2022-04-12 14:00:24.025 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 00:22
+2022-04-12 14:00:26.030 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 00:24
+2022-04-12 14:00:28.034 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 00:26
+2022-04-12 14:00:28.037 INFO  com.ameliawiki.wiki.job.DocJob                    :27   [32m                  [0;39m start updating Ebook doc
+2022-04-12 14:00:28.469 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m                  [0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-12 14:00:28.470 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m                  [0;39m ==> Parameters: 
+2022-04-12 14:00:28.537 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m                  [0;39m <==    Updates: 1
+2022-04-12 14:00:28.538 INFO  com.ameliawiki.wiki.job.DocJob                    :30   [32m                  [0;39m update ends, take 77 millisecs
+2022-04-12 14:00:30.543 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 00:28
+2022-04-12 14:00:32.544 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 00:30
+2022-04-12 14:00:34.545 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 00:32
+2022-04-12 14:00:36.546 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 00:34
+2022-04-12 14:00:38.551 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 00:36
