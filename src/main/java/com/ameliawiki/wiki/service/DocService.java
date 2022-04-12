@@ -3,10 +3,14 @@ package com.ameliawiki.wiki.service;
 import com.ameliawiki.wiki.domain.Content;
 import com.ameliawiki.wiki.domain.Doc;
 import com.ameliawiki.wiki.domain.DocExample;
+import com.ameliawiki.wiki.exception.BusinessException;
+import com.ameliawiki.wiki.exception.BusinessExceptionCode;
 import com.ameliawiki.wiki.mapper.ContentMapper;
 import com.ameliawiki.wiki.mapper.DocMapper;
 import com.ameliawiki.wiki.mapper.DocMapperCust;
 import com.ameliawiki.wiki.util.CopyUtil;
+import com.ameliawiki.wiki.util.RedisUtil;
+import com.ameliawiki.wiki.util.RequestContext;
 import com.ameliawiki.wiki.util.SnowFlake;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
@@ -38,6 +42,9 @@ public class DocService {
 
     @Resource
     private SnowFlake snowFlake;
+
+    @Resource
+    public RedisUtil redisUtil;
 
     public PageResp<DocQueryResp> list(DocQueryReq req) {
         DocExample docExample = new DocExample();
@@ -111,6 +118,18 @@ public class DocService {
             return "";
         } else{
             return content.getContent();
+        }
+    }
+
+    /**
+     * vote
+     */
+    public void vote(Long id) {
+        String ip = RequestContext.getRemoteAddr();
+        if (redisUtil.validateRepeat("DOC_VOTE" + id + "_" + ip, 3600 * 24)) {
+            docMapperCust.increaseVoteCount(id);
+        } else {
+            throw new BusinessException(BusinessExceptionCode.VOTE_REPEAT);
         }
     }
 }

@@ -15,7 +15,20 @@
           </a-tree>
         </a-col>
         <a-col :span="18">
-          <div :innerHTML="html"></div>
+          <div>
+            <h2>{{doc.name}}</h2>
+            <div>
+              <span>View Count：{{doc.viewCount}}</span> &nbsp; &nbsp;
+              <span>Vote Count：{{doc.voteCount}}</span>
+            </div>
+            <a-divider style="height: 2px; background-color: #9999cc"/>
+          </div>
+          <div class="wangeditor" :innerHTML="html"></div>
+          <div class="vote-div">
+            <a-button type="primary" shape="round" :size="'large'" @click="vote">
+              <template #icon><LikeOutlined /> &nbsp;Vote：{{doc.voteCount}} </template>
+            </a-button>
+          </div>
         </a-col>
       </a-row>
     </a-layout-content>
@@ -37,6 +50,8 @@ export default defineComponent({
     const html = ref();
     const defaultSelectedKeys = ref();
     defaultSelectedKeys.value = [];
+    const doc = ref();
+    doc.value = {};
 
     /**
      *
@@ -81,6 +96,8 @@ export default defineComponent({
           if (Tool.isNotEmpty(level1)){
             defaultSelectedKeys.value = [level1.value[0].id];
             handleQueryContent(level1.value[0].id);
+            //initialize doc info
+            doc.value = level1.value[0];
           }
         } else {
           message.error(data.message);
@@ -92,9 +109,22 @@ export default defineComponent({
     const onSelect = (selectedKeys: any, info: any) => {
       console.log('selected', selectedKeys, info);
       if (Tool.isNotEmpty(selectedKeys)) {
+        doc.value = info.selectedNodes[0].props;
         // load content
         handleQueryContent(selectedKeys[0]);
       }
+    };
+
+    // vote
+    const vote = () => {
+      axios.get('/doc/vote/' + doc.value.id).then((response) => {
+        const data = response.data;
+        if (data.success) {
+          doc.value.voteCount++;
+        } else {
+          message.error(data.message);
+        }
+      });
     };
 
 
@@ -106,7 +136,9 @@ export default defineComponent({
       level1,
       html,
       onSelect,
-      defaultSelectedKeys
+      defaultSelectedKeys,
+      doc,
+      vote
     }
   }
 });
@@ -166,5 +198,11 @@ export default defineComponent({
   margin: 20px 10px !important;
   font-size: 16px !important;
   font-weight:600;
+}
+
+/* vote */
+.vote-div {
+  padding: 15px;
+  text-align: center;
 }
 </style>
