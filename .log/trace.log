@@ -3558,3 +3558,279 @@ Caused by: java.lang.ClassNotFoundException: com.ameliawiki.wiki.service.UserSer
 2022-04-12 10:46:56.656 INFO  com.ameliawiki.wiki.util.RedisUtil                :27   [32m                  [0;39m key already exist：DOC_VOTE1_127.0.0.1
 2022-04-12 10:46:56.658 WARN  c.a.wiki.controller.ControllerExceptionHandler    :44   [32m                  [0;39m 业务异常：you already voted for this article
 2022-04-12 10:46:56.660 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [com.ameliawiki.wiki.exception.BusinessException: you already voted for this article]
+2022-04-12 11:16:02.045 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=15m38s622ms).
+2022-04-12 12:40:28.613 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=8m55s584ms).
+2022-04-12 12:41:38.641 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1m10s30ms).
+2022-04-12 13:07:24.236 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=25m15s564ms).
+2022-04-12 13:08:54.812 WARN  com.zaxxer.hikari.pool.HikariPool                 :787  [32m                  [0;39m HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=1m30s576ms).
+2022-04-12 13:28:02.479 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-12 13:28:02.502 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-5 - Shutdown initiated...
+2022-04-12 13:28:02.824 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-5 - Shutdown completed.
+2022-04-12 13:28:08.485 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.2 on Alexs-MacBook-Pro.local with PID 5495 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-12 13:28:08.485 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-12 13:28:08.677 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-12 13:28:08.677 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-12 13:28:08.678 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-04-12 13:28:08.952 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-12 13:28:08.953 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-12 13:28:08.953 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-12 13:28:08.954 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-12 13:28:08.971 INFO  o.a.c.c.ContainerBase.[Tomcat-7].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-12 13:28:08.971 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 481 ms
+2022-04-12 13:28:09.317 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-12 13:28:09.483 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-12 13:28:09.488 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-12 13:28:09.490 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-12 13:28:09.492 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 6.049 seconds (JVM running for 11418.79)
+2022-04-12 13:28:09.494 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-12 13:28:09.494 INFO  com.ameliawiki.wiki.config.WikiApplication        :22   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-12 13:28:09.494 INFO  com.ameliawiki.wiki.config.WikiApplication        :23   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-12 13:28:58.496 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-12 13:29:03.596 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.2 on Alexs-MacBook-Pro.local with PID 5495 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-12 13:29:03.597 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-12 13:29:03.739 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-12 13:29:03.739 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-12 13:29:03.740 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-04-12 13:29:03.822 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-12 13:29:03.822 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-12 13:29:03.822 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-12 13:29:03.823 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-12 13:29:03.829 INFO  o.a.c.c.ContainerBase.[Tomcat-7].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-12 13:29:03.829 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 227 ms
+2022-04-12 13:29:04.060 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-12 13:29:04.204 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-04-12 13:29:04.223 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-12 13:29:04.228 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-12 13:29:04.229 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-12 13:29:04.237 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.665 seconds (JVM running for 11473.534)
+2022-04-12 13:29:04.243 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :58   [32m                  [0;39m Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   TaskSchedulingAutoConfiguration#taskScheduler matched:
+      - @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) found bean 'org.springframework.context.annotation.internalScheduledAnnotationProcessor'; @ConditionalOnMissingBean (types: org.springframework.scheduling.annotation.SchedulingConfigurer,org.springframework.scheduling.TaskScheduler,java.util.concurrent.ScheduledExecutorService; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2022-04-12 13:29:04.243 INFO  com.ameliawiki.wiki.config.WikiApplication        :24   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-12 13:29:04.243 INFO  com.ameliawiki.wiki.config.WikiApplication        :25   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-12 13:29:30.998 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-04-12 13:29:30.999 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-12 13:29:36.089 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.2 on Alexs-MacBook-Pro.local with PID 5495 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-12 13:29:36.090 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-12 13:29:36.385 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-12 13:29:36.386 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-12 13:29:36.387 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-04-12 13:29:36.472 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-12 13:29:36.472 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-12 13:29:36.473 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-12 13:29:36.473 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-12 13:29:36.482 INFO  o.a.c.c.ContainerBase.[Tomcat-7].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-12 13:29:36.482 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 390 ms
+2022-04-12 13:29:36.738 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-12 13:29:36.890 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-04-12 13:29:36.907 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-12 13:29:36.912 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-12 13:29:36.915 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-12 13:29:36.942 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.886 seconds (JVM running for 11506.24)
+2022-04-12 13:29:36.945 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-12 13:29:36.945 INFO  com.ameliawiki.wiki.config.WikiApplication        :24   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-12 13:29:36.945 INFO  com.ameliawiki.wiki.config.WikiApplication        :25   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-12 13:29:38.939 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 29:36
+2022-04-12 13:29:40.443 INFO  com.ameliawiki.wiki.job.TestJob                   :36   [32m                  [0;39m 每隔1秒钟执行一次： 29:38 940
+2022-04-12 13:29:42.445 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 29:40
+2022-04-12 13:29:44.446 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 29:42
+2022-04-12 13:29:46.451 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 29:44
+2022-04-12 13:29:48.454 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 29:46
+2022-04-12 13:29:49.957 INFO  com.ameliawiki.wiki.job.TestJob                   :36   [32m                  [0;39m 每隔1秒钟执行一次： 29:48 454
+2022-04-12 13:29:51.961 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 29:49
+2022-04-12 13:29:53.963 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 29:51
+2022-04-12 13:29:55.968 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 29:53
+2022-04-12 13:29:57.973 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 29:55
+2022-04-12 13:29:59.973 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 29:57
+2022-04-12 13:30:01.978 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 29:59
+2022-04-12 13:30:03.981 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:01
+2022-04-12 13:30:05.986 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:03
+2022-04-12 13:30:07.990 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:05
+2022-04-12 13:30:09.491 INFO  com.ameliawiki.wiki.job.TestJob                   :36   [32m                  [0;39m 每隔1秒钟执行一次： 30:07 990
+2022-04-12 13:30:11.494 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:09
+2022-04-12 13:30:13.498 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:11
+2022-04-12 13:30:15.502 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:13
+2022-04-12 13:30:17.504 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:15
+2022-04-12 13:30:19.506 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:17
+2022-04-12 13:30:21.508 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:19
+2022-04-12 13:30:23.510 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:21
+2022-04-12 13:30:25.512 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:23
+2022-04-12 13:30:27.516 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:25
+2022-04-12 13:30:29.521 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:27
+2022-04-12 13:30:31.523 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:29
+2022-04-12 13:30:33.525 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:31
+2022-04-12 13:30:35.530 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:33
+2022-04-12 13:30:37.532 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:35
+2022-04-12 13:30:39.536 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:37
+2022-04-12 13:30:41.540 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:39
+2022-04-12 13:30:43.541 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:41
+2022-04-12 13:30:45.543 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:43
+2022-04-12 13:30:47.548 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:45
+2022-04-12 13:30:49.553 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:47
+2022-04-12 13:30:51.056 INFO  com.ameliawiki.wiki.job.TestJob                   :36   [32m                  [0;39m 每隔1秒钟执行一次： 30:49 553
+2022-04-12 13:30:53.062 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:51
+2022-04-12 13:30:55.067 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:53
+2022-04-12 13:30:57.067 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:55
+2022-04-12 13:30:59.069 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:57
+2022-04-12 13:31:01.074 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 30:59
+2022-04-12 13:31:03.079 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:01
+2022-04-12 13:31:05.083 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:03
+2022-04-12 13:31:07.089 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:05
+2022-04-12 13:31:09.091 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:07
+2022-04-12 13:31:11.094 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:09
+2022-04-12 13:31:13.098 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:11
+2022-04-12 13:31:15.099 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:13
+2022-04-12 13:31:17.099 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:15
+2022-04-12 13:31:19.104 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:17
+2022-04-12 13:31:21.104 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:19
+2022-04-12 13:31:23.105 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:21
+2022-04-12 13:31:25.105 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:23
+2022-04-12 13:31:27.111 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:25
+2022-04-12 13:31:29.111 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:27
+2022-04-12 13:31:31.114 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:29
+2022-04-12 13:31:33.114 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:31
+2022-04-12 13:31:35.116 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:33
+2022-04-12 13:31:37.120 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:35
+2022-04-12 13:31:39.122 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:37
+2022-04-12 13:31:41.127 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:39
+2022-04-12 13:31:43.660 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:41
+2022-04-12 13:31:45.663 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:43
+2022-04-12 13:31:47.663 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:45
+2022-04-12 13:31:49.667 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:47
+2022-04-12 13:31:51.672 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:49
+2022-04-12 13:31:53.676 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:51
+2022-04-12 13:31:55.680 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:53
+2022-04-12 13:31:57.683 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:55
+2022-04-12 13:31:59.689 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:57
+2022-04-12 13:32:01.693 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 31:59
+2022-04-12 13:32:03.696 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:01
+2022-04-12 13:32:05.701 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:03
+2022-04-12 13:32:07.707 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:05
+2022-04-12 13:32:09.708 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:07
+2022-04-12 13:32:11.713 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:09
+2022-04-12 13:32:13.716 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:11
+2022-04-12 13:32:15.716 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:13
+2022-04-12 13:32:17.221 INFO  com.ameliawiki.wiki.job.TestJob                   :36   [32m                  [0;39m 每隔1秒钟执行一次： 32:15 717
+2022-04-12 13:32:19.226 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:17
+2022-04-12 13:32:21.227 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:19
+2022-04-12 13:32:23.229 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:21
+2022-04-12 13:32:25.233 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:23
+2022-04-12 13:32:27.238 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:25
+2022-04-12 13:32:29.242 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:27
+2022-04-12 13:32:31.245 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:29
+2022-04-12 13:32:33.246 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:31
+2022-04-12 13:32:35.251 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:33
+2022-04-12 13:32:37.254 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:35
+2022-04-12 13:32:39.258 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:37
+2022-04-12 13:32:41.261 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:39
+2022-04-12 13:32:43.266 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:41
+2022-04-12 13:32:45.268 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:43
+2022-04-12 13:32:47.270 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:45
+2022-04-12 13:32:49.275 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:47
+2022-04-12 13:32:51.280 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:49
+2022-04-12 13:32:53.283 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:51
+2022-04-12 13:32:55.289 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:53
+2022-04-12 13:32:57.294 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:55
+2022-04-12 13:32:59.299 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:57
+2022-04-12 13:33:01.300 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 32:59
+2022-04-12 13:33:03.305 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:01
+2022-04-12 13:33:05.310 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:03
+2022-04-12 13:33:07.314 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:05
+2022-04-12 13:33:09.315 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:07
+2022-04-12 13:33:11.318 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:09
+2022-04-12 13:33:13.321 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:11
+2022-04-12 13:33:15.327 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:13
+2022-04-12 13:33:17.327 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:15
+2022-04-12 13:33:19.328 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:17
+2022-04-12 13:33:21.329 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:19
+2022-04-12 13:33:23.331 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:21
+2022-04-12 13:33:25.333 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:23
+2022-04-12 13:33:27.335 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:25
+2022-04-12 13:33:29.337 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:27
+2022-04-12 13:33:31.338 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:29
+2022-04-12 13:33:33.343 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:31
+2022-04-12 13:33:35.348 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:33
+2022-04-12 13:33:37.354 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:35
+2022-04-12 13:33:39.359 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:37
+2022-04-12 13:33:41.364 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:39
+2022-04-12 13:33:43.365 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:41
+2022-04-12 13:33:45.370 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:43
+2022-04-12 13:33:47.374 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:45
+2022-04-12 13:33:49.375 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:47
+2022-04-12 13:33:51.378 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:49
+2022-04-12 13:33:53.382 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:51
+2022-04-12 13:33:55.387 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:53
+2022-04-12 13:33:57.390 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:55
+2022-04-12 13:33:59.395 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:57
+2022-04-12 13:34:01.401 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 33:59
+2022-04-12 13:34:03.406 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:01
+2022-04-12 13:34:05.409 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:03
+2022-04-12 13:34:07.412 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:05
+2022-04-12 13:34:09.417 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:07
+2022-04-12 13:34:11.423 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:09
+2022-04-12 13:34:13.428 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:11
+2022-04-12 13:34:15.433 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:13
+2022-04-12 13:34:17.439 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:15
+2022-04-12 13:34:19.444 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:17
+2022-04-12 13:34:21.449 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:19
+2022-04-12 13:34:23.454 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:21
+2022-04-12 13:34:25.458 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:23
+2022-04-12 13:34:27.461 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:25
+2022-04-12 13:34:29.465 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:27
+2022-04-12 13:34:31.470 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:29
+2022-04-12 13:34:33.471 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:31
+2022-04-12 13:34:35.476 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:33
+2022-04-12 13:34:37.478 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:35
+2022-04-12 13:34:39.481 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:37
+2022-04-12 13:34:41.486 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:39
+2022-04-12 13:34:43.490 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:41
+2022-04-12 13:34:45.494 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:43
+2022-04-12 13:34:47.496 INFO  com.ameliawiki.wiki.job.TestJob                   :24   [32m                  [0;39m 每隔5秒钟执行一次： 34:45
+2022-04-12 13:34:48.047 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-04-12 13:34:48.048 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-12 13:34:48.048 ERROR o.s.s.support.TaskUtils$LoggingErrorHandler       :95   [32m                  [0;39m Unexpected error occurred in scheduled task
+java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at com.ameliawiki.wiki.job.TestJob.simple(TestJob.java:23)
+	at jdk.internal.reflect.GeneratedMethodAccessor730.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
