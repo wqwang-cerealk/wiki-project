@@ -126,8 +126,8 @@ export default defineComponent({
     const docs = ref();
     const loading = ref(false);
     // 因为树选择组件的属性状态，会随当前编辑的节点而变化，所以单独声明一个响应式变量
-      const treeSelectData = ref();
-      treeSelectData.value = [];
+    const treeSelectData = ref();
+    treeSelectData.value = [];
 
     const columns = [
       {

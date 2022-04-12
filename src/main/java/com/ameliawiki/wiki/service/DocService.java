@@ -5,6 +5,7 @@ import com.ameliawiki.wiki.domain.Doc;
 import com.ameliawiki.wiki.domain.DocExample;
 import com.ameliawiki.wiki.mapper.ContentMapper;
 import com.ameliawiki.wiki.mapper.DocMapper;
+import com.ameliawiki.wiki.mapper.DocMapperCust;
 import com.ameliawiki.wiki.util.CopyUtil;
 import com.ameliawiki.wiki.util.SnowFlake;
 import com.github.pagehelper.PageHelper;
@@ -28,6 +29,9 @@ public class DocService {
 
     @Resource
     private DocMapper docMapper;
+
+    @Resource
+    private DocMapperCust docMapperCust;
 
     @Resource
     private ContentMapper contentMapper;
@@ -71,6 +75,8 @@ public class DocService {
         if (ObjectUtils.isEmpty(req.getId())) {
             //是空就更新
             doc.setId(snowFlake.nextId());
+            doc.setViewCount(0);
+            doc.setVoteCount(0);
             docMapper.insert(doc);
 
             content.setId(doc.getId());
@@ -99,6 +105,8 @@ public class DocService {
 
     public String findContent(Long id) {
         Content content = contentMapper.selectByPrimaryKey(id);
+        //increase view count
+        docMapperCust.increaseViewCount(id);
         if (ObjectUtils.isEmpty(content)) {
             return "";
         } else{
