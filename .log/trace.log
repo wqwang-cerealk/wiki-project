@@ -539,3 +539,533 @@
 2022-04-13 11:08:35.015 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509084247232512[0;39m ==> Parameters: 
 2022-04-13 11:08:35.018 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509084247232512[0;39m <==    Updates: 1
 2022-04-13 11:08:35.018 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169509084247232512[0;39m update ends, take 6 millisecs
+2022-04-13 11:09:05.003 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169509210038603776[0;39m start updating Ebook doc
+2022-04-13 11:09:05.027 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509210038603776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:09:05.030 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509210038603776[0;39m ==> Parameters: 
+2022-04-13 11:09:05.042 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509210038603776[0;39m <==    Updates: 1
+2022-04-13 11:09:05.044 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169509210038603776[0;39m update ends, take 34 millisecs
+2022-04-13 11:09:35.002 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169509335867723776[0;39m start updating Ebook doc
+2022-04-13 11:09:35.005 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509335867723776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:09:35.005 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509335867723776[0;39m ==> Parameters: 
+2022-04-13 11:09:35.019 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509335867723776[0;39m <==    Updates: 1
+2022-04-13 11:09:35.020 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169509335867723776[0;39m update ends, take 16 millisecs
+2022-04-13 11:10:05.002 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169509461696843776[0;39m start updating Ebook doc
+2022-04-13 11:10:05.003 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509461696843776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:10:05.003 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509461696843776[0;39m ==> Parameters: 
+2022-04-13 11:10:05.048 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509461696843776[0;39m <==    Updates: 1
+2022-04-13 11:10:05.049 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169509461696843776[0;39m update ends, take 47 millisecs
+2022-04-13 11:10:35.001 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169509587521769472[0;39m start updating Ebook doc
+2022-04-13 11:10:35.003 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509587521769472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:10:35.003 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509587521769472[0;39m ==> Parameters: 
+2022-04-13 11:10:35.009 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509587521769472[0;39m <==    Updates: 1
+2022-04-13 11:10:35.009 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169509587521769472[0;39m update ends, take 7 millisecs
+2022-04-13 11:11:05.006 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169509713367666688[0;39m start updating Ebook doc
+2022-04-13 11:11:05.007 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509713367666688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:11:05.009 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509713367666688[0;39m ==> Parameters: 
+2022-04-13 11:11:05.018 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509713367666688[0;39m <==    Updates: 1
+2022-04-13 11:11:05.018 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169509713367666688[0;39m update ends, take 12 millisecs
+2022-04-13 11:11:35.000 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169509839175815168[0;39m start updating Ebook doc
+2022-04-13 11:11:35.002 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509839175815168[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:11:35.002 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509839175815168[0;39m ==> Parameters: 
+2022-04-13 11:11:35.012 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509839175815168[0;39m <==    Updates: 1
+2022-04-13 11:11:35.012 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169509839175815168[0;39m update ends, take 11 millisecs
+2022-04-13 11:12:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169509965025906688[0;39m start updating Ebook doc
+2022-04-13 11:12:05.007 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509965025906688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:12:05.007 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509965025906688[0;39m ==> Parameters: 
+2022-04-13 11:12:05.015 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169509965025906688[0;39m <==    Updates: 1
+2022-04-13 11:12:05.015 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169509965025906688[0;39m update ends, take 9 millisecs
+2022-04-13 11:12:35.001 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169510090838249472[0;39m start updating Ebook doc
+2022-04-13 11:12:35.003 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510090838249472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:12:35.003 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510090838249472[0;39m ==> Parameters: 
+2022-04-13 11:12:35.009 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510090838249472[0;39m <==    Updates: 1
+2022-04-13 11:12:35.010 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169510090838249472[0;39m update ends, take 8 millisecs
+2022-04-13 11:13:05.002 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169510216671563776[0;39m start updating Ebook doc
+2022-04-13 11:13:05.005 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510216671563776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:13:05.005 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510216671563776[0;39m ==> Parameters: 
+2022-04-13 11:13:05.007 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510216671563776[0;39m <==    Updates: 1
+2022-04-13 11:13:05.009 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169510216671563776[0;39m update ends, take 5 millisecs
+2022-04-13 11:13:35.007 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169510342521655296[0;39m start updating Ebook doc
+2022-04-13 11:13:35.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510342521655296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:13:35.031 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510342521655296[0;39m ==> Parameters: 
+2022-04-13 11:13:35.041 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510342521655296[0;39m <==    Updates: 1
+2022-04-13 11:13:35.042 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169510342521655296[0;39m update ends, take 23 millisecs
+2022-04-13 11:13:41.405 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-04-13 11:13:41.408 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-13 11:13:41.412 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2022-04-13 11:13:41.484 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2022-04-13 11:13:46.769 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.2 on Alexs-MacBook-Pro.local with PID 13808 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-13 11:13:46.770 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-13 11:13:47.080 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-13 11:13:47.082 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-13 11:13:47.084 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-04-13 11:13:47.272 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-13 11:13:47.273 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:13:47.273 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-13 11:13:47.273 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-13 11:13:47.281 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-13 11:13:47.281 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 498 ms
+2022-04-13 11:13:47.609 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-13 11:13:47.784 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-04-13 11:13:47.805 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-13 11:13:47.812 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:13:47.814 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-13 11:13:47.817 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 6.117 seconds (JVM running for 2292.418)
+2022-04-13 11:13:47.818 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-13 11:13:47.818 INFO  com.ameliawiki.wiki.config.WikiApplication        :26   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-13 11:13:47.818 INFO  com.ameliawiki.wiki.config.WikiApplication        :27   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-13 11:13:49.284 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-04-13 11:13:49.285 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-13 11:13:49.391 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.2 on Alexs-MacBook-Pro.local with PID 13808 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-13 11:13:49.391 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-13 11:13:49.483 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-13 11:13:49.483 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-13 11:13:49.484 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-04-13 11:13:49.577 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-13 11:13:49.578 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:13:49.578 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-13 11:13:49.578 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-13 11:13:49.595 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-13 11:13:49.595 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 203 ms
+2022-04-13 11:13:49.969 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-13 11:13:50.118 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-04-13 11:13:50.136 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-13 11:13:50.142 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:13:50.143 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-13 11:13:50.147 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 0.778 seconds (JVM running for 2294.748)
+2022-04-13 11:13:50.148 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-13 11:13:50.148 INFO  com.ameliawiki.wiki.config.WikiApplication        :26   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-13 11:13:50.148 INFO  com.ameliawiki.wiki.config.WikiApplication        :27   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-13 11:14:05.002 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169510468329803776[0;39m start updating Ebook doc
+2022-04-13 11:14:05.003 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m169510468329803776[0;39m HikariPool-4 - Starting...
+2022-04-13 11:14:05.129 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m169510468329803776[0;39m HikariPool-4 - Start completed.
+2022-04-13 11:14:05.129 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510468329803776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:14:05.130 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510468329803776[0;39m ==> Parameters: 
+2022-04-13 11:14:05.157 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510468329803776[0;39m <==    Updates: 1
+2022-04-13 11:14:05.158 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169510468329803776[0;39m update ends, take 155 millisecs
+2022-04-13 11:14:18.936 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-04-13 11:14:18.936 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-13 11:14:18.937 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-4 - Shutdown initiated...
+2022-04-13 11:14:18.940 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-4 - Shutdown completed.
+2022-04-13 11:14:24.165 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.2 on Alexs-MacBook-Pro.local with PID 13808 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-13 11:14:24.166 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-13 11:14:24.410 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-13 11:14:24.410 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-13 11:14:24.412 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-04-13 11:14:24.495 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-13 11:14:24.496 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:14:24.497 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-13 11:14:24.497 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-13 11:14:24.508 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-13 11:14:24.508 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 340 ms
+2022-04-13 11:14:24.819 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-13 11:14:24.974 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-04-13 11:14:24.995 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-13 11:14:25.001 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:14:25.002 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-13 11:14:25.005 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.886 seconds (JVM running for 2329.606)
+2022-04-13 11:14:25.006 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-13 11:14:25.007 INFO  com.ameliawiki.wiki.config.WikiApplication        :26   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-13 11:14:25.007 INFO  com.ameliawiki.wiki.config.WikiApplication        :27   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-13 11:14:35.001 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169510594154729472[0;39m start updating Ebook doc
+2022-04-13 11:14:35.002 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m169510594154729472[0;39m HikariPool-5 - Starting...
+2022-04-13 11:14:35.026 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m169510594154729472[0;39m HikariPool-5 - Start completed.
+2022-04-13 11:14:35.026 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510594154729472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:14:35.027 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510594154729472[0;39m ==> Parameters: 
+2022-04-13 11:14:35.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510594154729472[0;39m <==    Updates: 1
+2022-04-13 11:14:35.033 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169510594154729472[0;39m update ends, take 32 millisecs
+2022-04-13 11:15:05.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169510719988043776[0;39m start updating Ebook doc
+2022-04-13 11:15:05.025 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510719988043776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:15:05.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510719988043776[0;39m ==> Parameters: 
+2022-04-13 11:15:05.060 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510719988043776[0;39m <==    Updates: 1
+2022-04-13 11:15:05.061 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169510719988043776[0;39m update ends, take 50 millisecs
+2022-04-13 11:15:05.979 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-04-13 11:15:05.980 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-13 11:15:05.981 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-5 - Shutdown initiated...
+2022-04-13 11:15:06.008 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-5 - Shutdown completed.
+2022-04-13 11:15:11.242 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.2 on Alexs-MacBook-Pro.local with PID 13808 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-13 11:15:11.243 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-13 11:15:11.504 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-13 11:15:11.504 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-13 11:15:11.505 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-04-13 11:15:11.598 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-13 11:15:11.599 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:15:11.601 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-13 11:15:11.602 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-13 11:15:11.614 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-13 11:15:11.614 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 369 ms
+2022-04-13 11:15:11.880 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-13 11:15:12.038 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-04-13 11:15:12.057 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-13 11:15:12.063 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:15:12.064 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-13 11:15:12.067 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.864 seconds (JVM running for 2376.668)
+2022-04-13 11:15:12.068 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-13 11:15:12.069 INFO  com.ameliawiki.wiki.config.WikiApplication        :26   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-13 11:15:12.069 INFO  com.ameliawiki.wiki.config.WikiApplication        :27   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-13 11:15:13.538 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-04-13 11:15:13.538 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-13 11:15:13.600 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.2 on Alexs-MacBook-Pro.local with PID 13808 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-13 11:15:13.600 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-13 11:15:13.693 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-13 11:15:13.693 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-13 11:15:13.694 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2022-04-13 11:15:13.771 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-13 11:15:13.772 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:15:13.772 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-13 11:15:13.772 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-13 11:15:13.778 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-13 11:15:13.778 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 176 ms
+2022-04-13 11:15:13.999 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-13 11:15:14.134 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-04-13 11:15:14.152 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-13 11:15:14.159 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:15:14.160 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-13 11:15:14.163 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 0.58 seconds (JVM running for 2378.764)
+2022-04-13 11:15:14.164 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-13 11:15:14.164 INFO  com.ameliawiki.wiki.config.WikiApplication        :26   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-13 11:15:14.165 INFO  com.ameliawiki.wiki.config.WikiApplication        :27   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-13 11:15:35.001 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169510845812969472[0;39m start updating Ebook doc
+2022-04-13 11:15:35.002 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m169510845812969472[0;39m HikariPool-6 - Starting...
+2022-04-13 11:15:35.032 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m169510845812969472[0;39m HikariPool-6 - Start completed.
+2022-04-13 11:15:35.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510845812969472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:15:35.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510845812969472[0;39m ==> Parameters: 
+2022-04-13 11:15:35.044 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510845812969472[0;39m <==    Updates: 1
+2022-04-13 11:15:35.045 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169510845812969472[0;39m update ends, take 44 millisecs
+2022-04-13 11:16:05.003 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169510971650478080[0;39m start updating Ebook doc
+2022-04-13 11:16:05.004 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510971650478080[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:16:05.005 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510971650478080[0;39m ==> Parameters: 
+2022-04-13 11:16:05.006 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169510971650478080[0;39m <==    Updates: 1
+2022-04-13 11:16:05.006 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169510971650478080[0;39m update ends, take 3 millisecs
+2022-04-13 11:16:35.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169511097483792384[0;39m start updating Ebook doc
+2022-04-13 11:16:35.005 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511097483792384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:16:35.006 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511097483792384[0;39m ==> Parameters: 
+2022-04-13 11:16:35.009 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511097483792384[0;39m <==    Updates: 1
+2022-04-13 11:16:35.010 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169511097483792384[0;39m update ends, take 6 millisecs
+2022-04-13 11:16:39.728 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-04-13 11:16:39.729 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-13 11:16:39.729 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-6 - Shutdown initiated...
+2022-04-13 11:16:39.734 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-6 - Shutdown completed.
+2022-04-13 11:16:44.806 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.2 on Alexs-MacBook-Pro.local with PID 13808 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-13 11:16:44.807 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-13 11:16:45.155 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-13 11:16:45.155 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-13 11:16:45.156 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-04-13 11:16:45.243 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-13 11:16:45.244 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:16:45.244 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-13 11:16:45.244 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-13 11:16:45.251 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-13 11:16:45.251 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 441 ms
+2022-04-13 11:16:45.480 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-13 11:16:45.627 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-04-13 11:16:45.648 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-13 11:16:45.654 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:16:45.655 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-13 11:16:45.659 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.879 seconds (JVM running for 2470.258)
+2022-04-13 11:16:45.660 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-13 11:16:45.660 INFO  com.ameliawiki.wiki.config.WikiApplication        :26   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-13 11:16:45.660 INFO  com.ameliawiki.wiki.config.WikiApplication        :27   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-13 11:17:05.002 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169511223304523776[0;39m start updating Ebook doc
+2022-04-13 11:17:05.004 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m169511223304523776[0;39m HikariPool-7 - Starting...
+2022-04-13 11:17:05.033 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m169511223304523776[0;39m HikariPool-7 - Start completed.
+2022-04-13 11:17:05.034 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511223304523776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:17:05.034 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511223304523776[0;39m ==> Parameters: 
+2022-04-13 11:17:05.041 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511223304523776[0;39m <==    Updates: 1
+2022-04-13 11:17:05.042 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169511223304523776[0;39m update ends, take 39 millisecs
+2022-04-13 11:17:35.001 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169511349129449472[0;39m start updating Ebook doc
+2022-04-13 11:17:35.002 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511349129449472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:17:35.003 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511349129449472[0;39m ==> Parameters: 
+2022-04-13 11:17:35.015 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511349129449472[0;39m <==    Updates: 1
+2022-04-13 11:17:35.015 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169511349129449472[0;39m update ends, take 14 millisecs
+2022-04-13 11:18:05.003 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169511474966958080[0;39m start updating Ebook doc
+2022-04-13 11:18:05.004 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511474966958080[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:18:05.004 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511474966958080[0;39m ==> Parameters: 
+2022-04-13 11:18:05.012 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511474966958080[0;39m <==    Updates: 1
+2022-04-13 11:18:05.012 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169511474966958080[0;39m update ends, take 9 millisecs
+2022-04-13 11:18:35.001 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169511600787689472[0;39m start updating Ebook doc
+2022-04-13 11:18:35.003 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511600787689472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:18:35.003 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511600787689472[0;39m ==> Parameters: 
+2022-04-13 11:18:35.008 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511600787689472[0;39m <==    Updates: 1
+2022-04-13 11:18:35.009 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169511600787689472[0;39m update ends, take 7 millisecs
+2022-04-13 11:19:05.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169511726629392384[0;39m start updating Ebook doc
+2022-04-13 11:19:05.005 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511726629392384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:19:05.006 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511726629392384[0;39m ==> Parameters: 
+2022-04-13 11:19:05.010 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511726629392384[0;39m <==    Updates: 1
+2022-04-13 11:19:05.010 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169511726629392384[0;39m update ends, take 6 millisecs
+2022-04-13 11:19:35.002 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169511852450123776[0;39m start updating Ebook doc
+2022-04-13 11:19:35.005 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511852450123776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:19:35.006 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511852450123776[0;39m ==> Parameters: 
+2022-04-13 11:19:35.013 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511852450123776[0;39m <==    Updates: 1
+2022-04-13 11:19:35.013 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169511852450123776[0;39m update ends, take 9 millisecs
+2022-04-13 11:20:05.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169511978287632384[0;39m start updating Ebook doc
+2022-04-13 11:20:05.005 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511978287632384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:20:05.005 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511978287632384[0;39m ==> Parameters: 
+2022-04-13 11:20:05.009 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169511978287632384[0;39m <==    Updates: 1
+2022-04-13 11:20:05.010 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169511978287632384[0;39m update ends, take 6 millisecs
+2022-04-13 11:20:35.002 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169512104108363776[0;39m start updating Ebook doc
+2022-04-13 11:20:35.003 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512104108363776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:20:35.004 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512104108363776[0;39m ==> Parameters: 
+2022-04-13 11:20:35.009 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512104108363776[0;39m <==    Updates: 1
+2022-04-13 11:20:35.009 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169512104108363776[0;39m update ends, take 6 millisecs
+2022-04-13 11:21:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169512229950066688[0;39m start updating Ebook doc
+2022-04-13 11:21:05.006 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512229950066688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:21:05.007 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512229950066688[0;39m ==> Parameters: 
+2022-04-13 11:21:05.009 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512229950066688[0;39m <==    Updates: 1
+2022-04-13 11:21:05.009 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169512229950066688[0;39m update ends, take 4 millisecs
+2022-04-13 11:21:35.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169512355779186688[0;39m start updating Ebook doc
+2022-04-13 11:21:35.006 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512355779186688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:21:35.007 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512355779186688[0;39m ==> Parameters: 
+2022-04-13 11:21:35.009 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512355779186688[0;39m <==    Updates: 1
+2022-04-13 11:21:35.009 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169512355779186688[0;39m update ends, take 4 millisecs
+2022-04-13 11:22:05.001 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169512481591529472[0;39m start updating Ebook doc
+2022-04-13 11:22:05.003 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512481591529472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:22:05.003 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512481591529472[0;39m ==> Parameters: 
+2022-04-13 11:22:05.005 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512481591529472[0;39m <==    Updates: 1
+2022-04-13 11:22:05.006 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169512481591529472[0;39m update ends, take 4 millisecs
+2022-04-13 11:22:35.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169512607437426688[0;39m start updating Ebook doc
+2022-04-13 11:22:35.006 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512607437426688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:22:35.007 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512607437426688[0;39m ==> Parameters: 
+2022-04-13 11:22:35.009 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512607437426688[0;39m <==    Updates: 1
+2022-04-13 11:22:35.009 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169512607437426688[0;39m update ends, take 4 millisecs
+2022-04-13 11:23:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169512733266546688[0;39m start updating Ebook doc
+2022-04-13 11:23:05.006 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512733266546688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:23:05.007 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512733266546688[0;39m ==> Parameters: 
+2022-04-13 11:23:05.013 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512733266546688[0;39m <==    Updates: 1
+2022-04-13 11:23:05.014 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169512733266546688[0;39m update ends, take 9 millisecs
+2022-04-13 11:23:35.002 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169512859083083776[0;39m start updating Ebook doc
+2022-04-13 11:23:35.003 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512859083083776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:23:35.004 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512859083083776[0;39m ==> Parameters: 
+2022-04-13 11:23:35.006 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512859083083776[0;39m <==    Updates: 1
+2022-04-13 11:23:35.006 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169512859083083776[0;39m update ends, take 4 millisecs
+2022-04-13 11:24:05.002 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169512984912203776[0;39m start updating Ebook doc
+2022-04-13 11:24:05.004 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512984912203776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:24:05.004 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512984912203776[0;39m ==> Parameters: 
+2022-04-13 11:24:05.008 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169512984912203776[0;39m <==    Updates: 1
+2022-04-13 11:24:05.008 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169512984912203776[0;39m update ends, take 5 millisecs
+2022-04-13 11:24:33.562 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-04-13 11:24:33.562 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-13 11:24:33.562 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-7 - Shutdown initiated...
+2022-04-13 11:24:33.570 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-7 - Shutdown completed.
+2022-04-13 11:24:38.651 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.2 on Alexs-MacBook-Pro.local with PID 13808 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-13 11:24:38.651 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-13 11:24:38.873 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-13 11:24:38.873 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-13 11:24:38.874 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-04-13 11:24:38.964 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-13 11:24:38.964 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:24:38.964 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-13 11:24:38.964 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-13 11:24:38.972 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-13 11:24:38.972 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 319 ms
+2022-04-13 11:24:39.123 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'docController' defined in file [/Users/alex/IdeaProjects/wiki/target/classes/com/ameliawiki/wiki/controller/DocController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ameliawiki.wiki.controller.DocController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4d977e60]
+2022-04-13 11:24:39.125 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-04-13 11:24:39.132 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-13 11:24:39.175 ERROR org.springframework.boot.SpringApplication        :856  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'docController' defined in file [/Users/alex/IdeaProjects/wiki/target/classes/com/ameliawiki/wiki/controller/DocController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ameliawiki.wiki.controller.DocController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4d977e60]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:586)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at com.ameliawiki.wiki.config.WikiApplication.main(WikiApplication.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.ameliawiki.wiki.controller.DocController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4d977e60]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:737)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:669)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:583)
+	... 19 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/ameliawiki/wiki/service/DocService
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3297)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2371)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:732)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.ameliawiki.wiki.service.DocService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 29 common frames omitted
+2022-04-13 11:25:06.886 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.2 on Alexs-MacBook-Pro.local with PID 13808 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-13 11:25:06.887 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-13 11:25:07.067 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-13 11:25:07.068 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-13 11:25:07.069 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-04-13 11:25:07.152 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-13 11:25:07.152 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:25:07.152 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-13 11:25:07.152 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-13 11:25:07.162 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-13 11:25:07.162 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 273 ms
+2022-04-13 11:25:07.472 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-13 11:25:07.634 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-04-13 11:25:07.656 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-13 11:25:07.662 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:25:07.663 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-13 11:25:07.666 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.807 seconds (JVM running for 2972.261)
+2022-04-13 11:25:07.667 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-13 11:25:07.668 INFO  com.ameliawiki.wiki.config.WikiApplication        :26   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-13 11:25:07.668 INFO  com.ameliawiki.wiki.config.WikiApplication        :27   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-13 11:25:24.300 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-04-13 11:25:24.300 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-13 11:25:29.388 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.2 on Alexs-MacBook-Pro.local with PID 13808 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-13 11:25:29.388 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-13 11:25:29.570 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-13 11:25:29.570 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-13 11:25:29.571 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-04-13 11:25:29.644 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-13 11:25:29.645 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:25:29.645 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-13 11:25:29.645 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-13 11:25:29.652 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-13 11:25:29.652 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 262 ms
+2022-04-13 11:25:29.952 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-13 11:25:30.107 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-04-13 11:25:30.126 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-13 11:25:30.132 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:25:30.133 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-13 11:25:30.136 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.777 seconds (JVM running for 2994.73)
+2022-04-13 11:25:30.137 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-13 11:25:30.137 INFO  com.ameliawiki.wiki.config.WikiApplication        :26   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-13 11:25:30.137 INFO  com.ameliawiki.wiki.config.WikiApplication        :27   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-13 11:25:35.002 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169513362399563776[0;39m start updating Ebook doc
+2022-04-13 11:25:35.003 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m169513362399563776[0;39m HikariPool-8 - Starting...
+2022-04-13 11:25:35.028 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m169513362399563776[0;39m HikariPool-8 - Start completed.
+2022-04-13 11:25:35.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169513362399563776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:25:35.029 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169513362399563776[0;39m ==> Parameters: 
+2022-04-13 11:25:35.061 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169513362399563776[0;39m <==    Updates: 1
+2022-04-13 11:25:35.061 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169513362399563776[0;39m update ends, take 58 millisecs
+2022-04-13 11:26:05.002 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169513488228683776[0;39m start updating Ebook doc
+2022-04-13 11:26:05.003 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169513488228683776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:26:05.004 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169513488228683776[0;39m ==> Parameters: 
+2022-04-13 11:26:05.007 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169513488228683776[0;39m <==    Updates: 1
+2022-04-13 11:26:05.008 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169513488228683776[0;39m update ends, take 6 millisecs
+2022-04-13 11:26:35.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169513614066192384[0;39m start updating Ebook doc
+2022-04-13 11:26:35.006 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169513614066192384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:26:35.006 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169513614066192384[0;39m ==> Parameters: 
+2022-04-13 11:26:35.008 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169513614066192384[0;39m <==    Updates: 1
+2022-04-13 11:26:35.009 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169513614066192384[0;39m update ends, take 4 millisecs
+2022-04-13 11:27:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169513739899506688[0;39m start updating Ebook doc
+2022-04-13 11:27:05.007 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169513739899506688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:27:05.008 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169513739899506688[0;39m ==> Parameters: 
+2022-04-13 11:27:05.016 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169513739899506688[0;39m <==    Updates: 1
+2022-04-13 11:27:05.017 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169513739899506688[0;39m update ends, take 11 millisecs
+2022-04-13 11:27:15.358 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-04-13 11:27:15.358 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-13 11:27:15.358 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-8 - Shutdown initiated...
+2022-04-13 11:27:15.364 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-8 - Shutdown completed.
+2022-04-13 11:27:20.434 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 17.0.2 on Alexs-MacBook-Pro.local with PID 13808 (/Users/alex/IdeaProjects/wiki/target/classes started by alex in /Users/alex/IdeaProjects/wiki)
+2022-04-13 11:27:20.435 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-13 11:27:20.641 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-13 11:27:20.642 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-13 11:27:20.643 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 0 ms. Found 0 Redis repository interfaces.
+2022-04-13 11:27:20.752 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-13 11:27:20.753 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:27:20.753 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-13 11:27:20.753 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-13 11:27:20.763 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-13 11:27:20.763 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 327 ms
+2022-04-13 11:27:21.039 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-13 11:27:21.219 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-04-13 11:27:21.240 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-13 11:27:21.248 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-13 11:27:21.250 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-13 11:27:21.253 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 5.843 seconds (JVM running for 3105.846)
+2022-04-13 11:27:21.254 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-13 11:27:21.254 INFO  com.ameliawiki.wiki.config.WikiApplication        :26   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-13 11:27:21.254 INFO  com.ameliawiki.wiki.config.WikiApplication        :27   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-13 11:27:22.024 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-13 11:27:22.025 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-04-13 11:27:22.026 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2022-04-13 11:27:22.040 INFO  com.ameliawiki.wiki.websocket.WebSocketServer     :32   [32m                  [0;39m 有新连接：token：nw41E99SL2，session id：3，当前连接数：1
+2022-04-13 11:27:22.084 INFO  com.ameliawiki.wiki.aspect.LogAspect              :51   [32m169513811534024704[0;39m ------------- 开始 -------------
+2022-04-13 11:27:22.085 INFO  com.ameliawiki.wiki.aspect.LogAspect              :52   [32m169513811534024704[0;39m 请求地址: http://127.0.0.1:8080/doc/all/1 GET
+2022-04-13 11:27:22.085 INFO  com.ameliawiki.wiki.aspect.LogAspect              :53   [32m169513811534024704[0;39m 类名方法: com.ameliawiki.wiki.controller.DocController.all
+2022-04-13 11:27:22.085 INFO  com.ameliawiki.wiki.aspect.LogAspect              :54   [32m169513811534024704[0;39m 远程地址: 127.0.0.1
+2022-04-13 11:27:22.087 INFO  com.ameliawiki.wiki.aspect.LogAspect              :76   [32m169513811534024704[0;39m 请求参数: [1]
+2022-04-13 11:27:22.098 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m169513811534024704[0;39m HikariPool-9 - Starting...
+2022-04-13 11:27:22.249 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m169513811534024704[0;39m HikariPool-9 - Start completed.
+2022-04-13 11:27:22.250 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m169513811534024704[0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc WHERE ( ebook_id = ? ) order by sort asc
+2022-04-13 11:27:22.250 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m169513811534024704[0;39m ==> Parameters: 1(Long)
+2022-04-13 11:27:22.259 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m169513811534024704[0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2022-04-13 11:27:22.259 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m169513811534024704[0;39m <==        Row: 1, 1, 0, document1, 1, 15, 3
+2022-04-13 11:27:22.261 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m169513811534024704[0;39m <==        Row: 2, 1, 1, document1.1, 1, 4, 0
+2022-04-13 11:27:22.262 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m169513811534024704[0;39m <==        Row: 167690380400267264, 1, 1, SpringBoot Intro, 3, 3, 0
+2022-04-13 11:27:22.262 TRACE c.ameliawiki.wiki.mapper.DocMapper.selectByExample:143  [32m169513811534024704[0;39m <==        Row: 169128584395493376, 1, 0, test view , 3, 3, 0
+2022-04-13 11:27:22.262 DEBUG c.ameliawiki.wiki.mapper.DocMapper.selectByExample:137  [32m169513811534024704[0;39m <==      Total: 4
+2022-04-13 11:27:22.270 INFO  com.ameliawiki.wiki.aspect.LogAspect              :89   [32m169513811534024704[0;39m 返回结果: {"content":[{"ebookId":1,"id":1,"name":"document1","parent":0,"sort":1,"viewCount":15,"voteCount":3},{"ebookId":1,"id":2,"name":"document1.1","parent":1,"sort":1,"viewCount":4,"voteCount":0},{"ebookId":1,"id":167690380400267264,"name":"SpringBoot Intro","parent":1,"sort":3,"viewCount":3,"voteCount":0},{"ebookId":1,"id":169128584395493376,"name":"test view ","parent":0,"sort":3,"viewCount":3,"voteCount":0}],"success":true}
+2022-04-13 11:27:22.270 INFO  com.ameliawiki.wiki.aspect.LogAspect              :90   [32m169513811534024704[0;39m ------------- 结束 耗时：186 ms -------------
+2022-04-13 11:27:22.295 INFO  com.ameliawiki.wiki.aspect.LogAspect              :51   [32m169513812419022848[0;39m ------------- 开始 -------------
+2022-04-13 11:27:22.295 INFO  com.ameliawiki.wiki.aspect.LogAspect              :52   [32m169513812419022848[0;39m 请求地址: http://127.0.0.1:8080/doc/find-content/1 GET
+2022-04-13 11:27:22.295 INFO  com.ameliawiki.wiki.aspect.LogAspect              :53   [32m169513812419022848[0;39m 类名方法: com.ameliawiki.wiki.controller.DocController.findContent
+2022-04-13 11:27:22.295 INFO  com.ameliawiki.wiki.aspect.LogAspect              :54   [32m169513812419022848[0;39m 远程地址: 127.0.0.1
+2022-04-13 11:27:22.295 INFO  com.ameliawiki.wiki.aspect.LogAspect              :76   [32m169513812419022848[0;39m 请求参数: [1]
+2022-04-13 11:27:22.295 DEBUG c.a.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m169513812419022848[0;39m ==>  Preparing: select id , content from content where id = ?
+2022-04-13 11:27:22.296 DEBUG c.a.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m169513812419022848[0;39m ==> Parameters: 1(Long)
+2022-04-13 11:27:22.360 TRACE c.a.wiki.mapper.ContentMapper.selectByPrimaryKey  :143  [32m169513812419022848[0;39m <==    Columns: id, content
+2022-04-13 11:27:22.360 TRACE c.a.wiki.mapper.ContentMapper.selectByPrimaryKey  :143  [32m169513812419022848[0;39m <==        Row: 1, <<BLOB>>
+2022-04-13 11:27:22.361 DEBUG c.a.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m169513812419022848[0;39m <==      Total: 1
+2022-04-13 11:27:22.361 DEBUG c.a.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m169513812419022848[0;39m ==>  Preparing: update doc set view_count = view_count + 1 where id = ?
+2022-04-13 11:27:22.362 DEBUG c.a.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m169513812419022848[0;39m ==> Parameters: 1(Long)
+2022-04-13 11:27:22.377 DEBUG c.a.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m169513812419022848[0;39m <==    Updates: 1
+2022-04-13 11:27:22.378 INFO  com.ameliawiki.wiki.aspect.LogAspect              :89   [32m169513812419022848[0;39m 返回结果: {"content":"<h1 id=\"74kat\"><font color=\"#8baa4a\">test</font></h1>","success":true}
+2022-04-13 11:27:22.378 INFO  com.ameliawiki.wiki.aspect.LogAspect              :90   [32m169513812419022848[0;39m ------------- 结束 耗时：83 ms -------------
+2022-04-13 11:27:24.108 INFO  com.ameliawiki.wiki.aspect.LogAspect              :51   [32m169513820023296000[0;39m ------------- 开始 -------------
+2022-04-13 11:27:24.108 INFO  com.ameliawiki.wiki.aspect.LogAspect              :52   [32m169513820023296000[0;39m 请求地址: http://127.0.0.1:8080/doc/find-content/2 GET
+2022-04-13 11:27:24.108 INFO  com.ameliawiki.wiki.aspect.LogAspect              :53   [32m169513820023296000[0;39m 类名方法: com.ameliawiki.wiki.controller.DocController.findContent
+2022-04-13 11:27:24.108 INFO  com.ameliawiki.wiki.aspect.LogAspect              :54   [32m169513820023296000[0;39m 远程地址: 127.0.0.1
+2022-04-13 11:27:24.109 INFO  com.ameliawiki.wiki.aspect.LogAspect              :76   [32m169513820023296000[0;39m 请求参数: [2]
+2022-04-13 11:27:24.109 DEBUG c.a.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m169513820023296000[0;39m ==>  Preparing: select id , content from content where id = ?
+2022-04-13 11:27:24.110 DEBUG c.a.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m169513820023296000[0;39m ==> Parameters: 2(Long)
+2022-04-13 11:27:24.111 TRACE c.a.wiki.mapper.ContentMapper.selectByPrimaryKey  :143  [32m169513820023296000[0;39m <==    Columns: id, content
+2022-04-13 11:27:24.111 TRACE c.a.wiki.mapper.ContentMapper.selectByPrimaryKey  :143  [32m169513820023296000[0;39m <==        Row: 2, <<BLOB>>
+2022-04-13 11:27:24.111 DEBUG c.a.wiki.mapper.ContentMapper.selectByPrimaryKey  :137  [32m169513820023296000[0;39m <==      Total: 1
+2022-04-13 11:27:24.112 DEBUG c.a.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m169513820023296000[0;39m ==>  Preparing: update doc set view_count = view_count + 1 where id = ?
+2022-04-13 11:27:24.112 DEBUG c.a.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m169513820023296000[0;39m ==> Parameters: 2(Long)
+2022-04-13 11:27:24.142 DEBUG c.a.wiki.mapper.DocMapperCust.increaseViewCount   :137  [32m169513820023296000[0;39m <==    Updates: 1
+2022-04-13 11:27:24.143 INFO  com.ameliawiki.wiki.aspect.LogAspect              :89   [32m169513820023296000[0;39m 返回结果: {"content":"<p>testtttt</p>","success":true}
+2022-04-13 11:27:24.143 INFO  com.ameliawiki.wiki.aspect.LogAspect              :90   [32m169513820023296000[0;39m ------------- 结束 耗时：35 ms -------------
+2022-04-13 11:27:25.630 INFO  com.ameliawiki.wiki.aspect.LogAspect              :51   [32m169513826407026688[0;39m ------------- 开始 -------------
+2022-04-13 11:27:25.631 INFO  com.ameliawiki.wiki.aspect.LogAspect              :52   [32m169513826407026688[0;39m 请求地址: http://127.0.0.1:8080/doc/vote/2 GET
+2022-04-13 11:27:25.631 INFO  com.ameliawiki.wiki.aspect.LogAspect              :53   [32m169513826407026688[0;39m 类名方法: com.ameliawiki.wiki.controller.DocController.vote
+2022-04-13 11:27:25.631 INFO  com.ameliawiki.wiki.aspect.LogAspect              :54   [32m169513826407026688[0;39m 远程地址: 127.0.0.1
+2022-04-13 11:27:25.631 INFO  com.ameliawiki.wiki.aspect.LogAspect              :76   [32m169513826407026688[0;39m 请求参数: [2]
+2022-04-13 11:27:26.509 INFO  com.ameliawiki.wiki.util.RedisUtil                :30   [32m169513826407026688[0;39m key not exist，put：DOC_VOTE2_127.0.0.1，outdated 86400 secs
+2022-04-13 11:27:26.673 DEBUG c.a.wiki.mapper.DocMapperCust.increaseVoteCount   :137  [32m169513826407026688[0;39m ==>  Preparing: update doc set vote_count = vote_count + 1 where id = ?
+2022-04-13 11:27:26.674 DEBUG c.a.wiki.mapper.DocMapperCust.increaseVoteCount   :137  [32m169513826407026688[0;39m ==> Parameters: 2(Long)
+2022-04-13 11:27:26.679 DEBUG c.a.wiki.mapper.DocMapperCust.increaseVoteCount   :137  [32m169513826407026688[0;39m <==    Updates: 1
+2022-04-13 11:27:26.680 DEBUG c.a.wiki.mapper.DocMapper.selectByPrimaryKey      :137  [32m169513826407026688[0;39m ==>  Preparing: select id, ebook_id, parent, `name`, sort, view_count, vote_count from doc where id = ?
+2022-04-13 11:27:26.681 DEBUG c.a.wiki.mapper.DocMapper.selectByPrimaryKey      :137  [32m169513826407026688[0;39m ==> Parameters: 2(Long)
+2022-04-13 11:27:26.683 TRACE c.a.wiki.mapper.DocMapper.selectByPrimaryKey      :143  [32m169513826407026688[0;39m <==    Columns: id, ebook_id, parent, name, sort, view_count, vote_count
+2022-04-13 11:27:26.683 TRACE c.a.wiki.mapper.DocMapper.selectByPrimaryKey      :143  [32m169513826407026688[0;39m <==        Row: 2, 1, 1, document1.1, 1, 5, 1
+2022-04-13 11:27:26.684 DEBUG c.a.wiki.mapper.DocMapper.selectByPrimaryKey      :137  [32m169513826407026688[0;39m <==      Total: 1
+2022-04-13 11:27:26.686 INFO  com.ameliawiki.wiki.aspect.LogAspect              :89   [32m169513826407026688[0;39m 返回结果: {"success":true}
+2022-04-13 11:27:26.687 INFO  com.ameliawiki.wiki.aspect.LogAspect              :90   [32m169513826407026688[0;39m ------------- 结束 耗时：1057 ms -------------
+2022-04-13 11:27:26.691 INFO  com.ameliawiki.wiki.websocket.WebSocketServer     :71   [32m169513826407026688[0;39m 推送消息：nw41E99SL2，内容：document1.1 is liked!
+2022-04-13 11:27:35.001 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m169513865711849472[0;39m start updating Ebook doc
+2022-04-13 11:27:35.004 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169513865711849472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-13 11:27:35.005 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169513865711849472[0;39m ==> Parameters: 
+2022-04-13 11:27:35.058 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m169513865711849472[0;39m <==    Updates: 1
+2022-04-13 11:27:35.059 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m169513865711849472[0;39m update ends, take 56 millisecs

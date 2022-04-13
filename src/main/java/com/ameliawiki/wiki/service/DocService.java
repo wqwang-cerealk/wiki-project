@@ -17,7 +17,9 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.slf4j.MDC;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.ObjectUtils;
 import req.DocQueryReq;
 import req.DocSaveReq;
@@ -48,7 +50,7 @@ public class DocService {
     public RedisUtil redisUtil;
 
     @Resource
-    public WebSocketServer webSocketServer;
+    public WsService wsService;
 
     public PageResp<DocQueryResp> list(DocQueryReq req) {
         DocExample docExample = new DocExample();
@@ -80,6 +82,7 @@ public class DocService {
     }
 
     //save
+    @Transactional
     public void save(DocSaveReq req) {
         Doc doc = CopyUtil.copy(req, Doc.class);
         Content content = CopyUtil.copy(req, Content.class);
@@ -137,11 +140,11 @@ public class DocService {
         }
 
         Doc docDb = docMapper.selectByPrimaryKey(id);
-        webSocketServer.sendInfo(docDb.getName() + " is liked!");
+        String logId = MDC.get("LOG_ID");
+        wsService.sendInfo(docDb.getName() + " is liked!", logId);
     }
 
     public void updateEbookInfo() {
         docMapperCust.updateEbookInfo();
     }
-
 }
