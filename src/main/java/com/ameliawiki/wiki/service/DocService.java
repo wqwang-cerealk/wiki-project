@@ -12,6 +12,7 @@ import com.ameliawiki.wiki.util.CopyUtil;
 import com.ameliawiki.wiki.util.RedisUtil;
 import com.ameliawiki.wiki.util.RequestContext;
 import com.ameliawiki.wiki.util.SnowFlake;
+import com.ameliawiki.wiki.websocket.WebSocketServer;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.slf4j.Logger;
@@ -45,6 +46,9 @@ public class DocService {
 
     @Resource
     public RedisUtil redisUtil;
+
+    @Resource
+    public WebSocketServer webSocketServer;
 
     public PageResp<DocQueryResp> list(DocQueryReq req) {
         DocExample docExample = new DocExample();
@@ -131,6 +135,9 @@ public class DocService {
         } else {
             throw new BusinessException(BusinessExceptionCode.VOTE_REPEAT);
         }
+
+        Doc docDb = docMapper.selectByPrimaryKey(id);
+        webSocketServer.sendInfo(docDb.getName() + " is liked!");
     }
 
     public void updateEbookInfo() {
