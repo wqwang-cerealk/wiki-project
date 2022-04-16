@@ -103,3 +103,16 @@ create table `user` (
 ) engine=innodb default charset=utf8mb4 comment='user';
 
 insert into `user` (id, `login_name`, `name`, `password`) values (1, 'test1', 'test1', '7354a1d413535a6c0dc5c209e198d799');
+
+-- ebook snapshot
+drop table if exists `ebook_snapshot`;
+create table `ebook_snapshot` (
+                                  `id` bigint auto_increment not null comment 'id',
+                                  `ebook_id` bigint not null default 0 comment 'ebook_id',
+                                  `date` date not null comment 'date of snapshot',
+                                  `view_count` int not null default 0 comment 'view count',
+                                  `vote_count` int not null default 0 comment 'like count',
+                                  `view_increase` int not null default 0 comment 'view increase',
+                                  `vote_increase` int not null default 0 comment 'like increase',
+                                  primary key (`id`)
+) engine=innodb default charset=utf8mb4 comment='ebook snapshot table';

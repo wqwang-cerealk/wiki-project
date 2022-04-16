@@ -1,0 +1,918 @@
+2022-04-15 22:45:34.687 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2022-04-15 22:45:34.693 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_322 on sunarkedeMacBook-Pro.local with PID 72419 (/Users/sunarke/Downloads/wiki 5/target/classes started by sunarke in /Users/sunarke/Downloads/wiki 5)
+2022-04-15 22:45:34.693 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-15 22:45:34.751 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-15 22:45:34.752 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-15 22:45:35.333 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-15 22:45:35.343 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-15 22:45:35.370 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2022-04-15 22:45:36.011 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-15 22:45:36.020 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-15 22:45:36.021 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-15 22:45:36.021 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-15 22:45:36.067 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-15 22:45:36.068 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1315 ms
+2022-04-15 22:45:36.964 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-15 22:45:37.291 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-04-15 22:45:37.338 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-15 22:45:37.360 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-15 22:45:37.383 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 22:45:37.396 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 3.106 seconds (JVM running for 3.531)
+2022-04-15 22:45:37.399 INFO  com.ameliawiki.wiki.config.WikiApplication        :26   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-15 22:45:37.399 INFO  com.ameliawiki.wiki.config.WikiApplication        :27   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-15 22:45:58.644 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-04-15 22:45:58.645 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-15 22:45:58.799 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_322 on sunarkedeMacBook-Pro.local with PID 72419 (/Users/sunarke/Downloads/wiki 5/target/classes started by sunarke in /Users/sunarke/Downloads/wiki 5)
+2022-04-15 22:45:58.799 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-15 22:45:58.955 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-15 22:45:58.955 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-15 22:45:58.957 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2022-04-15 22:45:59.047 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-15 22:45:59.047 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-15 22:45:59.047 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-15 22:45:59.048 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-15 22:45:59.056 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-15 22:45:59.056 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 254 ms
+2022-04-15 22:45:59.339 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-15 22:45:59.549 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-04-15 22:45:59.581 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-15 22:45:59.592 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 22:45:59.598 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 0.833 seconds (JVM running for 25.732)
+2022-04-15 22:45:59.600 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-04-15 22:45:59.601 INFO  com.ameliawiki.wiki.config.WikiApplication        :26   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-15 22:45:59.601 INFO  com.ameliawiki.wiki.config.WikiApplication        :27   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-15 22:45:59.666 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-04-15 22:45:59.667 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-15 22:46:09.092 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2022-04-15 22:46:09.095 INFO  com.ameliawiki.wiki.config.WikiApplication        :55   [32m                  [0;39m Starting WikiApplication using Java 1.8.0_322 on sunarkedeMacBook-Pro.local with PID 72703 (/Users/sunarke/Downloads/wiki 5/target/classes started by sunarke in /Users/sunarke/Downloads/wiki 5)
+2022-04-15 22:46:09.096 INFO  com.ameliawiki.wiki.config.WikiApplication        :660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-04-15 22:46:09.132 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-15 22:46:09.132 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-15 22:46:09.698 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-04-15 22:46:09.699 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-04-15 22:46:09.712 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2022-04-15 22:46:10.221 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2022-04-15 22:46:10.228 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-15 22:46:10.228 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-04-15 22:46:10.228 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-04-15 22:46:10.270 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-04-15 22:46:10.271 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1138 ms
+2022-04-15 22:46:11.038 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-15 22:46:11.324 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-04-15 22:46:11.365 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-04-15 22:46:11.384 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2022-04-15 22:46:11.404 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-15 22:46:11.416 INFO  com.ameliawiki.wiki.config.WikiApplication        :61   [32m                  [0;39m Started WikiApplication in 2.842 seconds (JVM running for 3.245)
+2022-04-15 22:46:11.419 INFO  com.ameliawiki.wiki.config.WikiApplication        :26   [32m                  [0;39m launch success!!!!!!!!YEA!!!
+2022-04-15 22:46:11.419 INFO  com.ameliawiki.wiki.config.WikiApplication        :27   [32m                  [0;39m address: 	http://127.0.0.1:8080
+2022-04-15 22:46:35.000 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170409517383815168[0;39m start updating Ebook doc
+2022-04-15 22:46:35.030 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m170409517383815168[0;39m HikariPool-1 - Starting...
+2022-04-15 22:46:36.404 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m170409517383815168[0;39m HikariPool-1 - Start completed.
+2022-04-15 22:46:36.414 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170409517383815168[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:46:36.441 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170409517383815168[0;39m ==> Parameters: 
+2022-04-15 22:46:36.484 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170409517383815168[0;39m <==    Updates: 1
+2022-04-15 22:46:36.486 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170409517383815168[0;39m update ends, take 1484 millisecs
+2022-04-15 22:46:38.676 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-15 22:46:38.676 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-04-15 22:46:38.679 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 2 ms
+2022-04-15 22:46:38.729 INFO  com.ameliawiki.wiki.aspect.LogAspect              :51   [32m170409533015986176[0;39m ------------- 开始 -------------
+2022-04-15 22:46:38.729 INFO  com.ameliawiki.wiki.websocket.WebSocketServer     :32   [32m                  [0;39m 有新连接：token：GM7gqP57yy，session id：0，当前连接数：1
+2022-04-15 22:46:38.730 INFO  com.ameliawiki.wiki.aspect.LogAspect              :52   [32m170409533015986176[0;39m 请求地址: http://127.0.0.1:8080/category/all GET
+2022-04-15 22:46:38.730 INFO  com.ameliawiki.wiki.aspect.LogAspect              :53   [32m170409533015986176[0;39m 类名方法: com.ameliawiki.wiki.controller.CategoryController.all
+2022-04-15 22:46:38.730 INFO  com.ameliawiki.wiki.aspect.LogAspect              :54   [32m170409533015986176[0;39m 远程地址: 127.0.0.1
+2022-04-15 22:46:38.803 INFO  com.ameliawiki.wiki.aspect.LogAspect              :76   [32m170409533015986176[0;39m 请求参数: []
+2022-04-15 22:46:38.870 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m170409533015986176[0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-04-15 22:46:38.870 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m170409533015986176[0;39m ==> Parameters: 
+2022-04-15 22:46:38.908 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409533015986176[0;39m <==    Columns: id, parent, name, sort
+2022-04-15 22:46:38.908 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409533015986176[0;39m <==        Row: 100, 0, Front end development, 100
+2022-04-15 22:46:38.909 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409533015986176[0;39m <==        Row: 101, 100, Vue, 101
+2022-04-15 22:46:38.910 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409533015986176[0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-04-15 22:46:38.910 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409533015986176[0;39m <==        Row: 200, 0, Java, 200
+2022-04-15 22:46:38.911 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409533015986176[0;39m <==        Row: 201, 200, Basics, 201
+2022-04-15 22:46:38.911 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409533015986176[0;39m <==        Row: 202, 200, Frameworks, 202
+2022-04-15 22:46:38.912 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409533015986176[0;39m <==        Row: 300, 0, Python, 300
+2022-04-15 22:46:38.912 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409533015986176[0;39m <==        Row: 301, 300, Basic application, 301
+2022-04-15 22:46:38.913 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409533015986176[0;39m <==        Row: 302, 300, Advanced application, 302
+2022-04-15 22:46:38.913 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409533015986176[0;39m <==        Row: 400, 0, Database, 400
+2022-04-15 22:46:38.914 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409533015986176[0;39m <==        Row: 401, 400, MySQL, 401
+2022-04-15 22:46:38.914 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409533015986176[0;39m <==        Row: 500, 0, Others, 500
+2022-04-15 22:46:38.915 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409533015986176[0;39m <==        Row: 501, 500, Servers, 501
+2022-04-15 22:46:38.915 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409533015986176[0;39m <==        Row: 502, 500, Tools, 502
+2022-04-15 22:46:38.916 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409533015986176[0;39m <==        Row: 503, 500, Languages, 503
+2022-04-15 22:46:38.917 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m170409533015986176[0;39m <==      Total: 15
+2022-04-15 22:46:38.948 INFO  com.ameliawiki.wiki.aspect.LogAspect              :89   [32m170409533015986176[0;39m 返回结果: {"content":[{"id":100,"name":"Front end development","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"Basics","parent":200,"sort":201},{"id":202,"name":"Frameworks","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"Basic application","parent":300,"sort":301},{"id":302,"name":"Advanced application","parent":300,"sort":302},{"id":400,"name":"Database","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"Others","parent":0,"sort":500},{"id":501,"name":"Servers","parent":500,"sort":501},{"id":502,"name":"Tools","parent":500,"sort":502},{"id":503,"name":"Languages","parent":500,"sort":503}],"success":true}
+2022-04-15 22:46:38.949 INFO  com.ameliawiki.wiki.aspect.LogAspect              :90   [32m170409533015986176[0;39m ------------- 结束 耗时：222 ms -------------
+2022-04-15 22:46:39.846 ERROR com.ameliawiki.wiki.websocket.WebSocketServer     :57   [32m                  [0;39m 发生错误
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1231)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1141)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:72)
+	at org.apache.tomcat.websocket.server.WsFrameServer.doOnDataAvailable(WsFrameServer.java:171)
+	at org.apache.tomcat.websocket.server.WsFrameServer.notifyDataAvailable(WsFrameServer.java:151)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.upgradeDispatch(WsHttpUpgradeHandler.java:148)
+	at org.apache.coyote.http11.upgrade.UpgradeProcessorInternal.dispatch(UpgradeProcessorInternal.java:54)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:59)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2022-04-15 22:46:39.852 INFO  com.ameliawiki.wiki.websocket.WebSocketServer     :41   [32m                  [0;39m 连接关闭，token：GM7gqP57yy，session id：0！当前连接数：0
+2022-04-15 22:46:43.024 INFO  com.ameliawiki.wiki.aspect.LogAspect              :51   [32m170409551038910464[0;39m ------------- 开始 -------------
+2022-04-15 22:46:43.025 INFO  com.ameliawiki.wiki.aspect.LogAspect              :52   [32m170409551038910464[0;39m 请求地址: http://127.0.0.1:8080/category/all GET
+2022-04-15 22:46:43.025 INFO  com.ameliawiki.wiki.aspect.LogAspect              :53   [32m170409551038910464[0;39m 类名方法: com.ameliawiki.wiki.controller.CategoryController.all
+2022-04-15 22:46:43.025 INFO  com.ameliawiki.wiki.aspect.LogAspect              :54   [32m170409551038910464[0;39m 远程地址: 127.0.0.1
+2022-04-15 22:46:43.026 INFO  com.ameliawiki.wiki.aspect.LogAspect              :76   [32m170409551038910464[0;39m 请求参数: []
+2022-04-15 22:46:43.049 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m170409551038910464[0;39m ==>  Preparing: select id, parent, `name`, sort from category order by sort asc
+2022-04-15 22:46:43.050 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m170409551038910464[0;39m ==> Parameters: 
+2022-04-15 22:46:43.073 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409551038910464[0;39m <==    Columns: id, parent, name, sort
+2022-04-15 22:46:43.074 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409551038910464[0;39m <==        Row: 100, 0, Front end development, 100
+2022-04-15 22:46:43.075 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409551038910464[0;39m <==        Row: 101, 100, Vue, 101
+2022-04-15 22:46:43.076 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409551038910464[0;39m <==        Row: 102, 100, HTML & CSS, 102
+2022-04-15 22:46:43.077 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409551038910464[0;39m <==        Row: 200, 0, Java, 200
+2022-04-15 22:46:43.077 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409551038910464[0;39m <==        Row: 201, 200, Basics, 201
+2022-04-15 22:46:43.077 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409551038910464[0;39m <==        Row: 202, 200, Frameworks, 202
+2022-04-15 22:46:43.078 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409551038910464[0;39m <==        Row: 300, 0, Python, 300
+2022-04-15 22:46:43.078 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409551038910464[0;39m <==        Row: 301, 300, Basic application, 301
+2022-04-15 22:46:43.078 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409551038910464[0;39m <==        Row: 302, 300, Advanced application, 302
+2022-04-15 22:46:43.078 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409551038910464[0;39m <==        Row: 400, 0, Database, 400
+2022-04-15 22:46:43.079 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409551038910464[0;39m <==        Row: 401, 400, MySQL, 401
+2022-04-15 22:46:43.079 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409551038910464[0;39m <==        Row: 500, 0, Others, 500
+2022-04-15 22:46:43.079 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409551038910464[0;39m <==        Row: 501, 500, Servers, 501
+2022-04-15 22:46:43.080 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409551038910464[0;39m <==        Row: 502, 500, Tools, 502
+2022-04-15 22:46:43.080 TRACE c.a.wiki.mapper.CategoryMapper.selectByExample    :143  [32m170409551038910464[0;39m <==        Row: 503, 500, Languages, 503
+2022-04-15 22:46:43.080 DEBUG c.a.wiki.mapper.CategoryMapper.selectByExample    :137  [32m170409551038910464[0;39m <==      Total: 15
+2022-04-15 22:46:43.082 INFO  com.ameliawiki.wiki.aspect.LogAspect              :89   [32m170409551038910464[0;39m 返回结果: {"content":[{"id":100,"name":"Front end development","parent":0,"sort":100},{"id":101,"name":"Vue","parent":100,"sort":101},{"id":102,"name":"HTML & CSS","parent":100,"sort":102},{"id":200,"name":"Java","parent":0,"sort":200},{"id":201,"name":"Basics","parent":200,"sort":201},{"id":202,"name":"Frameworks","parent":200,"sort":202},{"id":300,"name":"Python","parent":0,"sort":300},{"id":301,"name":"Basic application","parent":300,"sort":301},{"id":302,"name":"Advanced application","parent":300,"sort":302},{"id":400,"name":"Database","parent":0,"sort":400},{"id":401,"name":"MySQL","parent":400,"sort":401},{"id":500,"name":"Others","parent":0,"sort":500},{"id":501,"name":"Servers","parent":500,"sort":501},{"id":502,"name":"Tools","parent":500,"sort":502},{"id":503,"name":"Languages","parent":500,"sort":503}],"success":true}
+2022-04-15 22:46:43.082 INFO  com.ameliawiki.wiki.aspect.LogAspect              :90   [32m170409551038910464[0;39m ------------- 结束 耗时：58 ms -------------
+2022-04-15 22:46:43.132 INFO  com.ameliawiki.wiki.websocket.WebSocketServer     :32   [32m                  [0;39m 有新连接：token：TLbdcSbHyk，session id：1，当前连接数：1
+2022-04-15 22:46:47.250 INFO  com.ameliawiki.wiki.aspect.LogAspect              :51   [32m170409568764039168[0;39m ------------- 开始 -------------
+2022-04-15 22:46:47.250 INFO  com.ameliawiki.wiki.aspect.LogAspect              :52   [32m170409568764039168[0;39m 请求地址: http://127.0.0.1:8080/user/login POST
+2022-04-15 22:46:47.250 INFO  com.ameliawiki.wiki.aspect.LogAspect              :53   [32m170409568764039168[0;39m 类名方法: com.ameliawiki.wiki.controller.UserController.login
+2022-04-15 22:46:47.250 INFO  com.ameliawiki.wiki.aspect.LogAspect              :54   [32m170409568764039168[0;39m 远程地址: 127.0.0.1
+2022-04-15 22:46:47.252 INFO  com.ameliawiki.wiki.aspect.LogAspect              :76   [32m170409568764039168[0;39m 请求参数: [{"loginName":"test1"}]
+2022-04-15 22:46:47.278 DEBUG c.a.wiki.mapper.UserMapper.selectByExample        :137  [32m170409568764039168[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user WHERE ( login_name = ? )
+2022-04-15 22:46:47.280 DEBUG c.a.wiki.mapper.UserMapper.selectByExample        :137  [32m170409568764039168[0;39m ==> Parameters: test1(String)
+2022-04-15 22:46:47.299 TRACE c.a.wiki.mapper.UserMapper.selectByExample        :143  [32m170409568764039168[0;39m <==    Columns: id, login_name, name, password
+2022-04-15 22:46:47.300 TRACE c.a.wiki.mapper.UserMapper.selectByExample        :143  [32m170409568764039168[0;39m <==        Row: 1, test1, test1, 7354a1d413535a6c0dc5c209e198d799
+2022-04-15 22:46:47.300 DEBUG c.a.wiki.mapper.UserMapper.selectByExample        :137  [32m170409568764039168[0;39m <==      Total: 1
+2022-04-15 22:46:47.305 INFO  com.ameliawiki.wiki.controller.UserController     :75   [32m170409568764039168[0;39m generate single sign-on token：170409568994725888，and put it into redis
+2022-04-15 22:46:48.321 INFO  com.ameliawiki.wiki.aspect.LogAspect              :89   [32m170409568764039168[0;39m 返回结果: {"content":{"id":1,"loginName":"test1","name":"test1","token":"170409568994725888"},"success":true}
+2022-04-15 22:46:48.322 INFO  com.ameliawiki.wiki.aspect.LogAspect              :90   [32m170409568764039168[0;39m ------------- 结束 耗时：1072 ms -------------
+2022-04-15 22:46:50.374 INFO  com.ameliawiki.wiki.interceptor.LoginInterceptor  :29   [32m                  [0;39m ------------- LoginInterceptor start -------------
+2022-04-15 22:46:50.375 INFO  com.ameliawiki.wiki.interceptor.LoginInterceptor  :64   [32m                  [0;39m ------------- LoginInterceptor 结束 耗时：1 ms -------------
+2022-04-15 22:46:50.377 INFO  com.ameliawiki.wiki.interceptor.LoginInterceptor  :29   [32m                  [0;39m ------------- LoginInterceptor start -------------
+2022-04-15 22:46:50.378 INFO  com.ameliawiki.wiki.interceptor.LoginInterceptor  :40   [32m                  [0;39m 接口登录拦截：，path：http://127.0.0.1:8080/user/list
+2022-04-15 22:46:50.378 INFO  com.ameliawiki.wiki.interceptor.LoginInterceptor  :44   [32m                  [0;39m 登录校验开始，token：170409568994725888
+2022-04-15 22:46:50.556 INFO  com.ameliawiki.wiki.interceptor.LoginInterceptor  :56   [32m                  [0;39m 已登录：{"id":1,"loginName":"test1","name":"test1","token":"170409568994725888"}
+2022-04-15 22:46:50.574 INFO  com.ameliawiki.wiki.aspect.LogAspect              :51   [32m170409582705905664[0;39m ------------- 开始 -------------
+2022-04-15 22:46:50.574 INFO  com.ameliawiki.wiki.aspect.LogAspect              :52   [32m170409582705905664[0;39m 请求地址: http://127.0.0.1:8080/user/list GET
+2022-04-15 22:46:50.574 INFO  com.ameliawiki.wiki.aspect.LogAspect              :53   [32m170409582705905664[0;39m 类名方法: com.ameliawiki.wiki.controller.UserController.list
+2022-04-15 22:46:50.574 INFO  com.ameliawiki.wiki.aspect.LogAspect              :54   [32m170409582705905664[0;39m 远程地址: 127.0.0.1
+2022-04-15 22:46:50.576 INFO  com.ameliawiki.wiki.aspect.LogAspect              :76   [32m170409582705905664[0;39m 请求参数: [{"page":1,"size":10}]
+2022-04-15 22:46:50.623 DEBUG c.a.wiki.mapper.UserMapper.selectByExample_COUNT  :137  [32m170409582705905664[0;39m ==>  Preparing: SELECT count(0) FROM user
+2022-04-15 22:46:50.624 DEBUG c.a.wiki.mapper.UserMapper.selectByExample_COUNT  :137  [32m170409582705905664[0;39m ==> Parameters: 
+2022-04-15 22:46:50.640 TRACE c.a.wiki.mapper.UserMapper.selectByExample_COUNT  :143  [32m170409582705905664[0;39m <==    Columns: count(0)
+2022-04-15 22:46:50.640 TRACE c.a.wiki.mapper.UserMapper.selectByExample_COUNT  :143  [32m170409582705905664[0;39m <==        Row: 1
+2022-04-15 22:46:50.641 DEBUG c.a.wiki.mapper.UserMapper.selectByExample_COUNT  :137  [32m170409582705905664[0;39m <==      Total: 1
+2022-04-15 22:46:50.643 DEBUG c.a.wiki.mapper.UserMapper.selectByExample        :137  [32m170409582705905664[0;39m ==>  Preparing: select id, login_name, `name`, `password` from user LIMIT ?
+2022-04-15 22:46:50.643 DEBUG c.a.wiki.mapper.UserMapper.selectByExample        :137  [32m170409582705905664[0;39m ==> Parameters: 10(Integer)
+2022-04-15 22:46:50.664 TRACE c.a.wiki.mapper.UserMapper.selectByExample        :143  [32m170409582705905664[0;39m <==    Columns: id, login_name, name, password
+2022-04-15 22:46:50.664 TRACE c.a.wiki.mapper.UserMapper.selectByExample        :143  [32m170409582705905664[0;39m <==        Row: 1, test1, test1, 7354a1d413535a6c0dc5c209e198d799
+2022-04-15 22:46:50.665 DEBUG c.a.wiki.mapper.UserMapper.selectByExample        :137  [32m170409582705905664[0;39m <==      Total: 1
+2022-04-15 22:46:50.666 INFO  com.ameliawiki.wiki.service.UserService           :49   [32m170409582705905664[0;39m 总行数：1
+2022-04-15 22:46:50.667 INFO  com.ameliawiki.wiki.service.UserService           :50   [32m170409582705905664[0;39m 总页数：1
+2022-04-15 22:46:50.672 INFO  com.ameliawiki.wiki.aspect.LogAspect              :89   [32m170409582705905664[0;39m 返回结果: {"content":{"list":[{"id":1,"loginName":"test1","name":"test1"}],"total":1},"success":true}
+2022-04-15 22:46:50.672 INFO  com.ameliawiki.wiki.aspect.LogAspect              :90   [32m170409582705905664[0;39m ------------- 结束 耗时：98 ms -------------
+2022-04-15 22:46:50.675 INFO  com.ameliawiki.wiki.interceptor.LoginInterceptor  :64   [32m170409582705905664[0;39m ------------- LoginInterceptor 结束 耗时：297 ms -------------
+2022-04-15 22:47:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170409643233906688[0;39m start updating Ebook doc
+2022-04-15 22:47:05.020 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170409643233906688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:47:05.021 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170409643233906688[0;39m ==> Parameters: 
+2022-04-15 22:47:05.060 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170409643233906688[0;39m <==    Updates: 1
+2022-04-15 22:47:05.061 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170409643233906688[0;39m update ends, take 56 millisecs
+2022-04-15 22:47:35.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170409769063026688[0;39m start updating Ebook doc
+2022-04-15 22:47:35.021 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170409769063026688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:47:35.022 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170409769063026688[0;39m ==> Parameters: 
+2022-04-15 22:47:35.067 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170409769063026688[0;39m <==    Updates: 1
+2022-04-15 22:47:35.068 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170409769063026688[0;39m update ends, take 63 millisecs
+2022-04-15 22:48:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170409894892146688[0;39m start updating Ebook doc
+2022-04-15 22:48:05.026 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170409894892146688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:48:05.027 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170409894892146688[0;39m ==> Parameters: 
+2022-04-15 22:48:05.070 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170409894892146688[0;39m <==    Updates: 1
+2022-04-15 22:48:05.071 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170409894892146688[0;39m update ends, take 66 millisecs
+2022-04-15 22:48:35.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170410020721266688[0;39m start updating Ebook doc
+2022-04-15 22:48:35.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410020721266688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:48:35.034 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410020721266688[0;39m ==> Parameters: 
+2022-04-15 22:48:35.240 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410020721266688[0;39m <==    Updates: 1
+2022-04-15 22:48:35.240 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170410020721266688[0;39m update ends, take 235 millisecs
+2022-04-15 22:49:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170410146550386688[0;39m start updating Ebook doc
+2022-04-15 22:49:05.022 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410146550386688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:49:05.023 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410146550386688[0;39m ==> Parameters: 
+2022-04-15 22:49:05.061 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410146550386688[0;39m <==    Updates: 1
+2022-04-15 22:49:05.062 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170410146550386688[0;39m update ends, take 57 millisecs
+2022-04-15 22:49:35.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170410272379506688[0;39m start updating Ebook doc
+2022-04-15 22:49:35.026 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410272379506688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:49:35.027 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410272379506688[0;39m ==> Parameters: 
+2022-04-15 22:49:35.068 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410272379506688[0;39m <==    Updates: 1
+2022-04-15 22:49:35.069 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170410272379506688[0;39m update ends, take 64 millisecs
+2022-04-15 22:50:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170410398208626688[0;39m start updating Ebook doc
+2022-04-15 22:50:05.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410398208626688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:50:05.029 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410398208626688[0;39m ==> Parameters: 
+2022-04-15 22:50:05.071 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410398208626688[0;39m <==    Updates: 1
+2022-04-15 22:50:05.072 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170410398208626688[0;39m update ends, take 66 millisecs
+2022-04-15 22:50:35.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170410524037746688[0;39m start updating Ebook doc
+2022-04-15 22:50:35.054 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410524037746688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:50:35.054 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410524037746688[0;39m ==> Parameters: 
+2022-04-15 22:50:35.172 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410524037746688[0;39m <==    Updates: 1
+2022-04-15 22:50:35.173 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170410524037746688[0;39m update ends, take 168 millisecs
+2022-04-15 22:51:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170410649866866688[0;39m start updating Ebook doc
+2022-04-15 22:51:05.021 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410649866866688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:51:05.021 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410649866866688[0;39m ==> Parameters: 
+2022-04-15 22:51:05.073 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410649866866688[0;39m <==    Updates: 1
+2022-04-15 22:51:05.074 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170410649866866688[0;39m update ends, take 69 millisecs
+2022-04-15 22:51:35.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170410775695986688[0;39m start updating Ebook doc
+2022-04-15 22:51:35.021 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410775695986688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:51:35.023 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410775695986688[0;39m ==> Parameters: 
+2022-04-15 22:51:35.064 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410775695986688[0;39m <==    Updates: 1
+2022-04-15 22:51:35.064 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170410775695986688[0;39m update ends, take 58 millisecs
+2022-04-15 22:52:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170410901520912384[0;39m start updating Ebook doc
+2022-04-15 22:52:05.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410901520912384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:52:05.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410901520912384[0;39m ==> Parameters: 
+2022-04-15 22:52:05.114 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170410901520912384[0;39m <==    Updates: 1
+2022-04-15 22:52:05.115 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170410901520912384[0;39m update ends, take 109 millisecs
+2022-04-15 22:52:35.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170411027350032384[0;39m start updating Ebook doc
+2022-04-15 22:52:35.532 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411027350032384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:52:35.533 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411027350032384[0;39m ==> Parameters: 
+2022-04-15 22:52:35.574 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411027350032384[0;39m <==    Updates: 1
+2022-04-15 22:52:35.575 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170411027350032384[0;39m update ends, take 570 millisecs
+2022-04-15 22:53:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170411153183346688[0;39m start updating Ebook doc
+2022-04-15 22:53:05.027 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411153183346688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:53:05.027 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411153183346688[0;39m ==> Parameters: 
+2022-04-15 22:53:05.075 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411153183346688[0;39m <==    Updates: 1
+2022-04-15 22:53:05.076 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170411153183346688[0;39m update ends, take 71 millisecs
+2022-04-15 22:53:35.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170411279008272384[0;39m start updating Ebook doc
+2022-04-15 22:53:35.043 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411279008272384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:53:35.044 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411279008272384[0;39m ==> Parameters: 
+2022-04-15 22:53:35.091 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411279008272384[0;39m <==    Updates: 1
+2022-04-15 22:53:35.092 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170411279008272384[0;39m update ends, take 86 millisecs
+2022-04-15 22:54:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170411404841586688[0;39m start updating Ebook doc
+2022-04-15 22:54:05.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411404841586688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:54:05.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411404841586688[0;39m ==> Parameters: 
+2022-04-15 22:54:05.079 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411404841586688[0;39m <==    Updates: 1
+2022-04-15 22:54:05.080 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170411404841586688[0;39m update ends, take 74 millisecs
+2022-04-15 22:54:35.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170411530683289600[0;39m start updating Ebook doc
+2022-04-15 22:54:35.056 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411530683289600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:54:35.057 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411530683289600[0;39m ==> Parameters: 
+2022-04-15 22:54:35.137 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411530683289600[0;39m <==    Updates: 1
+2022-04-15 22:54:35.138 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170411530683289600[0;39m update ends, take 129 millisecs
+2022-04-15 22:55:05.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170411656495632384[0;39m start updating Ebook doc
+2022-04-15 22:55:05.020 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411656495632384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:55:05.021 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411656495632384[0;39m ==> Parameters: 
+2022-04-15 22:55:05.062 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411656495632384[0;39m <==    Updates: 1
+2022-04-15 22:55:05.063 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170411656495632384[0;39m update ends, take 57 millisecs
+2022-04-15 22:55:35.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170411782324752384[0;39m start updating Ebook doc
+2022-04-15 22:55:35.054 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411782324752384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:55:35.055 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411782324752384[0;39m ==> Parameters: 
+2022-04-15 22:55:35.126 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411782324752384[0;39m <==    Updates: 1
+2022-04-15 22:55:35.127 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170411782324752384[0;39m update ends, take 122 millisecs
+2022-04-15 22:56:05.009 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170411908174843904[0;39m start updating Ebook doc
+2022-04-15 22:56:05.039 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411908174843904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:56:05.040 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411908174843904[0;39m ==> Parameters: 
+2022-04-15 22:56:05.079 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170411908174843904[0;39m <==    Updates: 1
+2022-04-15 22:56:05.080 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170411908174843904[0;39m update ends, take 70 millisecs
+2022-04-15 22:56:35.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170412033982992384[0;39m start updating Ebook doc
+2022-04-15 22:56:35.050 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412033982992384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:56:35.051 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412033982992384[0;39m ==> Parameters: 
+2022-04-15 22:56:35.131 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412033982992384[0;39m <==    Updates: 1
+2022-04-15 22:56:35.132 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170412033982992384[0;39m update ends, take 126 millisecs
+2022-04-15 22:57:05.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170412159812112384[0;39m start updating Ebook doc
+2022-04-15 22:57:05.021 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412159812112384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:57:05.022 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412159812112384[0;39m ==> Parameters: 
+2022-04-15 22:57:05.062 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412159812112384[0;39m <==    Updates: 1
+2022-04-15 22:57:05.062 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170412159812112384[0;39m update ends, take 56 millisecs
+2022-04-15 22:57:35.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170412285641232384[0;39m start updating Ebook doc
+2022-04-15 22:57:35.140 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412285641232384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:57:35.140 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412285641232384[0;39m ==> Parameters: 
+2022-04-15 22:57:35.310 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412285641232384[0;39m <==    Updates: 1
+2022-04-15 22:57:35.310 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170412285641232384[0;39m update ends, take 304 millisecs
+2022-04-15 22:58:05.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170412411470352384[0;39m start updating Ebook doc
+2022-04-15 22:58:05.030 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412411470352384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:58:05.031 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412411470352384[0;39m ==> Parameters: 
+2022-04-15 22:58:05.073 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412411470352384[0;39m <==    Updates: 1
+2022-04-15 22:58:05.074 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170412411470352384[0;39m update ends, take 69 millisecs
+2022-04-15 22:58:35.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170412537299472384[0;39m start updating Ebook doc
+2022-04-15 22:58:35.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412537299472384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:58:35.029 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412537299472384[0;39m ==> Parameters: 
+2022-04-15 22:58:35.055 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412537299472384[0;39m <==    Updates: 1
+2022-04-15 22:58:35.055 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170412537299472384[0;39m update ends, take 49 millisecs
+2022-04-15 22:59:05.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170412663145369600[0;39m start updating Ebook doc
+2022-04-15 22:59:05.025 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412663145369600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:59:05.026 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412663145369600[0;39m ==> Parameters: 
+2022-04-15 22:59:05.060 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412663145369600[0;39m <==    Updates: 1
+2022-04-15 22:59:05.060 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170412663145369600[0;39m update ends, take 51 millisecs
+2022-04-15 22:59:35.010 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170412788982878208[0;39m start updating Ebook doc
+2022-04-15 22:59:35.034 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412788982878208[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 22:59:35.034 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412788982878208[0;39m ==> Parameters: 
+2022-04-15 22:59:35.084 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412788982878208[0;39m <==    Updates: 1
+2022-04-15 22:59:35.085 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170412788982878208[0;39m update ends, take 75 millisecs
+2022-04-15 23:00:05.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170412914786832384[0;39m start updating Ebook doc
+2022-04-15 23:00:05.020 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412914786832384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:00:05.021 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412914786832384[0;39m ==> Parameters: 
+2022-04-15 23:00:05.053 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170412914786832384[0;39m <==    Updates: 1
+2022-04-15 23:00:05.053 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170412914786832384[0;39m update ends, take 48 millisecs
+2022-04-15 23:00:35.007 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170413040628535296[0;39m start updating Ebook doc
+2022-04-15 23:00:35.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413040628535296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:00:35.034 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413040628535296[0;39m ==> Parameters: 
+2022-04-15 23:00:35.089 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413040628535296[0;39m <==    Updates: 1
+2022-04-15 23:00:35.089 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170413040628535296[0;39m update ends, take 82 millisecs
+2022-04-15 23:01:05.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170413166445072384[0;39m start updating Ebook doc
+2022-04-15 23:01:05.027 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413166445072384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:01:05.027 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413166445072384[0;39m ==> Parameters: 
+2022-04-15 23:01:05.064 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413166445072384[0;39m <==    Updates: 1
+2022-04-15 23:01:05.065 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170413166445072384[0;39m update ends, take 60 millisecs
+2022-04-15 23:01:35.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170413292274192384[0;39m start updating Ebook doc
+2022-04-15 23:01:35.030 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413292274192384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:01:35.031 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413292274192384[0;39m ==> Parameters: 
+2022-04-15 23:01:35.068 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413292274192384[0;39m <==    Updates: 1
+2022-04-15 23:01:35.069 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170413292274192384[0;39m update ends, take 64 millisecs
+2022-04-15 23:02:05.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170413418103312384[0;39m start updating Ebook doc
+2022-04-15 23:02:05.027 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413418103312384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:02:05.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413418103312384[0;39m ==> Parameters: 
+2022-04-15 23:02:05.065 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413418103312384[0;39m <==    Updates: 1
+2022-04-15 23:02:05.066 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170413418103312384[0;39m update ends, take 61 millisecs
+2022-04-15 23:02:35.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170413543932432384[0;39m start updating Ebook doc
+2022-04-15 23:02:35.103 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413543932432384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:02:35.104 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413543932432384[0;39m ==> Parameters: 
+2022-04-15 23:02:35.468 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413543932432384[0;39m <==    Updates: 1
+2022-04-15 23:02:35.469 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170413543932432384[0;39m update ends, take 464 millisecs
+2022-04-15 23:03:05.009 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170413669782523904[0;39m start updating Ebook doc
+2022-04-15 23:03:05.034 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413669782523904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:03:05.035 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413669782523904[0;39m ==> Parameters: 
+2022-04-15 23:03:05.075 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413669782523904[0;39m <==    Updates: 1
+2022-04-15 23:03:05.076 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170413669782523904[0;39m update ends, take 65 millisecs
+2022-04-15 23:03:35.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170413795590672384[0;39m start updating Ebook doc
+2022-04-15 23:03:35.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413795590672384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:03:35.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413795590672384[0;39m ==> Parameters: 
+2022-04-15 23:03:35.072 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413795590672384[0;39m <==    Updates: 1
+2022-04-15 23:03:35.073 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170413795590672384[0;39m update ends, take 68 millisecs
+2022-04-15 23:04:05.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170413921419792384[0;39m start updating Ebook doc
+2022-04-15 23:04:05.030 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413921419792384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:04:05.030 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413921419792384[0;39m ==> Parameters: 
+2022-04-15 23:04:05.125 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170413921419792384[0;39m <==    Updates: 1
+2022-04-15 23:04:05.125 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170413921419792384[0;39m update ends, take 121 millisecs
+2022-04-15 23:04:35.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170414047248912384[0;39m start updating Ebook doc
+2022-04-15 23:04:35.030 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414047248912384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:04:35.031 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414047248912384[0;39m ==> Parameters: 
+2022-04-15 23:04:35.066 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414047248912384[0;39m <==    Updates: 1
+2022-04-15 23:04:35.067 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170414047248912384[0;39m update ends, take 62 millisecs
+2022-04-15 23:05:05.002 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170414173069643776[0;39m start updating Ebook doc
+2022-04-15 23:05:05.018 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414173069643776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:05:05.019 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414173069643776[0;39m ==> Parameters: 
+2022-04-15 23:05:05.057 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414173069643776[0;39m <==    Updates: 1
+2022-04-15 23:05:05.058 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170414173069643776[0;39m update ends, take 56 millisecs
+2022-04-15 23:05:35.002 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170414298898763776[0;39m start updating Ebook doc
+2022-04-15 23:05:35.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414298898763776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:05:35.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414298898763776[0;39m ==> Parameters: 
+2022-04-15 23:05:35.079 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414298898763776[0;39m <==    Updates: 1
+2022-04-15 23:05:35.079 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170414298898763776[0;39m update ends, take 76 millisecs
+2022-04-15 23:06:05.006 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170414424744660992[0;39m start updating Ebook doc
+2022-04-15 23:06:05.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414424744660992[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:06:05.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414424744660992[0;39m ==> Parameters: 
+2022-04-15 23:06:05.074 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414424744660992[0;39m <==    Updates: 1
+2022-04-15 23:06:05.075 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170414424744660992[0;39m update ends, take 69 millisecs
+2022-04-15 23:06:35.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170414550569586688[0;39m start updating Ebook doc
+2022-04-15 23:06:35.022 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414550569586688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:06:35.023 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414550569586688[0;39m ==> Parameters: 
+2022-04-15 23:06:35.058 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414550569586688[0;39m <==    Updates: 1
+2022-04-15 23:06:35.059 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170414550569586688[0;39m update ends, take 52 millisecs
+2022-04-15 23:07:05.009 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170414676415483904[0;39m start updating Ebook doc
+2022-04-15 23:07:05.049 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414676415483904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:07:05.049 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414676415483904[0;39m ==> Parameters: 
+2022-04-15 23:07:05.106 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414676415483904[0;39m <==    Updates: 1
+2022-04-15 23:07:05.107 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170414676415483904[0;39m update ends, take 97 millisecs
+2022-04-15 23:07:35.007 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170414802236215296[0;39m start updating Ebook doc
+2022-04-15 23:07:35.143 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414802236215296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:07:35.143 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414802236215296[0;39m ==> Parameters: 
+2022-04-15 23:07:35.312 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414802236215296[0;39m <==    Updates: 1
+2022-04-15 23:07:35.312 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170414802236215296[0;39m update ends, take 304 millisecs
+2022-04-15 23:08:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170414928056946688[0;39m start updating Ebook doc
+2022-04-15 23:08:05.031 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414928056946688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:08:05.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414928056946688[0;39m ==> Parameters: 
+2022-04-15 23:08:05.077 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170414928056946688[0;39m <==    Updates: 1
+2022-04-15 23:08:05.078 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170414928056946688[0;39m update ends, take 73 millisecs
+2022-04-15 23:08:35.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170415053886066688[0;39m start updating Ebook doc
+2022-04-15 23:08:35.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415053886066688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:08:35.029 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415053886066688[0;39m ==> Parameters: 
+2022-04-15 23:08:35.073 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415053886066688[0;39m <==    Updates: 1
+2022-04-15 23:08:35.074 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170415053886066688[0;39m update ends, take 69 millisecs
+2022-04-15 23:09:05.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170415179727769600[0;39m start updating Ebook doc
+2022-04-15 23:09:05.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415179727769600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:09:05.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415179727769600[0;39m ==> Parameters: 
+2022-04-15 23:09:05.070 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415179727769600[0;39m <==    Updates: 1
+2022-04-15 23:09:05.070 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170415179727769600[0;39m update ends, take 60 millisecs
+2022-04-15 23:09:35.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170415305540112384[0;39m start updating Ebook doc
+2022-04-15 23:09:35.029 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415305540112384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:09:35.029 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415305540112384[0;39m ==> Parameters: 
+2022-04-15 23:09:35.128 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415305540112384[0;39m <==    Updates: 1
+2022-04-15 23:09:35.129 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170415305540112384[0;39m update ends, take 124 millisecs
+2022-04-15 23:10:05.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170415431386009600[0;39m start updating Ebook doc
+2022-04-15 23:10:05.030 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415431386009600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:10:05.031 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415431386009600[0;39m ==> Parameters: 
+2022-04-15 23:10:05.081 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415431386009600[0;39m <==    Updates: 1
+2022-04-15 23:10:05.081 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170415431386009600[0;39m update ends, take 71 millisecs
+2022-04-15 23:10:35.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170415557198352384[0;39m start updating Ebook doc
+2022-04-15 23:10:35.052 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415557198352384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:10:35.053 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415557198352384[0;39m ==> Parameters: 
+2022-04-15 23:10:35.097 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415557198352384[0;39m <==    Updates: 1
+2022-04-15 23:10:35.097 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170415557198352384[0;39m update ends, take 93 millisecs
+2022-04-15 23:11:05.009 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170415683048443904[0;39m start updating Ebook doc
+2022-04-15 23:11:05.030 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415683048443904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:11:05.031 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415683048443904[0;39m ==> Parameters: 
+2022-04-15 23:11:05.072 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415683048443904[0;39m <==    Updates: 1
+2022-04-15 23:11:05.073 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170415683048443904[0;39m update ends, take 64 millisecs
+2022-04-15 23:11:35.006 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170415808864980992[0;39m start updating Ebook doc
+2022-04-15 23:11:35.021 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415808864980992[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:11:35.022 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415808864980992[0;39m ==> Parameters: 
+2022-04-15 23:11:35.057 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415808864980992[0;39m <==    Updates: 1
+2022-04-15 23:11:35.058 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170415808864980992[0;39m update ends, take 52 millisecs
+2022-04-15 23:12:05.009 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170415934706683904[0;39m start updating Ebook doc
+2022-04-15 23:12:05.023 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415934706683904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:12:05.024 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415934706683904[0;39m ==> Parameters: 
+2022-04-15 23:12:05.071 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170415934706683904[0;39m <==    Updates: 1
+2022-04-15 23:12:05.072 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170415934706683904[0;39m update ends, take 63 millisecs
+2022-04-15 23:12:35.007 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170416060527415296[0;39m start updating Ebook doc
+2022-04-15 23:12:35.078 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416060527415296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:12:35.079 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416060527415296[0;39m ==> Parameters: 
+2022-04-15 23:12:35.244 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416060527415296[0;39m <==    Updates: 1
+2022-04-15 23:12:35.244 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170416060527415296[0;39m update ends, take 236 millisecs
+2022-04-15 23:13:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170416186348146688[0;39m start updating Ebook doc
+2022-04-15 23:13:05.031 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416186348146688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:13:05.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416186348146688[0;39m ==> Parameters: 
+2022-04-15 23:13:05.075 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416186348146688[0;39m <==    Updates: 1
+2022-04-15 23:13:05.076 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170416186348146688[0;39m update ends, take 71 millisecs
+2022-04-15 23:13:35.009 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170416312194043904[0;39m start updating Ebook doc
+2022-04-15 23:13:35.047 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416312194043904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:13:35.048 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416312194043904[0;39m ==> Parameters: 
+2022-04-15 23:13:35.090 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416312194043904[0;39m <==    Updates: 1
+2022-04-15 23:13:35.091 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170416312194043904[0;39m update ends, take 81 millisecs
+2022-04-15 23:14:05.006 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170416438010580992[0;39m start updating Ebook doc
+2022-04-15 23:14:05.053 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416438010580992[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:14:05.053 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416438010580992[0;39m ==> Parameters: 
+2022-04-15 23:14:05.094 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416438010580992[0;39m <==    Updates: 1
+2022-04-15 23:14:05.095 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170416438010580992[0;39m update ends, take 88 millisecs
+2022-04-15 23:14:35.010 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170416563856478208[0;39m start updating Ebook doc
+2022-04-15 23:14:35.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416563856478208[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:14:35.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416563856478208[0;39m ==> Parameters: 
+2022-04-15 23:14:35.076 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416563856478208[0;39m <==    Updates: 1
+2022-04-15 23:14:35.077 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170416563856478208[0;39m update ends, take 66 millisecs
+2022-04-15 23:15:05.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170416689677209600[0;39m start updating Ebook doc
+2022-04-15 23:15:05.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416689677209600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:15:05.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416689677209600[0;39m ==> Parameters: 
+2022-04-15 23:15:05.060 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416689677209600[0;39m <==    Updates: 1
+2022-04-15 23:15:05.060 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170416689677209600[0;39m update ends, take 52 millisecs
+2022-04-15 23:15:35.006 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170416815497940992[0;39m start updating Ebook doc
+2022-04-15 23:15:35.038 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416815497940992[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:15:35.039 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416815497940992[0;39m ==> Parameters: 
+2022-04-15 23:15:35.075 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416815497940992[0;39m <==    Updates: 1
+2022-04-15 23:15:35.076 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170416815497940992[0;39m update ends, take 70 millisecs
+2022-04-15 23:16:05.002 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170416941310283776[0;39m start updating Ebook doc
+2022-04-15 23:16:05.024 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416941310283776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:16:05.025 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416941310283776[0;39m ==> Parameters: 
+2022-04-15 23:16:05.051 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170416941310283776[0;39m <==    Updates: 1
+2022-04-15 23:16:05.051 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170416941310283776[0;39m update ends, take 49 millisecs
+2022-04-15 23:16:35.002 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170417067135209472[0;39m start updating Ebook doc
+2022-04-15 23:16:35.018 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417067135209472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:16:35.019 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417067135209472[0;39m ==> Parameters: 
+2022-04-15 23:16:35.068 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417067135209472[0;39m <==    Updates: 1
+2022-04-15 23:16:35.069 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170417067135209472[0;39m update ends, take 67 millisecs
+2022-04-15 23:17:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170417192981106688[0;39m start updating Ebook doc
+2022-04-15 23:17:05.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417192981106688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:17:05.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417192981106688[0;39m ==> Parameters: 
+2022-04-15 23:17:05.064 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417192981106688[0;39m <==    Updates: 1
+2022-04-15 23:17:05.064 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170417192981106688[0;39m update ends, take 59 millisecs
+2022-04-15 23:17:35.002 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170417318797643776[0;39m start updating Ebook doc
+2022-04-15 23:17:35.079 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417318797643776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:17:35.080 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417318797643776[0;39m ==> Parameters: 
+2022-04-15 23:17:35.254 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417318797643776[0;39m <==    Updates: 1
+2022-04-15 23:17:35.254 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170417318797643776[0;39m update ends, take 251 millisecs
+2022-04-15 23:18:05.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170417444651929600[0;39m start updating Ebook doc
+2022-04-15 23:18:05.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417444651929600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:18:05.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417444651929600[0;39m ==> Parameters: 
+2022-04-15 23:18:05.061 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417444651929600[0;39m <==    Updates: 1
+2022-04-15 23:18:05.062 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170417444651929600[0;39m update ends, take 54 millisecs
+2022-04-15 23:18:35.006 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170417570472660992[0;39m start updating Ebook doc
+2022-04-15 23:18:35.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417570472660992[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:18:35.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417570472660992[0;39m ==> Parameters: 
+2022-04-15 23:18:35.076 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417570472660992[0;39m <==    Updates: 1
+2022-04-15 23:18:35.077 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170417570472660992[0;39m update ends, take 70 millisecs
+2022-04-15 23:19:05.003 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170417696289198080[0;39m start updating Ebook doc
+2022-04-15 23:19:05.061 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417696289198080[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:19:05.062 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417696289198080[0;39m ==> Parameters: 
+2022-04-15 23:19:05.112 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417696289198080[0;39m <==    Updates: 1
+2022-04-15 23:19:05.113 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170417696289198080[0;39m update ends, take 109 millisecs
+2022-04-15 23:19:35.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170417822135095296[0;39m start updating Ebook doc
+2022-04-15 23:19:35.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417822135095296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:19:35.034 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417822135095296[0;39m ==> Parameters: 
+2022-04-15 23:19:35.068 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417822135095296[0;39m <==    Updates: 1
+2022-04-15 23:19:35.069 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170417822135095296[0;39m update ends, take 60 millisecs
+2022-04-15 23:20:05.009 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170417947972603904[0;39m start updating Ebook doc
+2022-04-15 23:20:05.039 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417947972603904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:20:05.039 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417947972603904[0;39m ==> Parameters: 
+2022-04-15 23:20:05.081 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170417947972603904[0;39m <==    Updates: 1
+2022-04-15 23:20:05.082 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170417947972603904[0;39m update ends, take 73 millisecs
+2022-04-15 23:20:35.010 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170418073805918208[0;39m start updating Ebook doc
+2022-04-15 23:20:35.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418073805918208[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:20:35.029 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418073805918208[0;39m ==> Parameters: 
+2022-04-15 23:20:35.066 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418073805918208[0;39m <==    Updates: 1
+2022-04-15 23:20:35.066 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170418073805918208[0;39m update ends, take 56 millisecs
+2022-04-15 23:21:05.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170418199609872384[0;39m start updating Ebook doc
+2022-04-15 23:21:05.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418199609872384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:21:05.029 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418199609872384[0;39m ==> Parameters: 
+2022-04-15 23:21:05.067 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418199609872384[0;39m <==    Updates: 1
+2022-04-15 23:21:05.068 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170418199609872384[0;39m update ends, take 64 millisecs
+2022-04-15 23:21:35.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170418325443186688[0;39m start updating Ebook doc
+2022-04-15 23:21:35.022 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418325443186688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:21:35.022 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418325443186688[0;39m ==> Parameters: 
+2022-04-15 23:21:35.068 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418325443186688[0;39m <==    Updates: 1
+2022-04-15 23:21:35.068 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170418325443186688[0;39m update ends, take 62 millisecs
+2022-04-15 23:22:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170418451272306688[0;39m start updating Ebook doc
+2022-04-15 23:22:05.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418451272306688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:22:05.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418451272306688[0;39m ==> Parameters: 
+2022-04-15 23:22:05.090 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418451272306688[0;39m <==    Updates: 1
+2022-04-15 23:22:05.090 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170418451272306688[0;39m update ends, take 84 millisecs
+2022-04-15 23:22:35.010 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170418577122398208[0;39m start updating Ebook doc
+2022-04-15 23:22:35.112 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418577122398208[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:22:35.113 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418577122398208[0;39m ==> Parameters: 
+2022-04-15 23:22:35.286 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418577122398208[0;39m <==    Updates: 1
+2022-04-15 23:22:35.286 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170418577122398208[0;39m update ends, take 276 millisecs
+2022-04-15 23:23:05.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170418702938935296[0;39m start updating Ebook doc
+2022-04-15 23:23:05.034 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418702938935296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:23:05.035 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418702938935296[0;39m ==> Parameters: 
+2022-04-15 23:23:05.095 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418702938935296[0;39m <==    Updates: 1
+2022-04-15 23:23:05.095 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170418702938935296[0;39m update ends, take 87 millisecs
+2022-04-15 23:23:35.009 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170418828776443904[0;39m start updating Ebook doc
+2022-04-15 23:23:35.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418828776443904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:23:35.034 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418828776443904[0;39m ==> Parameters: 
+2022-04-15 23:23:35.084 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418828776443904[0;39m <==    Updates: 1
+2022-04-15 23:23:35.085 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170418828776443904[0;39m update ends, take 75 millisecs
+2022-04-15 23:24:05.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170418954584592384[0;39m start updating Ebook doc
+2022-04-15 23:24:05.027 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418954584592384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:24:05.027 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418954584592384[0;39m ==> Parameters: 
+2022-04-15 23:24:05.075 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170418954584592384[0;39m <==    Updates: 1
+2022-04-15 23:24:05.075 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170418954584592384[0;39m update ends, take 71 millisecs
+2022-04-15 23:24:35.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170419080413712384[0;39m start updating Ebook doc
+2022-04-15 23:24:35.042 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419080413712384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:24:35.042 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419080413712384[0;39m ==> Parameters: 
+2022-04-15 23:24:35.092 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419080413712384[0;39m <==    Updates: 1
+2022-04-15 23:24:35.092 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170419080413712384[0;39m update ends, take 88 millisecs
+2022-04-15 23:25:05.001 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170419206230249472[0;39m start updating Ebook doc
+2022-04-15 23:25:05.026 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419206230249472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:25:05.026 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419206230249472[0;39m ==> Parameters: 
+2022-04-15 23:25:05.066 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419206230249472[0;39m <==    Updates: 1
+2022-04-15 23:25:05.066 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170419206230249472[0;39m update ends, take 64 millisecs
+2022-04-15 23:25:35.003 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170419332063563776[0;39m start updating Ebook doc
+2022-04-15 23:25:35.515 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419332063563776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:25:35.515 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419332063563776[0;39m ==> Parameters: 
+2022-04-15 23:25:35.561 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419332063563776[0;39m <==    Updates: 1
+2022-04-15 23:25:35.561 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170419332063563776[0;39m update ends, take 557 millisecs
+2022-04-15 23:26:05.006 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170419457909460992[0;39m start updating Ebook doc
+2022-04-15 23:26:05.029 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419457909460992[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:26:05.030 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419457909460992[0;39m ==> Parameters: 
+2022-04-15 23:26:05.075 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419457909460992[0;39m <==    Updates: 1
+2022-04-15 23:26:05.076 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170419457909460992[0;39m update ends, take 69 millisecs
+2022-04-15 23:26:35.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170419583734386688[0;39m start updating Ebook doc
+2022-04-15 23:26:35.024 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419583734386688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:26:35.025 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419583734386688[0;39m ==> Parameters: 
+2022-04-15 23:26:35.064 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419583734386688[0;39m <==    Updates: 1
+2022-04-15 23:26:35.065 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170419583734386688[0;39m update ends, take 59 millisecs
+2022-04-15 23:27:05.002 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170419709550923776[0;39m start updating Ebook doc
+2022-04-15 23:27:05.038 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419709550923776[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:27:05.039 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419709550923776[0;39m ==> Parameters: 
+2022-04-15 23:27:05.080 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419709550923776[0;39m <==    Updates: 1
+2022-04-15 23:27:05.080 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170419709550923776[0;39m update ends, take 77 millisecs
+2022-04-15 23:27:35.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170419835405209600[0;39m start updating Ebook doc
+2022-04-15 23:27:35.772 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419835405209600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:27:35.772 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419835405209600[0;39m ==> Parameters: 
+2022-04-15 23:27:35.857 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419835405209600[0;39m <==    Updates: 1
+2022-04-15 23:27:35.858 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170419835405209600[0;39m update ends, take 849 millisecs
+2022-04-15 23:28:05.001 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170419961204969472[0;39m start updating Ebook doc
+2022-04-15 23:28:05.023 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419961204969472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:28:05.024 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419961204969472[0;39m ==> Parameters: 
+2022-04-15 23:28:05.074 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170419961204969472[0;39m <==    Updates: 1
+2022-04-15 23:28:05.075 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170419961204969472[0;39m update ends, take 73 millisecs
+2022-04-15 23:28:35.001 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170420087034089472[0;39m start updating Ebook doc
+2022-04-15 23:28:35.023 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420087034089472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:28:35.023 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420087034089472[0;39m ==> Parameters: 
+2022-04-15 23:28:35.079 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420087034089472[0;39m <==    Updates: 1
+2022-04-15 23:28:35.080 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170420087034089472[0;39m update ends, take 78 millisecs
+2022-04-15 23:29:05.010 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170420212900958208[0;39m start updating Ebook doc
+2022-04-15 23:29:05.031 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420212900958208[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:29:05.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420212900958208[0;39m ==> Parameters: 
+2022-04-15 23:29:05.079 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420212900958208[0;39m <==    Updates: 1
+2022-04-15 23:29:05.080 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170420212900958208[0;39m update ends, take 68 millisecs
+2022-04-15 23:29:35.000 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170420338688135168[0;39m start updating Ebook doc
+2022-04-15 23:29:35.024 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420338688135168[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:29:35.025 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420338688135168[0;39m ==> Parameters: 
+2022-04-15 23:29:35.094 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420338688135168[0;39m <==    Updates: 1
+2022-04-15 23:29:35.094 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170420338688135168[0;39m update ends, take 93 millisecs
+2022-04-15 23:30:05.001 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170420464521449472[0;39m start updating Ebook doc
+2022-04-15 23:30:05.021 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420464521449472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:30:05.022 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420464521449472[0;39m ==> Parameters: 
+2022-04-15 23:30:05.061 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420464521449472[0;39m <==    Updates: 1
+2022-04-15 23:30:05.061 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170420464521449472[0;39m update ends, take 58 millisecs
+2022-04-15 23:30:35.007 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170420590375735296[0;39m start updating Ebook doc
+2022-04-15 23:30:35.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420590375735296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:30:35.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420590375735296[0;39m ==> Parameters: 
+2022-04-15 23:30:35.080 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420590375735296[0;39m <==    Updates: 1
+2022-04-15 23:30:35.081 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170420590375735296[0;39m update ends, take 74 millisecs
+2022-04-15 23:31:04.989 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170420716129357824[0;39m start updating Ebook doc
+2022-04-15 23:31:05.011 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420716129357824[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:31:05.012 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420716129357824[0;39m ==> Parameters: 
+2022-04-15 23:31:05.066 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420716129357824[0;39m <==    Updates: 1
+2022-04-15 23:31:05.067 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170420716129357824[0;39m update ends, take 78 millisecs
+2022-04-15 23:31:35.003 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170420842017198080[0;39m start updating Ebook doc
+2022-04-15 23:31:35.030 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420842017198080[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:31:35.030 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420842017198080[0;39m ==> Parameters: 
+2022-04-15 23:31:35.087 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420842017198080[0;39m <==    Updates: 1
+2022-04-15 23:31:35.088 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170420842017198080[0;39m update ends, take 84 millisecs
+2022-04-15 23:32:05.002 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170420967837929472[0;39m start updating Ebook doc
+2022-04-15 23:32:05.029 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420967837929472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:32:05.029 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420967837929472[0;39m ==> Parameters: 
+2022-04-15 23:32:05.075 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170420967837929472[0;39m <==    Updates: 1
+2022-04-15 23:32:05.075 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170420967837929472[0;39m update ends, take 72 millisecs
+2022-04-15 23:32:35.007 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170421093692215296[0;39m start updating Ebook doc
+2022-04-15 23:32:35.437 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421093692215296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:32:35.437 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421093692215296[0;39m ==> Parameters: 
+2022-04-15 23:32:35.656 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421093692215296[0;39m <==    Updates: 1
+2022-04-15 23:32:35.656 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170421093692215296[0;39m update ends, take 648 millisecs
+2022-04-15 23:33:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170421219512946688[0;39m start updating Ebook doc
+2022-04-15 23:33:05.043 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421219512946688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:33:05.043 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421219512946688[0;39m ==> Parameters: 
+2022-04-15 23:33:05.079 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421219512946688[0;39m <==    Updates: 1
+2022-04-15 23:33:05.080 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170421219512946688[0;39m update ends, take 74 millisecs
+2022-04-15 23:33:35.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170421345354649600[0;39m start updating Ebook doc
+2022-04-15 23:33:35.027 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421345354649600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:33:35.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421345354649600[0;39m ==> Parameters: 
+2022-04-15 23:33:35.079 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421345354649600[0;39m <==    Updates: 1
+2022-04-15 23:33:35.080 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170421345354649600[0;39m update ends, take 71 millisecs
+2022-04-15 23:34:05.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170421471183769600[0;39m start updating Ebook doc
+2022-04-15 23:34:05.031 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421471183769600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:34:05.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421471183769600[0;39m ==> Parameters: 
+2022-04-15 23:34:05.090 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421471183769600[0;39m <==    Updates: 1
+2022-04-15 23:34:05.091 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170421471183769600[0;39m update ends, take 82 millisecs
+2022-04-15 23:34:35.000 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170421596979335168[0;39m start updating Ebook doc
+2022-04-15 23:34:35.035 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421596979335168[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:34:35.036 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421596979335168[0;39m ==> Parameters: 
+2022-04-15 23:34:35.076 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421596979335168[0;39m <==    Updates: 1
+2022-04-15 23:34:35.076 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170421596979335168[0;39m update ends, take 75 millisecs
+2022-04-15 23:35:05.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170421722825232384[0;39m start updating Ebook doc
+2022-04-15 23:35:05.034 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421722825232384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:35:05.035 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421722825232384[0;39m ==> Parameters: 
+2022-04-15 23:35:05.081 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421722825232384[0;39m <==    Updates: 1
+2022-04-15 23:35:05.082 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170421722825232384[0;39m update ends, take 78 millisecs
+2022-04-15 23:35:35.003 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170421848650158080[0;39m start updating Ebook doc
+2022-04-15 23:35:35.023 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421848650158080[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:35:35.024 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421848650158080[0;39m ==> Parameters: 
+2022-04-15 23:35:35.067 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421848650158080[0;39m <==    Updates: 1
+2022-04-15 23:35:35.068 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170421848650158080[0;39m update ends, take 64 millisecs
+2022-04-15 23:36:05.003 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170421974479278080[0;39m start updating Ebook doc
+2022-04-15 23:36:05.035 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421974479278080[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:36:05.036 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421974479278080[0;39m ==> Parameters: 
+2022-04-15 23:36:05.085 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170421974479278080[0;39m <==    Updates: 1
+2022-04-15 23:36:05.086 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170421974479278080[0;39m update ends, take 82 millisecs
+2022-04-15 23:36:35.000 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170422100295815168[0;39m start updating Ebook doc
+2022-04-15 23:36:35.036 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422100295815168[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:36:35.037 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422100295815168[0;39m ==> Parameters: 
+2022-04-15 23:36:35.075 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422100295815168[0;39m <==    Updates: 1
+2022-04-15 23:36:35.075 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170422100295815168[0;39m update ends, take 74 millisecs
+2022-04-15 23:37:05.001 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170422226129129472[0;39m start updating Ebook doc
+2022-04-15 23:37:05.026 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422226129129472[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:37:05.026 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422226129129472[0;39m ==> Parameters: 
+2022-04-15 23:37:05.097 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422226129129472[0;39m <==    Updates: 1
+2022-04-15 23:37:05.098 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170422226129129472[0;39m update ends, take 97 millisecs
+2022-04-15 23:37:35.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170422351987609600[0;39m start updating Ebook doc
+2022-04-15 23:37:35.065 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422351987609600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:37:35.065 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422351987609600[0;39m ==> Parameters: 
+2022-04-15 23:37:35.181 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422351987609600[0;39m <==    Updates: 1
+2022-04-15 23:37:35.182 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170422351987609600[0;39m update ends, take 174 millisecs
+2022-04-15 23:38:05.010 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170422477825118208[0;39m start updating Ebook doc
+2022-04-15 23:38:05.040 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422477825118208[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:38:05.040 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422477825118208[0;39m ==> Parameters: 
+2022-04-15 23:38:05.090 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422477825118208[0;39m <==    Updates: 1
+2022-04-15 23:38:05.090 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170422477825118208[0;39m update ends, take 80 millisecs
+2022-04-15 23:38:35.009 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170422603650043904[0;39m start updating Ebook doc
+2022-04-15 23:38:35.036 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422603650043904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:38:35.037 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422603650043904[0;39m ==> Parameters: 
+2022-04-15 23:38:35.076 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422603650043904[0;39m <==    Updates: 1
+2022-04-15 23:38:35.077 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170422603650043904[0;39m update ends, take 66 millisecs
+2022-04-15 23:39:05.009 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170422729479163904[0;39m start updating Ebook doc
+2022-04-15 23:39:05.039 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422729479163904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:39:05.040 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422729479163904[0;39m ==> Parameters: 
+2022-04-15 23:39:05.097 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422729479163904[0;39m <==    Updates: 1
+2022-04-15 23:39:05.097 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170422729479163904[0;39m update ends, take 88 millisecs
+2022-04-15 23:39:35.009 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170422855308283904[0;39m start updating Ebook doc
+2022-04-15 23:39:35.036 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422855308283904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:39:35.036 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422855308283904[0;39m ==> Parameters: 
+2022-04-15 23:39:35.090 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422855308283904[0;39m <==    Updates: 1
+2022-04-15 23:39:35.090 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170422855308283904[0;39m update ends, take 81 millisecs
+2022-04-15 23:40:05.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170422981133209600[0;39m start updating Ebook doc
+2022-04-15 23:40:05.030 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422981133209600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:40:05.031 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422981133209600[0;39m ==> Parameters: 
+2022-04-15 23:40:05.086 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170422981133209600[0;39m <==    Updates: 1
+2022-04-15 23:40:05.086 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170422981133209600[0;39m update ends, take 77 millisecs
+2022-04-15 23:40:35.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170423106962329600[0;39m start updating Ebook doc
+2022-04-15 23:40:35.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423106962329600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:40:35.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423106962329600[0;39m ==> Parameters: 
+2022-04-15 23:40:35.082 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423106962329600[0;39m <==    Updates: 1
+2022-04-15 23:40:35.083 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170423106962329600[0;39m update ends, take 75 millisecs
+2022-04-15 23:41:05.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170423232791449600[0;39m start updating Ebook doc
+2022-04-15 23:41:05.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423232791449600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:41:05.034 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423232791449600[0;39m ==> Parameters: 
+2022-04-15 23:41:05.099 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423232791449600[0;39m <==    Updates: 1
+2022-04-15 23:41:05.099 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170423232791449600[0;39m update ends, take 91 millisecs
+2022-04-15 23:41:35.007 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170423358616375296[0;39m start updating Ebook doc
+2022-04-15 23:41:35.063 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423358616375296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:41:35.064 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423358616375296[0;39m ==> Parameters: 
+2022-04-15 23:41:35.103 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423358616375296[0;39m <==    Updates: 1
+2022-04-15 23:41:35.103 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170423358616375296[0;39m update ends, take 95 millisecs
+2022-04-15 23:42:05.007 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170423484445495296[0;39m start updating Ebook doc
+2022-04-15 23:42:05.023 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423484445495296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:42:05.024 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423484445495296[0;39m ==> Parameters: 
+2022-04-15 23:42:05.106 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423484445495296[0;39m <==    Updates: 1
+2022-04-15 23:42:05.106 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170423484445495296[0;39m update ends, take 99 millisecs
+2022-04-15 23:42:35.006 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170423610270420992[0;39m start updating Ebook doc
+2022-04-15 23:42:35.066 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423610270420992[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:42:35.067 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423610270420992[0;39m ==> Parameters: 
+2022-04-15 23:42:35.286 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423610270420992[0;39m <==    Updates: 1
+2022-04-15 23:42:35.287 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170423610270420992[0;39m update ends, take 280 millisecs
+2022-04-15 23:43:05.006 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170423736099540992[0;39m start updating Ebook doc
+2022-04-15 23:43:05.036 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423736099540992[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:43:05.037 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423736099540992[0;39m ==> Parameters: 
+2022-04-15 23:43:05.083 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423736099540992[0;39m <==    Updates: 1
+2022-04-15 23:43:05.083 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170423736099540992[0;39m update ends, take 76 millisecs
+2022-04-15 23:43:35.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170423861937049600[0;39m start updating Ebook doc
+2022-04-15 23:43:35.035 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423861937049600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:43:35.036 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423861937049600[0;39m ==> Parameters: 
+2022-04-15 23:43:35.123 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423861937049600[0;39m <==    Updates: 1
+2022-04-15 23:43:35.123 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170423861937049600[0;39m update ends, take 115 millisecs
+2022-04-15 23:44:05.010 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170423987770363904[0;39m start updating Ebook doc
+2022-04-15 23:44:05.035 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423987770363904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:44:05.036 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423987770363904[0;39m ==> Parameters: 
+2022-04-15 23:44:05.096 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170423987770363904[0;39m <==    Updates: 1
+2022-04-15 23:44:05.097 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170423987770363904[0;39m update ends, take 86 millisecs
+2022-04-15 23:44:35.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170424113582706688[0;39m start updating Ebook doc
+2022-04-15 23:44:35.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424113582706688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:44:35.029 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424113582706688[0;39m ==> Parameters: 
+2022-04-15 23:44:35.075 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424113582706688[0;39m <==    Updates: 1
+2022-04-15 23:44:35.076 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170424113582706688[0;39m update ends, take 71 millisecs
+2022-04-15 23:45:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170424239411826688[0;39m start updating Ebook doc
+2022-04-15 23:45:05.025 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424239411826688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:45:05.025 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424239411826688[0;39m ==> Parameters: 
+2022-04-15 23:45:05.081 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424239411826688[0;39m <==    Updates: 1
+2022-04-15 23:45:05.081 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170424239411826688[0;39m update ends, take 76 millisecs
+2022-04-15 23:45:35.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170424365236752384[0;39m start updating Ebook doc
+2022-04-15 23:45:35.029 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424365236752384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:45:35.029 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424365236752384[0;39m ==> Parameters: 
+2022-04-15 23:45:35.070 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424365236752384[0;39m <==    Updates: 1
+2022-04-15 23:45:35.071 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170424365236752384[0;39m update ends, take 65 millisecs
+2022-04-15 23:46:05.007 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170424491078455296[0;39m start updating Ebook doc
+2022-04-15 23:46:05.035 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424491078455296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:46:05.036 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424491078455296[0;39m ==> Parameters: 
+2022-04-15 23:46:05.090 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424491078455296[0;39m <==    Updates: 1
+2022-04-15 23:46:05.090 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170424491078455296[0;39m update ends, take 82 millisecs
+2022-04-15 23:46:35.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170424616894992384[0;39m start updating Ebook doc
+2022-04-15 23:46:35.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424616894992384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:46:35.028 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424616894992384[0;39m ==> Parameters: 
+2022-04-15 23:46:35.115 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424616894992384[0;39m <==    Updates: 1
+2022-04-15 23:46:35.116 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170424616894992384[0;39m update ends, take 112 millisecs
+2022-04-15 23:47:05.003 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170424742719918080[0;39m start updating Ebook doc
+2022-04-15 23:47:05.037 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424742719918080[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:47:05.038 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424742719918080[0;39m ==> Parameters: 
+2022-04-15 23:47:05.075 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424742719918080[0;39m <==    Updates: 1
+2022-04-15 23:47:05.076 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170424742719918080[0;39m update ends, take 71 millisecs
+2022-04-15 23:47:35.003 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170424868549038080[0;39m start updating Ebook doc
+2022-04-15 23:47:35.306 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424868549038080[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:47:35.307 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424868549038080[0;39m ==> Parameters: 
+2022-04-15 23:47:35.391 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424868549038080[0;39m <==    Updates: 1
+2022-04-15 23:47:35.391 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170424868549038080[0;39m update ends, take 388 millisecs
+2022-04-15 23:48:05.009 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170424994403323904[0;39m start updating Ebook doc
+2022-04-15 23:48:05.039 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424994403323904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:48:05.039 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424994403323904[0;39m ==> Parameters: 
+2022-04-15 23:48:05.119 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170424994403323904[0;39m <==    Updates: 1
+2022-04-15 23:48:05.120 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170424994403323904[0;39m update ends, take 110 millisecs
+2022-04-15 23:48:35.006 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170425120219860992[0;39m start updating Ebook doc
+2022-04-15 23:48:35.044 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425120219860992[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:48:35.044 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425120219860992[0;39m ==> Parameters: 
+2022-04-15 23:48:35.093 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425120219860992[0;39m <==    Updates: 1
+2022-04-15 23:48:35.094 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170425120219860992[0;39m update ends, take 87 millisecs
+2022-04-15 23:49:05.007 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170425246053175296[0;39m start updating Ebook doc
+2022-04-15 23:49:05.046 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425246053175296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:49:05.047 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425246053175296[0;39m ==> Parameters: 
+2022-04-15 23:49:05.095 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425246053175296[0;39m <==    Updates: 1
+2022-04-15 23:49:05.095 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170425246053175296[0;39m update ends, take 88 millisecs
+2022-04-15 23:49:35.014 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170425371911655424[0;39m start updating Ebook doc
+2022-04-15 23:49:35.049 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425371911655424[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:49:35.050 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425371911655424[0;39m ==> Parameters: 
+2022-04-15 23:49:35.108 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425371911655424[0;39m <==    Updates: 1
+2022-04-15 23:49:35.108 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170425371911655424[0;39m update ends, take 93 millisecs
+2022-04-15 23:50:05.009 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170425497719803904[0;39m start updating Ebook doc
+2022-04-15 23:50:05.035 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425497719803904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:50:05.036 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425497719803904[0;39m ==> Parameters: 
+2022-04-15 23:50:05.078 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425497719803904[0;39m <==    Updates: 1
+2022-04-15 23:50:05.079 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170425497719803904[0;39m update ends, take 70 millisecs
+2022-04-15 23:50:35.009 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170425623548923904[0;39m start updating Ebook doc
+2022-04-15 23:50:35.034 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425623548923904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:50:35.035 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425623548923904[0;39m ==> Parameters: 
+2022-04-15 23:50:35.079 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425623548923904[0;39m <==    Updates: 1
+2022-04-15 23:50:35.080 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170425623548923904[0;39m update ends, take 70 millisecs
+2022-04-15 23:51:05.009 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170425749378043904[0;39m start updating Ebook doc
+2022-04-15 23:51:05.037 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425749378043904[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:51:05.038 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425749378043904[0;39m ==> Parameters: 
+2022-04-15 23:51:05.081 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425749378043904[0;39m <==    Updates: 1
+2022-04-15 23:51:05.081 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170425749378043904[0;39m update ends, take 72 millisecs
+2022-04-15 23:51:35.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170425875202969600[0;39m start updating Ebook doc
+2022-04-15 23:51:35.038 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425875202969600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:51:35.039 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425875202969600[0;39m ==> Parameters: 
+2022-04-15 23:51:35.087 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170425875202969600[0;39m <==    Updates: 1
+2022-04-15 23:51:35.088 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170425875202969600[0;39m update ends, take 79 millisecs
+2022-04-15 23:52:05.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170426001032089600[0;39m start updating Ebook doc
+2022-04-15 23:52:05.025 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426001032089600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:52:05.025 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426001032089600[0;39m ==> Parameters: 
+2022-04-15 23:52:05.092 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426001032089600[0;39m <==    Updates: 1
+2022-04-15 23:52:05.092 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170426001032089600[0;39m update ends, take 83 millisecs
+2022-04-15 23:52:35.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170426126861209600[0;39m start updating Ebook doc
+2022-04-15 23:52:35.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426126861209600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:52:35.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426126861209600[0;39m ==> Parameters: 
+2022-04-15 23:52:35.080 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426126861209600[0;39m <==    Updates: 1
+2022-04-15 23:52:35.080 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170426126861209600[0;39m update ends, take 72 millisecs
+2022-04-15 23:53:05.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170426252690329600[0;39m start updating Ebook doc
+2022-04-15 23:53:05.032 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426252690329600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:53:05.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426252690329600[0;39m ==> Parameters: 
+2022-04-15 23:53:05.084 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426252690329600[0;39m <==    Updates: 1
+2022-04-15 23:53:05.085 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170426252690329600[0;39m update ends, take 77 millisecs
+2022-04-15 23:53:35.007 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170426378515255296[0;39m start updating Ebook doc
+2022-04-15 23:53:35.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426378515255296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:53:35.034 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426378515255296[0;39m ==> Parameters: 
+2022-04-15 23:53:35.081 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426378515255296[0;39m <==    Updates: 1
+2022-04-15 23:53:35.081 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170426378515255296[0;39m update ends, take 73 millisecs
+2022-04-15 23:54:05.007 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170426504344375296[0;39m start updating Ebook doc
+2022-04-15 23:54:05.041 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426504344375296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:54:05.042 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426504344375296[0;39m ==> Parameters: 
+2022-04-15 23:54:05.095 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426504344375296[0;39m <==    Updates: 1
+2022-04-15 23:54:05.096 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170426504344375296[0;39m update ends, take 89 millisecs
+2022-04-15 23:54:35.007 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170426630173495296[0;39m start updating Ebook doc
+2022-04-15 23:54:35.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426630173495296[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:54:35.034 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426630173495296[0;39m ==> Parameters: 
+2022-04-15 23:54:35.086 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426630173495296[0;39m <==    Updates: 1
+2022-04-15 23:54:35.087 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170426630173495296[0;39m update ends, take 80 millisecs
+2022-04-15 23:55:05.006 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170426755998420992[0;39m start updating Ebook doc
+2022-04-15 23:55:05.031 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426755998420992[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:55:05.031 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426755998420992[0;39m ==> Parameters: 
+2022-04-15 23:55:05.090 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426755998420992[0;39m <==    Updates: 1
+2022-04-15 23:55:05.090 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170426755998420992[0;39m update ends, take 83 millisecs
+2022-04-15 23:55:35.006 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170426881827540992[0;39m start updating Ebook doc
+2022-04-15 23:55:35.033 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426881827540992[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:55:35.034 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426881827540992[0;39m ==> Parameters: 
+2022-04-15 23:55:35.078 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170426881827540992[0;39m <==    Updates: 1
+2022-04-15 23:55:35.079 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170426881827540992[0;39m update ends, take 72 millisecs
+2022-04-15 23:56:05.006 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170427007656660992[0;39m start updating Ebook doc
+2022-04-15 23:56:05.040 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427007656660992[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:56:05.041 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427007656660992[0;39m ==> Parameters: 
+2022-04-15 23:56:05.083 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427007656660992[0;39m <==    Updates: 1
+2022-04-15 23:56:05.084 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170427007656660992[0;39m update ends, take 77 millisecs
+2022-04-15 23:56:35.008 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170427133494169600[0;39m start updating Ebook doc
+2022-04-15 23:56:35.026 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427133494169600[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:56:35.027 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427133494169600[0;39m ==> Parameters: 
+2022-04-15 23:56:35.074 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427133494169600[0;39m <==    Updates: 1
+2022-04-15 23:56:35.074 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170427133494169600[0;39m update ends, take 66 millisecs
+2022-04-15 23:57:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170427259310706688[0;39m start updating Ebook doc
+2022-04-15 23:57:05.026 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427259310706688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:57:05.026 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427259310706688[0;39m ==> Parameters: 
+2022-04-15 23:57:05.089 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427259310706688[0;39m <==    Updates: 1
+2022-04-15 23:57:05.089 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170427259310706688[0;39m update ends, take 84 millisecs
+2022-04-15 23:57:35.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170427385139826688[0;39m start updating Ebook doc
+2022-04-15 23:57:35.037 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427385139826688[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:57:35.037 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427385139826688[0;39m ==> Parameters: 
+2022-04-15 23:57:35.082 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427385139826688[0;39m <==    Updates: 1
+2022-04-15 23:57:35.082 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170427385139826688[0;39m update ends, take 76 millisecs
+2022-04-15 23:58:05.005 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170427510964752384[0;39m start updating Ebook doc
+2022-04-15 23:58:05.036 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427510964752384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:58:05.037 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427510964752384[0;39m ==> Parameters: 
+2022-04-15 23:58:05.084 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427510964752384[0;39m <==    Updates: 1
+2022-04-15 23:58:05.085 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170427510964752384[0;39m update ends, take 79 millisecs
+2022-04-15 23:58:35.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170427636793872384[0;39m start updating Ebook doc
+2022-04-15 23:58:35.066 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427636793872384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:58:35.066 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427636793872384[0;39m ==> Parameters: 
+2022-04-15 23:58:35.123 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427636793872384[0;39m <==    Updates: 1
+2022-04-15 23:58:35.123 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170427636793872384[0;39m update ends, take 118 millisecs
+2022-04-15 23:59:05.004 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170427762622992384[0;39m start updating Ebook doc
+2022-04-15 23:59:05.029 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427762622992384[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:59:05.030 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427762622992384[0;39m ==> Parameters: 
+2022-04-15 23:59:05.082 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427762622992384[0;39m <==    Updates: 1
+2022-04-15 23:59:05.082 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170427762622992384[0;39m update ends, take 78 millisecs
+2022-04-15 23:59:35.003 INFO  com.ameliawiki.wiki.job.DocJob                    :33   [32m170427888447918080[0;39m start updating Ebook doc
+2022-04-15 23:59:35.026 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427888447918080[0;39m ==>  Preparing: update ebook t1, (select ebook_id, count(1) doc_count, sum(view_count) view_count, sum(vote_count) vote_count from doc group by ebook_id) t2 set t1.doc_count = t2.doc_count, t1.view_count = t2.view_count, t1.vote_count = t2.vote_count where t1.id = t2.ebook_id
+2022-04-15 23:59:35.027 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427888447918080[0;39m ==> Parameters: 
+2022-04-15 23:59:35.078 DEBUG c.a.wiki.mapper.DocMapperCust.updateEbookInfo     :137  [32m170427888447918080[0;39m <==    Updates: 1
+2022-04-15 23:59:35.079 INFO  com.ameliawiki.wiki.job.DocJob                    :36   [32m170427888447918080[0;39m update ends, take 75 millisecs
