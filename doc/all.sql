@@ -111,8 +111,8 @@ create table `ebook_snapshot` (
                                   `ebook_id` bigint not null default 0 comment 'ebook_id',
                                   `date` date not null comment 'date of snapshot',
                                   `view_count` int not null default 0 comment 'view count',
-                                  `vote_count` int not null default 0 comment 'like count',
-                                  `view_increase` int not null default 0 comment 'view increase',
+                                  `vote_count` int not null default 0 comment 'vote count',
+                                  `view_increase` int not null default 0 comment 'vote increase',
                                   `vote_increase` int not null default 0 comment 'like increase',
                                   primary key (`id`),
                                   unique key `ebook_id_date_unique` (`ebook_id`, `date`)
