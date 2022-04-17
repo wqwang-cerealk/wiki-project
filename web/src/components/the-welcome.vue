@@ -198,7 +198,7 @@ export default defineComponent({
     const get30DayStatistic = () => {
       axios.get('/ebook-snapshot/get-30-statistic').then((response) => {
         const data = response.data;
-        console.log("30 days data====", data);
+        console.log("*** 30 days data ***", data);
         if (data.success) {
           const statisticList = data.content;
 

@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import java.util.Date;
 
 public class StatisticResp {
-
+    @JsonFormat(pattern="MM-dd", timezone = "UTC")
     private Date date;
 
     private int viewCount;
