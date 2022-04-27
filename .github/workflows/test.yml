@@ -16,9 +16,10 @@ jobs:
       - name: helloworld          
         run: echo Hello World
         
-      - name: Lint Code Base
-        uses: github/super-linter@v4
-        env:
-          VALIDATE_ALL_CODEBASE: false
-          DEFAULT_BRANCH: master
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Run check style
+        uses: nikitasavinov/checkstyle-action@master
+        with: 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: 'pr-check'
+          tool_name: 'test-tool'
+        
