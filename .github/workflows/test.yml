@@ -20,6 +20,6 @@ jobs:
         uses: nikitasavinov/checkstyle-action@master
         with: 
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          reporter: 'pr-check'
-          tool_name: 'test-tool'
+#           reporter: 'pr-check'
+#           tool_name: 'test-tool'
         
