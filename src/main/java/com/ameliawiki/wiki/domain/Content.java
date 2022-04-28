@@ -5,6 +5,11 @@ public class Content {
 
     private String content;
 
+    public Content(Long id, String content) {
+        this.id = id;
+        this.content = content;
+    }
+
     public Long getId() {
         return id;
     }
