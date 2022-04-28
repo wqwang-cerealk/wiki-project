@@ -174,7 +174,7 @@ export default defineComponent({
             level1.value = [];
             level1.value = Tool.arrayToTree(docs.value, 0);
             console.log("tree form", level1);
-            treeSelectData.value = Tool.copy(level1.value);
+            treeSelectData.value = Tool.copy(level1.value) || [];
             treeSelectData.value.unshift({id: 0, name: 'no'});
           } else {
             message.error(data.message);
@@ -317,7 +317,7 @@ export default defineComponent({
         ebookId: route.query.ebookId
       };
 
-      treeSelectData.value = Tool.copy(level1.value);
+      treeSelectData.value = Tool.copy(level1.value) || [];
 
       // 为选择树添加一个"no"
       treeSelectData.value.unshift({id: 0, name: 'no'});
