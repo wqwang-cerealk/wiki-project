@@ -36,6 +36,9 @@ public class LoginInterceptor implements HandlerInterceptor {
             return true;
         }
 
+        if (request.getRequestURI().contains("/dist")) {
+            return true;
+        }
         String path = request.getRequestURL().toString();
         LOG.info("接口登录拦截：，path：{}", path);
 
