@@ -35,8 +35,8 @@ public class LoginInterceptor implements HandlerInterceptor {
         if(request.getMethod().toUpperCase().equals("OPTIONS")){
             return true;
         }
-
-        if (request.getRequestURI().contains("/dist")) {
+        String uri = request.getRequestURI();
+        if (uri.contains("/app")) {
             return true;
         }
         String path = request.getRequestURL().toString();
