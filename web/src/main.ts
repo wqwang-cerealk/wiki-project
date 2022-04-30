@@ -32,7 +32,7 @@ axios.interceptors.request.use(function (config) {
         config.headers.token = token;
         console.log("请求headers增加token:", token);
     }
-
+    console.log("return config")
     return config;
 }, error => {
     return Promise.reject(error);

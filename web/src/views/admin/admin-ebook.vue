@@ -188,6 +188,10 @@ export default defineComponent({
       modalLoading.value = true;
       ebook.value.category1Id = categoryIds.value[0];
       ebook.value.category2Id = categoryIds.value[1];
+      ebook.value.docCount = 0;
+      ebook.value.viewCount = 0;
+      ebook.value.voteCount = 0;
+
       axios.post("/ebook/save", ebook.value).then((response) => {
         modalLoading.value = false;
         const data = response.data; //data == CommonResp
