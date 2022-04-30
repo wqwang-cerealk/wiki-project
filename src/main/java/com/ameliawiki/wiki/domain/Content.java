@@ -5,6 +5,8 @@ public class Content {
 
     private String content;
 
+    public Content(){}
+
     public Content(Long id, String content) {
         this.id = id;
         this.content = content;

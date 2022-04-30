@@ -85,6 +85,7 @@ export default defineComponent({
      * data search
      **/
     const handleQuery = () => {
+      console.log("-----------------------", route.query.ebookId)
       axios.get("/doc/all/" + route.query.ebookId).then((response) => {
         const data = response.data;
         if (data.success) {
