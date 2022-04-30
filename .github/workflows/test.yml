@@ -1,0 +1,25 @@
+name: Java lint
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  java-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: helloworld          
+        run: echo Hello World
+        
+      - name: Run check style
+        uses: nikitasavinov/checkstyle-action@master
+        with: 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+#           reporter: 'pr-check'
+#           tool_name: 'test-tool'
+        
